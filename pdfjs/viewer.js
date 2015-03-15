@@ -34,7 +34,7 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-var DEFAULT_URL = './' + getParameterByName('file') + '.pdf';
+var DEFAULT_URL = getParameterByName('file') + '.pdf';
 
 // var DEFAULT_URL = 'compressed.tracemonkey-pldi-09.pdf';
 var DEFAULT_SCALE_DELTA = 1.1;
