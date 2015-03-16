@@ -34,6 +34,11 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
+<<<<<<< HEAD
+// var DEFAULT_URL = '../' + getParameterByName('file') + '.pdf';
+
+=======
+>>>>>>> parent of b86ccd6... remove relative path
 var DEFAULT_URL = './' + getParameterByName('file') + '.pdf';
 
 // var DEFAULT_URL = 'compressed.tracemonkey-pldi-09.pdf';
