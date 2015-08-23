@@ -1,0 +1,58 @@
+body {
+  min-height: 2000px;
+}
+
+.container {
+  position: relative;
+  top: 51px;
+}
+
+img.profile {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+
+.bg-title {
+  z-index: -5;
+  font-family: Tahoma;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-shadow:
+    -2px 0px 0 #555,
+    -2px 1px 0 #555,
+    6px 2px 0 #555,
+    -2px -2px 0 #555;
+  left: 0;
+}
+
+
+
+@media all and (min-device-width: 960px) {
+  .bg-title {
+    font-size: 220px;
+  }
+}
+
+@media all and (min-device-width: 640px) and (max-device-width: 960px) {
+  .bg-title {
+    font-size: 180px;
+  }
+}
+
+@media all and (min-device-width: 480px) and (max-device-width: 640px) {
+  .bg-title {
+    font-size: 140px;
+  }
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 480px) {
+  .bg-title {
+    font-size: 100px;
+  }
+}
