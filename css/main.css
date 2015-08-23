@@ -13,6 +13,10 @@ img.profile {
   position: relative;
 }
 
+#work-item {
+  border: 0;
+}
+
 
 .bg-title {
   z-index: -5;
@@ -30,8 +34,6 @@ img.profile {
     -2px -2px 0 #555;
   left: 0;
 }
-
-
 
 @media all and (min-device-width: 960px) {
   .bg-title {
