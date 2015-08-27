@@ -1,22 +1,23 @@
-body {
-  min-height: 2000px;
-}
-
 .container {
-  position: relative;
-  top: 51px;
+  padding-top: 80px;
 }
 
-img.profile {
-  width: 120px;
-  height: 120px;
-  position: relative;
-}
-
-#work-item {
+.non-border-item {
   border: 0;
+  padding: 0 0 10px 0;
 }
 
+.non-border-item:last-child {
+  padding-bottom: 0;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
 
 .bg-title {
   z-index: -5;
@@ -35,25 +36,25 @@ img.profile {
   left: 0;
 }
 
-@media all and (min-device-width: 960px) {
+@media all and (min-device-width: 1200px) {
   .bg-title {
     font-size: 220px;
   }
 }
 
-@media all and (min-device-width: 640px) and (max-device-width: 960px) {
+@media all and (min-device-width: 768px) and (max-device-width: 992px) {
   .bg-title {
     font-size: 180px;
   }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 640px) {
+@media all and (min-device-width: 480px) and (max-device-width: 768px) {
   .bg-title {
     font-size: 140px;
   }
 }
 
-@media all and (min-device-width: 320px) and (max-device-width: 480px) {
+@media all and (max-device-width: 480px) {
   .bg-title {
     font-size: 100px;
   }

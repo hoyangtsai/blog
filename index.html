@@ -6,9 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ho-Yang Tsai Resume</title>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link href="css/main.css" rel="stylesheet">
 <script src="js/init.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -23,50 +25,64 @@
     </button>
     <a class="navbar-brand" href="#">Ho-Yang's Resume</a>
   </div>
-  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#personal-detail">Personal Detail</a></li>
-      <li><a href="#Work">Work</a>
+      <li class="active"><a href="#personal-info">Personal Info</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a>
+      <li><a href="#jobs">Jobs</a>
     </ul>
   </div>
 </nav>
 
 <div class="container">
 
-  <div class="row">
-    <div id="personal-detail">
+  <div id="personal-info" class="row">
     <!-- <header id="title">Personal Detail</header> -->
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <h2>Contact Details</h2>
-        <p>Ho-Yang Tsai
-        <p>Kaohsiung City, Taiwan
-        <p>Email: <a href="mailto:hoyang.t@gmail.com" target="_blank" class="button">hoyang.t@gmail.com</a>
-        <p>Github: <a href="https://github.com/hoyangt" target="_blank">https://github.com/hoyangt</a>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/hoyangtsai" target="_blank">https://www.linkedin.com/in/hoyangtsai</a>
-        <p><a href="pdf/Resume.pdf">Resume</a>
-      </div>
+    <div class="col-sm-5 col-md-4 col-lg-4">
+      <img class="img-rounded img-responsive" src="img/IMG_0942.jpg" width="300" height="300">
+    </div>
+    <div class="col-sm-7 col-md-8 col-lg-8">
+      <h2>Ho-Yang Tsai</h2>
+      <p>Kaohsiung City, Taiwan
+      <p>
+      <a href="mailto:hoyang.t@gmail.com" target="_blank" class="button"><i class="fa fa-envelope fa-2x"></i></a>
+      <a href="https://github.com/hoyangt" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/hoyangtsai" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      <!-- <a href="https://www.facebook.com/pages/%E7%A7%91%E6%8A%80%E5%AE%85%E6%96%B0%E7%9F%A5/760883934037675" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a> -->
+      <ul class="list-group">
+        <li class="list-group-item non-border-item"><a href="pdf/Resume.pdf" target="_blank">Resume</a></li>
+        <li class="list-group-item non-border-item"><a href="pdf/个人简历.pdf" target="_blank">个人简历</a></li>
+        <li class="list-group-item non-border-item"><a href="pdf/履歷表.pdf" target="_blank">履歷表</a></li>
+      </ul>
     </div>
   </div>
 
+  <div id="about" class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h2>About</h2>
+      <p>The most of my working experiences are in web development.
+      My first job was to drive Java SE with MS SQL Server to customize a web-based PTC Windchill PLM system features, and use Javascript to customize PTC Arbortext document software automations for one year and half.
+      <p>After the first career, I started to work in Firefox OS apps and other web apps development based on HTML5 like cloud drive and restaurant search system. Currently my main job is to plan and provide the restaurant search app's backend REST services. Backend structure consists of PHP Codeigniter with MySQL.
+      <p>Aside from the main backend development job, I personally prefer front-end development, so I follow the trends of web technology, individually I study some of front-end tools and frameworks like nodejs, angularjs and react.
+      <p>My characteristics are well-organized, work efficiently and high self-demanded to productivities in which the tasks responsible for.
+    </div>
+  </div>
 
-  <div class="row">
-    <div id="Work" class="col-sm-12 col-md-12 col-lg-12">
+  <div id="work" class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
       <h2>Work</h2>
       <ul class="list-group">
-        <li id="work-item" class="list-group-item">
-          <h3>Simple Blog System, built with PHP and Smarty</h3>
+        <li class="list-group-item non-border-item">
+          <h3>Simple Blog System - built with PHP and Smarty</h3>
           <a target="_blank" href="http://hoyang.myds.me/uni-project/php-blog">http://hoyang.myds.me/uni-project/php-blog</a>
         </li>
-        <li id="work-item" class="list-group-item">
-          <h3>Social Hub, built with pure javascript with Material Design Lite</h3>
+        <li class="list-group-item non-border-item">
+          <h3>Social Hub - built with pure javascript with Material Design Lite</h3>
           <a target="_blank" href="https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm">https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm</a>
         </li>
-        <li id="work-item" class="list-group-item">
-          <h3>Github Note Taker, built with React, Firebase and Github Open REST API</h3>
-          <a target="_blank" href="http://hoyang.myds.me/github-notetaker">http://hoyang.myds.me/github-notetaker</a>
-        </li>
-        <li id="work-item" class="list-group-item">
-          <h3>Social Hub, built by React with Material UI</h3>
+        <li class="list-group-item non-border-item">
+          <h3>Social Hub - created by React with Material UI</h3>
           <p>Support the most popular chatting channels like Messenger, Hangouts, Telegram, Skype and Whatsapp, Let you switch different channels instantly.
           <a target="_blank" href="https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke">https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke</a>
         </li>
@@ -74,7 +90,11 @@
     </div>
   </div>
 
-
+  <div id="jobs" class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h2>Jobs</h2>
+    </div>
+  </div>
 
 </div> <!-- container -->
 
