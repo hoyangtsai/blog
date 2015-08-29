@@ -34,6 +34,12 @@
 .three-slide {
   width: 300%;
 }
+.four-slide {
+  width: 400%;
+}
+.five-slide {
+  width: 500%;
+}
 .slider img {
   display: inline-block;
   float: left;
