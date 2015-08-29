@@ -1,0 +1,24 @@
+{
+  "name": "hoyangt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyangt/hoyangt.github.io.git"
+  },
+  "author": "Ho-Yang Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoyangt/hoyangt.github.io/issues"
+  },
+  "homepage": "https://github.com/hoyangt/hoyangt.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0"
+  }
+}
