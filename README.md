@@ -1,6 +1,6 @@
-# Welcome to my resume repo
+# Welcome to my personal website repo
 
-[To see my visual resume page](https://hoyangt.github.io)
+[To see the visual page](https://hoyangt.github.io)
 
 ### Google Chrome Application
 Social Hub - Support Facebook and Instagram
