@@ -11,14 +11,15 @@ gulp.task('less', function() {
     .pipe(livereload());
 });
 
-gulp.task('index', function(){
+gulp.task('watchIndex', function(){
   gulp.src('index.html')
     .pipe(livereload());
 });
 
 gulp.task('watch', function() {
-  livereload.listen({start: true});
-  gulp.watch(['less/*.less', 'index.html'], ['less', 'index']);
+  livereload.listen({ start: true });
+  gulp.watch('less/*.less', ['less']);
+  gulp.watch('index.html', ['watchIndex']);
 });
 
 gulp.task('default', ['watch']);
