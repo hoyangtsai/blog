@@ -59,7 +59,7 @@
     width: 640px;
     height: 400px;
   }
-  .slider img {
+  .slider-mask img {
     width: 640px;
     height: 400px;
   }
@@ -639,7 +639,7 @@
     width: 320px;
     height: 200px;
   }
-  .slider img {
+  .slider-mask img {
     width: 320px;
     height: 200px;
   }
@@ -1219,7 +1219,7 @@
     width: 256px;
     height: 160px;
   }
-  .slider img {
+  .slider-mask img {
     width: 256px;
     height: 160px;
   }
