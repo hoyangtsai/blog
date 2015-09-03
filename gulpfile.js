@@ -1,12 +1,21 @@
 'use strict';
 
-var gulp = require('gulp'),
-    less = require('gulp-less'),
-    livereload = require('gulp-livereload');
+var gulp = require('gulp');
+var less = require('gulp-less');
+var livereload = require('gulp-livereload');
+var minifyCSS = require('gulp-minify-css');
+var sourcemaps = require('gulp-sourcemaps');
+var notify = require('gulp-notify');
+var rename = require('gulp-rename');
 
 gulp.task('less', function() {
   gulp.src(['less/*.less', '!less/mixins.less'])
+    .pipe(sourcemaps.init())
     .pipe(less())
+    .on('error', notify.onError("Error: <%= error.message %>"))
+    .pipe(minifyCSS())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest('css'))
     .pipe(livereload());
 });
