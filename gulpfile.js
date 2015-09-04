@@ -16,7 +16,7 @@ gulp.task('less', function() {
     .pipe(livereload());
 });
 
-gulp.task('watchIndex', function(){
+gulp.task('watchindex', function(){
   gulp.src('index.html')
     .pipe(livereload());
 });
@@ -24,7 +24,7 @@ gulp.task('watchIndex', function(){
 gulp.task('watch', function() {
   livereload.listen({ start: true });
   gulp.watch('less/*.less', ['less']);
-  gulp.watch('index.html', ['watchIndex']);
+  gulp.watch('index.html', ['watchindex']);
 });
 
 gulp.task('default', ['watch']);
@@ -33,6 +33,7 @@ gulp.task('publish', function() {
   gulp.src(['less/*.less', '!less/mixins.less'])
     .pipe(sourcemaps.init())
     .pipe(less())
+    .on('error', notify.onError("Error: <%= error.message %>"))
     .pipe(minifyCSS())
     .pipe(rename({suffix: '.min'}))
     .pipe(sourcemaps.write('./maps'))
