@@ -2,7 +2,8 @@
 
 var home = {
   init: function() {
-    window.addEventListener('click', this.collapseNav);
+    var click = 'touchstart' in window ? 'touchstart' : 'click';
+    window.addEventListener(click, this.collapseNav);
   },
   collapseNav: function() {
     $('#navbar').collapse('hide');
