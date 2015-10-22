@@ -10,8 +10,12 @@ var rename = require('gulp-rename');
 
 gulp.task('less', function() {
   gulp.src(['less/*.less', '!less/mixins.less'])
+    .pipe(sourcemaps.init())
     .pipe(less())
     .on('error', notify.onError("Error: <%= error.message %>"))
+    .pipe(minifyCSS())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest('css'))
     .pipe(livereload());
 });
@@ -28,14 +32,3 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['watch']);
-
-gulp.task('publish', function() {
-  gulp.src(['less/*.less', '!less/mixins.less'])
-    .pipe(sourcemaps.init())
-    .pipe(less())
-    .on('error', notify.onError("Error: <%= error.message %>"))
-    .pipe(minifyCSS())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(sourcemaps.write('./maps'))
-    .pipe(gulp.dest('css'))
-});
