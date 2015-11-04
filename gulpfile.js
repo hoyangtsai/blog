@@ -4,13 +4,13 @@ var less = require('gulp-less');
 var livereload = require('gulp-livereload');
 
 gulp.task('less', function() {
-  gulp.src(['less/*.less', '!less/mixins.less'])
+  gulp.src(['less/*.less', '!less/_*.less'])
     .pipe(plugins.sourcemaps.init())
     .pipe(less())
     .on('error', plugins.notify.onError("Error: <%= error.message %>"))
     .pipe(plugins.minifyCss())
     .pipe(plugins.rename({suffix: '.min'}))
-    .pipe(plugins.sourcemaps.write('./maps'))
+    .pipe(plugins.sourcemaps.write('./'))
     .pipe(gulp.dest('css'))
     .pipe(livereload());
 });
