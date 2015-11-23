@@ -4,10 +4,10 @@
     <title>Ho-Yang Tsai Blog</title>
     <description>A front-end deveoper who is looking forward to embrace the potential of web.
 </description>
-    <link>http://hoyangtsai.github.io/blog/</link>
-    <atom:link href="http://hoyangtsai.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Nov 2015 22:37:52 +0800</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2015 22:37:52 +0800</lastBuildDate>
+    <link>http://hoyangtsai.github.io/</link>
+    <atom:link href="http://hoyangtsai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 23 Nov 2015 23:01:49 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 23:01:49 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 06 Nov 2015 18:22:33 +0800</pubDate>
-        <link>http://hoyangtsai.github.io/blog/jekyll/update/2015/11/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://hoyangtsai.github.io/blog/jekyll/update/2015/11/06/welcome-to-jekyll.html</guid>
+        <link>http://hoyangtsai.github.io/jekyll/update/2015/11/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://hoyangtsai.github.io/jekyll/update/2015/11/06/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
