@@ -338,6 +338,9 @@ pre {
 .list-group-item:last-child {
   padding: 0; }
 
+.fotorama__wrap {
+  margin: 0 auto; }
+
 /**
  * Syntax highlighting styles
  */
