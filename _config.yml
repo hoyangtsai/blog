@@ -18,9 +18,14 @@ twitter_username:
 github_username:  hoyangtsai
 linkedin_username: hoyangtsai
 
-font_awesome: //maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
-
 highlighter: Pygments
 
 # Build settings
 markdown: kramdown
+
+jquery: //code.jquery.com/jquery-1.11.3.min.js
+bootstrap_css: //maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
+bootstrap_js: //maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js
+font_awesome: //maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+fotorama_css: http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css
+fotorama_js: http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js
