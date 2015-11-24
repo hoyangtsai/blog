@@ -20,7 +20,7 @@ linkedin_username: hoyangtsai
 
 font_awesome: //maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
 
-highlighter: rouge
+highlighter: Pygments
 
 # Build settings
 markdown: kramdown
