@@ -48,45 +48,45 @@ permalink: /about/
     <h4>FireFox OS Web App - Clock</h4>
     <div class="fotorama"
       data-nav="thumbs" data-loop="true" data-swipe="true">
-      <img src="../img/newclock/home.jpg" />
-      <img src="../img/newclock/stopwatch.jpg" />
-      <img src="../img/newclock/timer.jpg" />
+      <img src="img/newclock/home.jpg" />
+      <img src="img/newclock/stopwatch.jpg" />
+      <img src="img/newclock/timer.jpg" />
     </div>
 
     <h4>Cloud Drive (Desktop)</h4>
     <div class="fotorama"
       data-nav="thumbs" data-loop="true" data-swipe="true">
-      <img class="img-responsive" src="../img/justup/home.jpg" />
-      <img class="img-responsive" src="../img/justup/imageviewer.jpg" />
-      <img class="img-responsive" src="../img/justup/musicplayer.jpg" />
-      <img class="img-responsive" src="../img/justup/videoplayer.jpg" />
+      <img class="img-responsive" src="img/eos/home.jpg" />
+      <img class="img-responsive" src="img/eos/imageviewer.jpg" />
+      <img class="img-responsive" src="img/eos/musicplayer.jpg" />
+      <img class="img-responsive" src="img/eos/videoplayer.jpg" />
     </div>
 
     <h4>Cloud Drive (Mobile)</h4>
     <div class="fotorama"
       data-nav="thumbs" data-loop="true" data-swipe="true">
-      <img class="img-responsive" src="../img/helios/3.png" />
-      <img class="img-responsive" src="../img/helios/4.png" />
-      <img class="img-responsive" src="../img/helios/5.png" />
-      <img class="img-responsive" src="../img/helios/7.png" />
-      <img class="img-responsive" src="../img/helios/8.png" />
-      <img class="img-responsive" src="../img/helios/9.png" />
-      <img class="img-responsive" src="../img/helios/10.png" />
-      <img class="img-responsive" src="../img/helios/11.png" />
-      <img class="img-responsive" src="../img/helios/13.png" />
-      <img class="img-responsive" src="../img/helios/14.png" />
-      <img class="img-responsive" src="../img/helios/16.png" />
-      <img class="img-responsive" src="../img/helios/18.png" />
+      <img class="img-responsive" src="img/helios/3.png" />
+      <img class="img-responsive" src="img/helios/4.png" />
+      <img class="img-responsive" src="img/helios/5.png" />
+      <img class="img-responsive" src="img/helios/7.png" />
+      <img class="img-responsive" src="img/helios/8.png" />
+      <img class="img-responsive" src="img/helios/9.png" />
+      <img class="img-responsive" src="img/helios/10.png" />
+      <img class="img-responsive" src="img/helios/11.png" />
+      <img class="img-responsive" src="img/helios/13.png" />
+      <img class="img-responsive" src="img/helios/14.png" />
+      <img class="img-responsive" src="img/helios/16.png" />
+      <img class="img-responsive" src="img/helios/18.png" />
     </div>
 
     <h4>Restaurant Search</h4>
     <div class="fotorama"
       data-nav="thumbs" data-loop="true" data-swipe="true">
-      <img class="img-responsive" src="../img/hungry/popularstore.jpg" />
-      <img class="img-responsive" src="../img/hungry/locationstore.jpg" />
-      <img class="img-responsive" src="../img/hungry/minidiningbrief.jpg" />
-      <img class="img-responsive" src="../img/hungry/storedetail.jpg" />
-      <img class="img-responsive" src="../img/hungry/fuzzysearch.jpg" />
+      <img class="img-responsive" src="img/hungry/popularstore.jpg" />
+      <img class="img-responsive" src="img/hungry/locationstore.jpg" />
+      <img class="img-responsive" src="img/hungry/minidiningbrief.jpg" />
+      <img class="img-responsive" src="img/hungry/storedetail.jpg" />
+      <img class="img-responsive" src="img/hungry/fuzzysearch.jpg" />
     </div>
   </div>
 </div>
