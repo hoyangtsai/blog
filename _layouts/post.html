@@ -12,6 +12,14 @@ layout: default
     {{ content }}
   </div>
 
+  <div id="fb-root"></div>
+  <div class="fb-like"
+    data-share="true"
+    data-layout="button_count"
+    data-action="like"
+    data-share="true">
+  </div>
+
 </article>
 
 <div id="disqus_thread"></div>
@@ -23,5 +31,13 @@ s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1069355273095594";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
