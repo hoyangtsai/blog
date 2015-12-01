@@ -18,7 +18,5 @@ twitter_username:
 github_username:  hoyangtsai
 linkedin_username: hoyangtsai
 
-highlighter: Pygments
-
 # Build settings
 markdown: kramdown
