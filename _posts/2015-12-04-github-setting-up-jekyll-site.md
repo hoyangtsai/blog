@@ -14,7 +14,7 @@ permalink: /github-setting-up-jekyll-site
 接下來就可以用 jekyll 指令 `jekyll new my-site`，簡單地新增一個網站。<br/>
 
 `cd my-site` 目錄下打 `jekyll serve`<br/>
-前往 http://localhost:4000 看到目前網站的畫面。
+前往 http://127.0.0.1:4000/ 看到目前網站的畫面。
 
 ### 比 gem 更好用的套件管理工具
 後面我改用 ruby 另外一個套件管理工具 [bundler](http://bundler.io/) 方便管理 ruby 安裝的套件。<br/>
@@ -70,7 +70,7 @@ end
 一般使用 Jekyll 進行開發，執行 `jekyll serve` ...等指令，中途要停止只要按 ctrl + c。<br/>
 但是如果用 guard 進行開發，按 ctrl + c 不會終止程序，只會不斷印 `[1] guard(main)> `<br/>
 這時候會試著按 ctrl + z 終止程序，終端機印出 `[1]+  Stopped  guard` 並回到目錄指令列模式，感覺是停止了，但是下次再執行`guard`，重複個幾次以後，會發現程序根本沒有停止，最後就會像這樣...<br/>
-<img src="img/ruby_guard_processes.png" /><br/>
+<img src="./img/ruby_guard_processes.png" /><br/>
 所以正確終止 guard 程序的方法是 `[1] guard(main)> e` 或 `[1] guard(main)> exit`<br/>
 <br/>
 
