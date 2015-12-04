@@ -76,7 +76,7 @@ DEPENDENCIES
   guard
   guard-jekyll-plus
   guard-livereload
-  kramdown (~> 1.9)
+  kramdown
 
 BUNDLED WITH
    1.10.6

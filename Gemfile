@@ -1,8 +1,6 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
-gem 'kramdown', '~> 1.9'
+gem 'kramdown'
 
 gem 'guard'
 gem 'guard-jekyll-plus'
