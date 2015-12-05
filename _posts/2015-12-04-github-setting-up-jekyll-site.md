@@ -7,9 +7,9 @@ published: true
 permalink: /github-setting-up-jekyll-site
 ---
 ## 環境建置
-[GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，不需要上傳 Jekyll 開發過程產生的靜態網頁，只要在本地端將網站開發好，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。
+[GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。
 
-而如果要在本地端開發 Jekyll 架構的網站，最主要的要先有 ruby 的環境。<br/>
+如果要在本地端開發 Jekyll 架構的網站，首先要有 ruby 環境 (Mac OS 本身已有 ruby 環境，只需要確認 ruby 版本為 2.0 以上。可用 `ruby -v` 指令檢查目前ruby版本)。<br/>
 之後用 ruby 的 gem 安裝 jekyll `gem install jekyll`<br/>
 接下來就可以用 jekyll 指令 `jekyll new my-site`，簡單地新增一個網站。<br/>
 
@@ -17,8 +17,8 @@ permalink: /github-setting-up-jekyll-site
 前往 http://127.0.0.1:4000/ 看到目前網站的畫面。
 
 ### 比 gem 更好用的套件管理工具
-後面我改用 ruby 另外一個套件管理工具 [bundler](http://bundler.io/) 方便管理 ruby 安裝的套件。<br/>
-因為 gem 沒有像 nodejs 的 npm 一樣，透過 `npm init` 指令自動建立一個 package.json 套件清單的檔案。<br/>
+因為 gem 沒有像 nodejs 的 npm 一樣，可透過 `npm init` 指令自動建立一個 package.json 套件清單的檔案。<br/>
+我改用 ruby 另一個套件管理工具 [bundler](http://bundler.io/) 讓我可以方便管理 ruby 安裝的套件。<br/>
 
 一樣先用 gem 安裝 bundler `gem install bundler` <br/>
 再到 my-site 根目錄下打 `bundle init` 就會自動建立一個 Gemfile 套件清單的檔案<br/>
@@ -71,7 +71,7 @@ end
 但是如果用 guard 進行開發，按 ctrl + c 不會終止程序，只會不斷印 `[1] guard(main)> `<br/>
 這時候會試著按 ctrl + z 終止程序，終端機印出 `[1]+  Stopped  guard` 並回到目錄指令列模式，感覺是停止了，但是下次再執行`guard`，重複個幾次以後，會發現程序根本沒有停止，最後就會像這樣...<br/>
 <img src="../img/ruby_guard_processes.png" /><br/>
-所以正確終止 guard 程序的方法是 `[1] guard(main)> e` 或 `[1] guard(main)> exit`<br/>
+正確終止 guard 程序的方法是輸入指令： `[1] guard(main)> e` 或 `[1] guard(main)> exit`<br/>
 <br/>
 
 ## 參考資料
