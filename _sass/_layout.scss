@@ -269,20 +269,48 @@
 /**
  * About
  */
-.list-group {
-  margin-left: 0;
+.none-style-list {
+  margin: 0 0 20px;
+  list-style-type: none;
 }
 
-.list-group-item {
-  border: 0;
-  padding: 0 0 10px;
-  background-color: $background-color;
-}
-
-.list-group-item:last-child {
-  padding: 0;
+.list-item {
+  margin: 0 0 5px;
 }
 
 .fotorama__wrap {
   margin: 0 auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#about {
+  section {
+    margin: 0 0 20px;
+  }
+  #projects {
+    margin: 0;
+  }
+}
+
+#info {
+  div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .profile-photo {
+    img {
+      border-radius: 10px;
+    }
+  }
+  .detail {
+    padding-left: $spacing-unit;
+    @include media-query($on-palm) {
+      padding: 0;
+    }
+  }
 }
