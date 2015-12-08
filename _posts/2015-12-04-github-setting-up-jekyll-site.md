@@ -57,7 +57,7 @@ end
 之後不再使用 jekyll 指令，改打 `guard` 或 `bundle exec guard` <br/>
 就可以監看檔案變更同時，自動重新整理背後的瀏覽器網頁
 
-### 增加免費網頁圖示
+### 增加網頁圖示
 因為 `jekyll new my-site` 預設只提供 github 和 twitter 兩個 svg 圖示<br/>
 後來我在 _includes/head.html 裡面增加 [font-awesome](https://fortawesome.github.io/Font-Awesome/) 的 CSS
 {% highlight html %}
@@ -75,7 +75,7 @@ end
 <br/>
 
 ## 參考資料
+[Jekyll - Documentation](http://jekyllrb.com/docs/home/)<br/>
 [Creating Pages with the automatic generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/)<br/>
 [Setting Up LiveReload With Jekyll](http://dan.doezema.com/2014/01/setting-up-livereload-with-jekyll/)<br/>
 [Interacting with Guard](https://github.com/guard/guard/wiki/Interacting-with-Guard)<br/>
-[Simple way to integrate social media links into Jekyll website](https://blog.r3bl.me/en/simple-social-media-links-jekyll/)
