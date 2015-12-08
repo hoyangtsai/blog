@@ -23,7 +23,7 @@ MySQL GUI Tools 也沒有持續維護<br>
 相容性也越來越差<br>
 於是決定把整個 MySQL 砍掉重練<br>
 完整移除腳本如下<br>
-{% highlight %}
+{% highlight shell %}
 sudo rm /usr/local/mysql
 sudo rm -rf /usr/local/mysql*
 sudo rm -rf /Library/StartupItems/MySQLCOM
@@ -64,32 +64,32 @@ MariaDB 可以說是 MySQL 的表兄弟，它是由 MySQL 的開發元老 Wideni
 <ol>
 <li>
 更新 Homebrew 函式庫<br>
-{% highlight %}
+{% highlight shell %}
 brew update
 {% endhighlight %}
 </li>
 <li>
 安裝 MariaDB <br>
-{% highlight %}
+{% highlight shell %}
 brew install mariadb
 {% endhighlight %}
 </li>
 <li>
 安裝資料庫 <br>
-{% highlight %}
+{% highlight shell %}
 unset TMPDIR
 mysql_install_db
 {% endhighlight %}
 </li>
 <li>
 啟動資料庫 (操作指令和使用 MySQL 一樣) <br>
-{% highlight %}
+{% highlight shell %}
 mysql.server start
 {% endhighlight %}
 </li>
 <li>
 設定 root 登入密碼和其他 configuration 完成安裝 <br>
-{% highlight %}
+{% highlight shell %}
 mysql_secure_installation
 {% endhighlight %}
 </li>
@@ -97,7 +97,7 @@ mysql_secure_installation
 
 如果想在電腦登入時自動啟動 MariaDB <br>
 可以做個 symbolic 鏈結到 ~/Library/LaunchAgents/ 指令如下 <br>
-{% highlight %}
+{% highlight shell %}
 ln -s /usr/local/Cellar/mariadb/10.1.9/homebrew.mxcl.mariadb.plist ~/Library/LaunchAgents/
 launchctl load -w homebrew.mxcl.mariadb.plist
 {% endhighlight %}
