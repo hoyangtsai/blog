@@ -21,4 +21,4 @@ linkedin_username: hoyangtsai
 # Build settings
 markdown: kramdown
 
-highlighter: rouge
+highlighter: pygments
