@@ -15,6 +15,7 @@ permalink: /mac-using-homebrew-install-mariadb
 或是刪除 rm /usr/local/mysql/data/*.err<br>
 都無法啟動 MySQL<br>
 
+## 完整移除 MySQL
 Mac OS 從 10.9 Mavericks、10.10 Yosemite 到 10.11 El Capitan<br>
 MySQL 隨著改版更新<br>
 但是安裝檔也不再附 MySQL 控制面板的安裝程式<br>
