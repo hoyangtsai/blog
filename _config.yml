@@ -17,6 +17,7 @@ url: "http://hoyangtsai.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  hoyangtsai
 linkedin_username: hoyangtsai
+feedly_username: hoyangtsai
 
 # Build settings
 markdown: kramdown
