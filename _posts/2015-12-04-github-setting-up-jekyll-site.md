@@ -1,8 +1,8 @@
 ---
 layout: post
 title: GitHub 架設 Jekyll 網站
-categories: []
-tags: [getting-started, tutorial, github, jekyll, bundler, guard, livereload, chrome-extension, ruby, gem, icon-font, setting-up]
+categories: [getting-started, tutorial, github, jekyll, bundler, guard, livereload, chrome-extension, ruby, gem, icon-font, setting-up]
+tags: []
 published: true
 permalink: /github-setting-up-jekyll-site
 ---
