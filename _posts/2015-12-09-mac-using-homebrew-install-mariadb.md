@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac 用 Homebrew 安裝 MariaDB
-categories: []
+categories: [mac, homebrew, mysql, mariadb]
 tags: []
 published: True
 permalink: /mac-using-homebrew-install-mariadb
