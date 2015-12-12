@@ -15,7 +15,7 @@ permalink: /mac-using-homebrew-install-mariadb
 或是刪除 rm /usr/local/mysql/data/*.err<br>
 都無法啟動 MySQL<br>
 
-## 完整移除 MySQL
+### 完整移除 MySQL
 Mac OS 從 10.9 Mavericks、10.10 Yosemite 到 10.11 El Capitan<br>
 MySQL 隨著改版更新<br>
 但是安裝檔也不再附 MySQL 控制面板的安裝程式<br>
@@ -35,14 +35,14 @@ sudo rm -rf /Library/Receipts/MySQL*
 sudo rm -rf /private/var/db/receipts/*mysql*
 {% endhighlight %}
 
-## 用 Homebrew 安裝資料庫
+### 用 Homebrew 安裝資料庫
 使用 Homebrew 安裝函式庫的好處就是不用再做麻煩的環境設定，像是 `export PATH=$PATH:${new_path}` 之類的<br>
 因為在 `brew install [library]` 的時候 <br>
 Homebrew 就會從 /usr/local/Cellar/[library] 的指令庫底下，做個 symbolic 鏈結到 /usr/local/bin/ <br>
 函式庫相關的指令就可以直接使用<br>
 未來也只要透過 `brew upgrade` 就可以更新函式庫了<br>
 
-### 開始安裝 MariaDB
+#### 開始安裝 MariaDB
 之前用過 `brew install mysql` 安裝 MySQL 資料庫，嘗試很久安裝一直失敗後來就放棄了。<br>
 
 這次我改安裝 MariaDB，順便做了一下調查...<br>
@@ -103,7 +103,7 @@ ln -s /usr/local/Cellar/mariadb/10.1.9/homebrew.mxcl.mariadb.plist ~/Library/Lau
 launchctl load -w homebrew.mxcl.mariadb.plist
 {% endhighlight %}
 
-## 參考資料
+### 參考資料
 [OSX How To: Uninstall native MySQL and install MariaDB via Homebrew](https://gist.github.com/brandonsimpson/5204ce8a46f7a20071b5)<br>
 [MariaDB versus MySQL - Compatibility](https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/)<br>
 [MariaDB vs. MySQL: What’s The Difference?](http://www.interworx.com/community/mariadb-vs-mysql-whats-the-difference/)<br>

@@ -6,9 +6,9 @@ tags: []
 published: true
 permalink: /github-setting-up-jekyll-site
 ---
-## 環境建置
 [GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。
 
+### 環境建置
 如果要在本地端開發 Jekyll 架構的網站，首先要有 ruby 環境 (Mac OS 本身已有 ruby 環境，只需要確認 ruby 版本為 2.0 以上。可用 `ruby -v` 指令檢查目前ruby版本)。<br>
 之後用 ruby 的 gem 安裝 jekyll `gem install jekyll`<br>
 接下來就可以用 jekyll 指令 `jekyll new my-site`，簡單地新增一個網站。<br>
@@ -74,7 +74,7 @@ end
 正確終止 guard 程序的方法是輸入指令： `[1] guard(main)> e` 或 `[1] guard(main)> exit`<br>
 <br>
 
-## 參考資料
+### 參考資料
 [Jekyll - Documentation](http://jekyllrb.com/docs/home/)<br>
 [Creating Pages with the automatic generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/)<br>
 [Setting Up LiveReload With Jekyll](http://dan.doezema.com/2014/01/setting-up-livereload-with-jekyll/)<br>
