@@ -20,31 +20,31 @@ brew install optipng
 
 #### jpegoptim 常用參數
 {% highlight bash %}
--m[quality], --max=[quality] <br>
-  設定最大的圖片品質因數 (禁止無損最佳化模式，預設是開啟的) <br>
-  有效值: 0 - 100 <br>
+-m[quality], --max=[quality]
+  設定最大的圖片品質因數 (禁止無損最佳化模式，預設是開啟的)
+  有效值: 0 - 100
   e.g. jpegoptim -m50 sample.jpg - 用50%質量壓縮圖片
 
--d[path], --dest=[path] <br>
-  指定最佳化檔案的目標路徑 (預設是覆寫原始檔案) <br>
+-d[path], --dest=[path]
+  指定最佳化檔案的目標路徑 (預設是覆寫原始檔案)
   e.g. jpegoptim -d ./output sample.jpg - 壓縮圖片將匯出到 output 目錄下 (資料夾必須先建立)
 
--o, --overwrite <br>
+-o, --overwrite
   覆寫目標檔案即使它存在 (當使用 -d 選項)
 
--p, --preserve <br>
+-p, --preserve
   保存檔案修改時間
 
--n, --noaction <br>
+-n, --noaction
   沒有真正壓縮圖片，只印出壓縮結果
 
---strip-all <br>
+--strip-all
   去除匯出圖片的所有標記
 
---strip-com <br>
+--strip-com
   去除匯出圖片的註解
 
---strip-exif <br>
+--strip-exif
   去除匯出圖片的Exif
 {% endhighlight %}
 
@@ -52,25 +52,25 @@ jpegoptim 其他參數使用可以參考 `jpegoptim -h`
 
 #### OptiPNG 常用參數
 {% highlight bash %}
--backup, -keep <br>
+-backup, -keep
   保留一個修改檔案的備份
 
--clobber <br>
+-clobber
   覆寫存在檔案
 
--preserve <br>
+-preserve
   如果可以保留檔案的屬性
 
--out [filename] <br>
+-out [filename]
   匯出的檔案名稱
 
--dir [directory] <br>
+-dir [directory]
   匯出檔案的目錄 (資料夾可以不用先建立)
 
--strip <objects> <br>
+-strip <objects>
   去除 metadata 物件 (例如 "all")
 
--o0, -o1 ... -o7 <br>
+-o0, -o1 ... -o7
   圖片壓縮等級 (數字越大越慢)
 {% endhighlight %}
 
