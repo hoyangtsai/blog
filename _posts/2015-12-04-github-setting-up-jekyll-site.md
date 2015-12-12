@@ -4,7 +4,7 @@ title: GitHub 架設 Jekyll 網站
 categories: [getting-started, tutorial, github, jekyll, bundler, guard, livereload, chrome-extension, ruby, gem, icon-font, setting-up]
 tags: []
 published: true
-permalink: /github-setting-up-jekyll-site
+permalink: /posts/github-setting-up-jekyll-site
 ---
 [GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。
 
