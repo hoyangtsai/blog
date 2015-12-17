@@ -3,17 +3,23 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
   {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      <changefreq>weekly</changefreq>
-      <priority>1</priority>
-    </url>
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    {% if post.lastmod == null %}
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+      <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
   {% endfor %}
   {% for page in site.pages %}
   <url>
@@ -30,12 +36,12 @@ layout: null
     {% if page.sitemap.changefreq %}
       <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     {% else %}
-      <changefreq>weekly</changefreq>
+      <changefreq>monthly</changefreq>
     {% endif %}
     {% if page.sitemap.priority %}
       <priority>{{ page.sitemap.priority }}</priority>
     {% else %}
-      <priority>0.5</priority>
+      <priority>0.3</priority>
     {% endif %}
   </url>
   {% endfor %}
