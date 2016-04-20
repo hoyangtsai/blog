@@ -3,7 +3,7 @@ layout: post
 title: Mac 用 Homebrew 安裝 MariaDB
 categories: [mac, homebrew, mysql, mariadb]
 tags: []
-published: True
+published: true
 permalink: /posts/mac-using-homebrew-install-mariadb
 ---
 最近我在檢查 Mac Mini 的 server 工作是否正常的時候<br>

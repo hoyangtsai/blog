@@ -3,7 +3,7 @@ layout: post
 title: 最佳化圖片
 categories: [optimize-image, image-compression, google, google-developers, pagespeed-insights]
 tags: []
-published: True
+published: true
 permalink: /posts/optimize-image
 ---
 網頁優化/最佳化，圖片壓縮是不可忽視的一塊。<br>
