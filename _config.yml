@@ -22,4 +22,9 @@ feedly_username: hoyangtsai
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
+
+sass:
+  compressed: true
+
+

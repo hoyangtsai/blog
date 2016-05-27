@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Mac 用 Homebrew 安裝 MariaDB
-categories: [nodejs, webpack, react, ]
-tags: []
+tags: [nodejs, webpack, react]
 published: false
-permalink: /posts/webpack-breakdown
+permalink: /posts/webpack-breakdown/
 ---
 
 最近使用 React 整理工作的 UI 設計規範

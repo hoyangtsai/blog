@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Flexbox 使用指南
-categories: []
 tags: []
 published: false
-permalink: /posts/flexbox-guide
+permalink: /posts/flexbox-guide/
 ---
 
 ### 背景

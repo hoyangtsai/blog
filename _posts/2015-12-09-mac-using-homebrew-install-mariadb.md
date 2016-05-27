@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Mac 用 Homebrew 安裝 MariaDB
-categories: [mac, homebrew, mysql, mariadb]
-tags: []
+tags: [mac, homebrew, mysql, mariadb]
 published: true
-permalink: /posts/mac-using-homebrew-install-mariadb
+permalink: /posts/mac-using-homebrew-install-mariadb/
 ---
 最近我在檢查 Mac Mini 的 server 工作是否正常的時候<br>
 發現 MySQL 資料庫又掛了...不是流量太大或電腦有問題，而是 MySQL 無法啟動<br>
