@@ -7,7 +7,6 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="icon" href="//hoyangtsai.github.io/favicon.ico">
-
   <link href="//maxcdn.bootstrapcdn.com" rel="preconnect" crossorigin>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -15,8 +14,8 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-  <script defer src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script defer src="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <script defer src="{{ "/js/jquery-1.11.3.min.js" | prepend: site.baseurl }}"></script>
+  <script defer src="{{ "/js/fotorama.js" | prepend: site.baseurl }}"></script>
 
   <meta property="og:locale" content="zh_TW">
   <meta property="og:type" content="article">
