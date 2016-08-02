@@ -10,7 +10,7 @@ title: Hoyang's Memo
 email: hoyang.t@gmail.com
 author: Ho-Yang Tsai
 description: > # this means to ignore newlines until "baseurl:"
-  A front-end deveoper who is looking forward to embrace the potential of web.
+  A front-end developer who is looking forward to embrace web potentials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hoyangtsai.github.io" # the base hostname & protocol for your site
 
