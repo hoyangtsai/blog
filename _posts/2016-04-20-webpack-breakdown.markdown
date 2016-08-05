@@ -51,7 +51,6 @@ module.exports = {
   entry: "./src/js/App.js",
 }
 ```
-因為我最的是 single page application 所以我的入口點只有一個
 
 多個入口點
 
