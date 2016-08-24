@@ -17,6 +17,8 @@ permalink: /posts/2016/sublime-text-installed-package-list/
     > 在寫CSS, SASS 或 LESS 的時候，只要把滑鼠游標移到 RGB 或 HEX 色碼上就會顯示顏色
 * Compass<br>
 * CSS Extended Completions
+
+    > 增加 CSS3 Flexbox 屬性自動完成
 * DocBlockr
 * EditorConfig
 * EditorConfigSnippets
@@ -34,7 +36,9 @@ permalink: /posts/2016/sublime-text-installed-package-list/
 * Markdown Preview
 * PHPUnit
 * React ES6 Snippets
-* SASS Snippets
+* SCSS Snippets
+  
+    > 增加了 SASS 函數自動完成
 * SCSS
 * Seti_UI
     
