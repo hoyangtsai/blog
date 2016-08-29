@@ -42,6 +42,6 @@ permalink: /posts/2016/sublime-text-installed-package-list/
 * SCSS
 * Seti_UI
     
-    > 個人最愛的 Sublime 配色樣式
+    > 個人最愛的 Sublime 色彩佈景主題
 * SideBarEnhancements
 * TyperScript
