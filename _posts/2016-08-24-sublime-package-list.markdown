@@ -13,9 +13,8 @@ permalink: /posts/2016/sublime-text-installed-package-list/
 * Babel Snippets
 * BrackerHighlighter
 * Color Highlighter
-    
+
     > 在寫CSS, SASS 或 LESS 的時候，只要把滑鼠游標移到 RGB 或 HEX 色碼上就會顯示顏色
-* Compass<br>
 * CSS Extended Completions
 
     > 增加 CSS3 Flexbox 屬性自動完成
