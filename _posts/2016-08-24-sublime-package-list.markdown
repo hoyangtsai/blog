@@ -47,9 +47,9 @@ permalink: /posts/2016/sublime-text-installed-package-list/
     
 * Markdown Preview
 
-    > 複製目前編輯的 markdown 內容為 HTML 檔案  
-    > 上傳 markdown 檔案之前在本機透過瀏覽器預覽內容  
-    > 複製目前編輯的 markdown 內容儲存為 HTML 檔案  
+    > 1. 複製目前編輯的 markdown 內容為 HTML 檔案  
+    > 2. 上傳 markdown 檔案之前在本機透過瀏覽器預覽內容  
+    > 3. 複製目前編輯的 markdown 內容儲存為 HTML 檔案  
     > [https://packagecontrol.io/packages/Markdown%20Preview](https://packagecontrol.io/packages/Markdown%20Preview)
     
 * PHPUnit
