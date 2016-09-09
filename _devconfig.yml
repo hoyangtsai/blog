@@ -1,17 +1,18 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink:           pretty
-# permalink: /blog/:year/:month/:day/:title/
-# relative_permalinks: false
+#permalink:           pretty
+permalink: /blog/:year/:month/:day/:title/
+relative_permalinks: false
 encoding: utf-8
 
 # Setup
-title: Hoyang's Memo
-description: A front-end developer who is looking forward to embrace web potentials.
-url: https://hoyangtsai.github.io
-# baseurl: "/lanyon-plus"
-urlimg: https://hoyangtsai.github.io/images/
+title:               My Website
+#tagline:             'foo's website
+description:         Foo's blog...
+url:                 http://localhost:4000
+baseurl:  ""
+urlimg: http://localhost:4000/images/
 markdown: kramdown
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -19,8 +20,8 @@ excerpt_separator: <!--more-->
 default_bg: sitebg.jpg
 default_logo: sitelogo.png
 safe: false
-#timezone: Asia
-future: true
+#timezone:    America/Chicago
+future:      true
 
 
 ## code highlight options
@@ -42,32 +43,32 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
 
 # About/contact
-author: Ho-Yang Tsai
-  name: Ho-Yang Tsai
-  url:  https://hoyangtsai.github.io/
-  avatar: IMG_0942.jpg
-  email:  hoyang.t@gmail.com
+author:
+  name:              Foo Boo
+  url:               https://twitter.com/abcd
+  avatar:         foo.png
+  #email:           
 
 # Owner/author information
 owner:
-  name: Ho-Yang Tsai
-  avatar: IMG_0942.jpg
-  #email:
+  name:           Foo Boo
+  avatar:         foo.png
+  #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hoyangtsai
-  facebook:
-  github:         hoyangtsai
-  stackexchange:
-  linkedin:       https://www.linkedin.com/in/hoyangtsai
-  instagram:
+  twitter:        abcd
+  facebook:       
+  github:         xyz123abc
+  stackexchange:  
+  linkedin:       https://www.linkedin.com/in/foo
+  instagram:      
   flickr:
-  tumblr:
-  google_plus:
+  tumblr:  
+  google_plus:    https://plus.google.com/+foo
   # orcid and google scholar IDs are different than standard username.
-  orcid:
-  gscholar:
+  orcid: xyz123abc
+  gscholar: xyz123abc
 
 ## sidebar links:
 # For external links add external: true
@@ -101,12 +102,12 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-disqus_shortname: hoyangtsai
+disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-36297587-6
+#google_analytics:   xyz123abc
 
 #### For dummy website only - remove if you wish ####
-github_repo: https://github.com/hoyangtsai/hoyangtsai.github.io
+github_repo: https://github.com/dyndna/lanyon-plus
 version: 1.1.1
 ## END ##
