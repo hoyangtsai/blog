@@ -42,7 +42,7 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
 
 # About/contact
-author: Ho-Yang Tsai
+author:
   name: Ho-Yang Tsai
   url:  https://hoyangtsai.github.io/
   avatar: IMG_0942.jpg
@@ -52,22 +52,22 @@ author: Ho-Yang Tsai
 owner:
   name: Ho-Yang Tsai
   avatar: IMG_0942.jpg
-  #email:
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        hoyangtsai
-  facebook:
-  github:         hoyangtsai
-  stackexchange:
-  linkedin:       https://www.linkedin.com/in/hoyangtsai
-  instagram:
-  flickr:
-  tumblr:
-  google_plus:
-  # orcid and google scholar IDs are different than standard username.
-  orcid:
-  gscholar:
+# email:
+# Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+description:
+# Social networking links used in footer. Update and remove as you like.
+twitter:        hoyangtsai
+facebook:
+github:         hoyangtsai
+stackexchange:
+linkedin:       https://www.linkedin.com/in/hoyangtsai
+instagram:
+flickr:
+tumblr:
+google_plus:
+# orcid and google scholar IDs are different than standard username.
+orcid:
+gscholar:
 
 ## sidebar links:
 # For external links add external: true
