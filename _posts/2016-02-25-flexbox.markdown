@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Flexbox 使用指南
-tags: []
-published: false
-permalink: /posts/flexbox-guide/
+permalink: /posts/2016/flexbox-guide/
+published: true
+comments: true
+tag:
+  - front-end
+  - html5
+  - css3
 ---
 
 ### 背景
