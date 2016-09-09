@@ -207,6 +207,7 @@ DEPENDENCIES
   guard
   guard-jekyll-plus
   guard-livereload
+  jekyll
   jekyll-compose (>= 0.4.1)
   jekyll-mentions (>= 1.1.3)
   kramdown

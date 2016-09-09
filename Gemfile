@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
 gem 'github-pages', '>= 93'
-# gem 'jekyll', '>= 3.2'
+gem 'jekyll'
 # gem 'jekyll-paginate', '>= 1.1.0'
 # gem 'jemoji', '>= 0.7.0'
 # gem 'kramdown', '>= 1.12'
@@ -11,7 +11,6 @@ gem 'kramdown'
 gem 'guard'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
-# gem 'jekyll-paginate'
 end
 
 group :jekyll_misc_plugins do
