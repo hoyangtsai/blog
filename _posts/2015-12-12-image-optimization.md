@@ -1,8 +1,9 @@
 ---
 layout: post
 date: 2015-12-12
-title: 最佳化圖片
+title: 圖片最佳化
 published: true
+permalink: /posts/2015/image-optimization/
 tag:
   - image-optimization
   - image-compression
