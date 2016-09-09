@@ -79,7 +79,7 @@ end
 一般使用 Jekyll 進行開發，執行 `jekyll serve` 等指令，中途要停止只要按 ctrl + c。<br>
 但是如果用 guard 進行開發，按 ctrl + c 不會終止程序，只會不斷印 `[1] guard(main)> `<br>
 這時候會試著按 ctrl + z 終止程序，終端機印出 `[1]+  Stopped  guard` 並回到目錄指令列模式，感覺是停止了，但是下次再執行`guard`，重複個幾次以後，會發現程序根本沒有停止，最後就會像這樣...<br>
-<img src="//hoyangtsai.github.io/img/ruby_guard_processes.png" /><br>
+<img src="./images/ruby_guard_processes.png" /><br>
 正確終止 guard 程序的方法是輸入指令： `[1] guard(main)> e` 或 `[1] guard(main)> exit`<br>
 <br>
 
