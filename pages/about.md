@@ -47,13 +47,13 @@ My characteristics are well-organized, work efficiently and high self-demanded t
 [https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke](https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke)
 
 ### Projects
-#### FireFox OS Web App - Clock
+<h4>FireFox OS Web App - Clock</h4>
 <div class="fotorama" data-nav="thumbs" data-loop="true" data-swipe="true">
   <img src="//hoyangtsai.github.io/images/newclock/home.jpg" />
   <img src="//hoyangtsai.github.io/images/newclock/stopwatch.jpg" />
   <img src="//hoyangtsai.github.io/images/newclock/timer.jpg" />
 </div>
-#### Cloud Drive (Desktop)
+<h4>Cloud Drive (Desktop)</h4>
 <div class="fotorama"
   data-nav="thumbs" data-loop="true" data-swipe="true">
   <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/home.jpg" />
@@ -61,7 +61,7 @@ My characteristics are well-organized, work efficiently and high self-demanded t
   <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/musicplayer.jpg" />
   <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/videoplayer.jpg" />
 </div>
-#### Cloud Drive (Mobile)
+<h4>Cloud Drive (Mobile)</h4>
 <div class="fotorama"
   data-nav="thumbs" data-loop="true" data-swipe="true">
   <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/3.png" />
@@ -77,7 +77,7 @@ My characteristics are well-organized, work efficiently and high self-demanded t
   <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/16.png" />
   <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/18.png" />
 </div>
-#### Restaurant Search
+<h4>Restaurant Search</h4>
 <div class="fotorama"
   data-nav="thumbs" data-loop="true" data-swipe="true">
   <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/popularstore.jpg" />
