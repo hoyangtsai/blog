@@ -14,15 +14,15 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-02-13
+    lastmod: 2016-09-09
 # tags will be used as html meta keywords.    
 tags:
   - "foo boo"
   - "city tx"
 ---
 
-<div class="post-author text-center">                       
-            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
+<div class="post-author text-center">
+<img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
 <span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
 <a href="{{ site.url }}/cv" title="Curriculum Vitae" class="social-icons"><i class="iconm iconm-profile" style="vertical-align: top;"></i></a>
 <a href="{{ site.url }}/about/publications/" class="social-icons" title="Publications"><i class="iconm iconm-file-pdf"></i></a>
@@ -30,12 +30,59 @@ tags:
 </span>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare lectus a purus rutrum, a hendrerit quam condimentum. Donec vel ante maximus, vulputate libero ac, rhoncus justo. Phasellus purus nisl, auctor id tristique eu, maximus quis leo. Mauris ultricies ante quis vehicula accumsan. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi elit, feugiat non scelerisque eget, ultrices nec est. Morbi a est iaculis, commodo quam congue, posuere quam. Phasellus venenatis finibus eros, vitae malesuada nisl gravida vitae.
+Currently, I'm working as a front-end engineer. Besides of the work duty, I like to develop or contribute some stuff, which are most based on front-end skills.
+My first job was to drive Java SE with MS SQL Server to customize a web-based PTC Windchill PLM system features, and use Javascript to customize PTC Arbortext document software automations for one year and half.
+After the first career, I started to develop Firefox OS apps and web applications, these were based on HTML5 like cloud drive and restaurant search system.
+In the cloud drive, I involved with back-end RESTful service development and front-end media files preview on the web. In the restaurant search system, I was in charge of all of the beck-end REST APIs for the web and native apps.
+My characteristics are well-organized, work efficiently and high self-demanded to productivities in which the tasks responsible for.
 
-Praesent ac sem quis diam fermentum fermentum. Nullam turpis metus, elementum sit amet venenatis sed, placerat eget erat. Ut convallis ipsum vitae volutpat tristique. Cras a tempor lorem, quis aliquet dui. Nunc vel leo erat. Donec posuere massa sed justo luctus, accumsan porttitor ligula laoreet. Suspendisse sit amet nisi ultrices, venenatis lorem vel, posuere turpis. Fusce eget dictum nisi. Proin eu diam nisi. Quisque ut quam quis sem tincidunt efficitur vitae nec ex. Pellentesque ut dolor eros. Ut faucibus semper ultricies. Vestibulum nec nisl in magna porttitor dictum.
+### Work
 
-Donec egestas eros arcu, id fermentum orci faucibus ac. Pellentesque facilisis elit eu tellus ultrices pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ut eros et mi dapibus condimentum. Sed ante metus, porttitor ut aliquet vitae, ullamcorper quis ex. Donec ac efficitur arcu, a malesuada dolor. Nulla magna arcu, semper quis augue sed, rhoncus porta urna. Duis dictum dapibus diam, ac sodales ipsum lobortis vel. Nulla ac dictum metus. Morbi sollicitudin tortor eu diam tristique, ut tincidunt tortor euismod. Integer non tincidunt metus. In tempus sem dapibus, venenatis mi placerat, condimentum orci. Nunc et tellus diam.
+#### Social Hub - built by pure javascript with Material Design Lite
+[https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm](https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm)
 
-Nam imperdiet consequat lorem. Donec sagittis tortor eu dolor efficitur ullamcorper. Pellentesque dolor arcu, vestibulum quis laoreet at, tincidunt nec mauris. Praesent id laoreet arcu. Quisque blandit nunc at elit auctor, eget tempor nunc sodales. Cras venenatis lacinia tempus. Proin erat nisl, pharetra a massa volutpat, rhoncus pellentesque nisi. Mauris in elit dictum, egestas tellus et, laoreet velit. Nam auctor tempus augue sit amet fermentum. Nulla accumsan arcu quis efficitur aliquam. Nulla dapibus in neque eget facilisis. Nullam nisi augue, maximus at lectus sit amet, ornare malesuada ante. Morbi volutpat justo a urna pharetra elementum. Proin tempor ac felis ac consequat. Proin feugiat, nulla ac sagittis consequat, ante diam auctor tortor, in suscipit leo ante id dolor. Vivamus posuere pellentesque magna, sagittis blandit neque convallis sed.
+#### IM Hub - built by React with Material UI
+> Support most of popular chatting web applications like Messenger, Hangouts, Telegram, Skype, Whatsapp and WeChat. Let you switch between different IM apps instantly.
 
-*[volutpat]: Tooltip for abbreviation.
+[https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke](https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke)
+
+### Projects
+#### FireFox OS Web App - Clock
+<div class="fotorama" data-nav="thumbs" data-loop="true" data-swipe="true">
+  <img src="//hoyangtsai.github.io/images/newclock/home.jpg" />
+  <img src="//hoyangtsai.github.io/images/newclock/stopwatch.jpg" />
+  <img src="//hoyangtsai.github.io/images/newclock/timer.jpg" />
+</div>
+#### Cloud Drive (Desktop)
+<div class="fotorama"
+  data-nav="thumbs" data-loop="true" data-swipe="true">
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/home.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/imageviewer.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/musicplayer.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/eos/videoplayer.jpg" />
+</div>
+#### Cloud Drive (Mobile)
+<div class="fotorama"
+  data-nav="thumbs" data-loop="true" data-swipe="true">
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/3.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/4.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/5.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/7.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/8.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/9.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/10.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/11.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/13.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/14.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/16.png" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/helios/18.png" />
+</div>
+#### Restaurant Search
+<div class="fotorama"
+  data-nav="thumbs" data-loop="true" data-swipe="true">
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/popularstore.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/locationstore.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/minidiningbrief.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/storedetail.jpg" />
+  <img class="img-responsive" src="//hoyangtsai.github.io/images/hungry/fuzzysearch.jpg" />
+</div>
