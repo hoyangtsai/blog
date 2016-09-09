@@ -4,6 +4,7 @@ date: 2015-12-04
 title: GitHub 架設 Jekyll 網站
 published: true
 permalink: /posts/2015/github-setting-up-jekyll-site/
+comments: true
 tag:
   - getting-started
   - tutorial
