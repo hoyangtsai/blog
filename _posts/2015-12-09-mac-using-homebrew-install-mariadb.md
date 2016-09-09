@@ -3,6 +3,7 @@ layout: post
 date: 2015-12-09
 title: Mac 用 Homebrew 安裝 MariaDB
 published: true
+permalink: /posts/2015/mac-using-homebrew-install-mariadb/
 tag:
   - mac
   - homebrew

@@ -3,6 +3,7 @@ layout: post
 date: 2016-07-26
 title: 安裝多版本 Node.js
 published: true
+permalink: /posts/2016/install-multi-version-of-nodejs/
 tag:
   - homebrew
   - nodejs
