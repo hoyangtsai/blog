@@ -1,9 +1,13 @@
 ---
 layout: post
+date: 2015-12-12
 title: 最佳化圖片
-tags: [optimize-image, image-compression, google, google-developers, pagespeed-insights]
 published: true
-permalink: /posts/2015/optimize-image/
+tag:
+  - image-optimization
+  - image-compression
+  - google-developer
+  - pagespeed-insights
 ---
 網頁優化/最佳化，圖片壓縮是不可忽視的一塊。<br>
 透過 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) 分析可以為你的網頁打分數。<br>
