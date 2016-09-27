@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Flexbox 使用指南
-permalink: /posts/2016/flexbox-guide/
 published: true
 comments: true
 tag:
