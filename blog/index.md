@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blog @ example.com
-description: "Blogging on ...."
+title: Blog &middot; Hoyang's Memo
+description: ""
 ---
 
 <div class="posts">
