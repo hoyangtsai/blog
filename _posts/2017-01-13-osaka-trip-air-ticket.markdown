@@ -152,9 +152,9 @@ ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的
 這個是樂桃航空的粉紅色小飛機，真的好可愛～～<br>
 連同空服員都是穿著小邊最喜愛的小粉紅呢<br>
 
-![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.jpg)
+![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.JPG)
 
-![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.jpg)
+![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.JPG)
 
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
 
@@ -173,5 +173,5 @@ ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的
 4. 事前購買行李公斤數會比超重補額更便宜  
     預先購買：從20KG補到40KG為290HKD
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！
-    ![jetstar-1](//hoyangtsai.github.io/images/osaka-trip/jetstar-1.png)
-    ![jetstar-2](//hoyangtsai.github.io/images/osaka-trip/jetstar-2.png)
+    ![jetstar-1](//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png)
+    ![jetstar-2](//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png)
