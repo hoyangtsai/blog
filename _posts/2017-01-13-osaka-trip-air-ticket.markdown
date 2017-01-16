@@ -47,7 +47,6 @@ tag:
       <td>✔️</td>
       <td>✔️</td>
       <td>✔️</td>
-      <td></td>
     </tr>
     <tr>
       <td>桃園 -> 東京 (羽田機場)</td>
@@ -55,7 +54,6 @@ tag:
       <td>✔</td>
       <td></td>
       <td>✔</td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -65,7 +63,6 @@ tag:
       <td>✔</td>
       <td>✔</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>桃園 -> 函館</td>
@@ -73,7 +70,6 @@ tag:
       <td></td>
       <td></td>
       <td>✔</td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -83,7 +79,6 @@ tag:
       <td>✔</td>
       <td>✔</td>
       <td>✔</td>
-      <td></td>
     </tr>
     <tr>
       <td>桃園 -> 沖繩</td>
@@ -91,7 +86,6 @@ tag:
       <td>✔</td>
       <td>✔</td>
       <td>✔</td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -101,7 +95,6 @@ tag:
       <td></td>
       <td>✔</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>高雄 -> 大阪 (關西機場)</td>
@@ -110,7 +103,6 @@ tag:
       <td></td>
       <td>✔</td>
       <td>✔</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
