@@ -11,25 +11,24 @@ tag:
 ---
 
 現在到日本旅遊，為了精打細算大家都會想到購買廉價航空<br>
-但是要怎麼買才划算，是我這篇文章要分享的重點
+但是要怎麼買才划算，是我這篇文章要分享的重點<br>
 
 關於廉價航空，首先要破解幾個<span style="color: #F00;">迷思</span>：<br>
 1. 並非紅眼班機就是最便宜的價格<br>
-2. 並非購買來回票才划算
-
-這次從高雄起飛，因為個人因素回程目的地為香港<br>
-
-從高雄出發搭的是樂桃航空，回程搭的是捷星航空
+2. 並非購買來回票才划算<br>
+<br>
+這次我們從高雄出發，搭的是樂桃航空；而回程目的地為香港，搭的是捷星航空。<br>
+<br>
 兩家都是<span style="color: #F00;">日本</span>的廉價航空公司<br>
 非常幸運的時段都還不錯 <br>
-高雄 - 大阪 (關西機場)    16:25 <br>
-大阪 (關西機場) - 香港    16:10
-
+高雄 - 大阪 (關西機場) <span style="margin: 1em"></span> 16:25<br>
+大阪 (關西機場) - 香港 <span style="margin: 1em"></span> 16:10<br>
+<br>
 要買到最划算的機票<br>
-可以先到 [skyscanner](https://www.skyscanner.com.tw/) 進行查詢、比價
-
+可以先到 [skyscanner](https://www.skyscanner.com.tw/) 進行查詢、比價<br>
+<br>
 依照<span style="color: #F00;">不同的目的地</span>和<span style="color: #F00;">個人方便的出發地</span>挑選合適的航空公司<br>
-
+<br>
 <table>
   <thead>
     <tr>
@@ -125,53 +124,50 @@ tag:
       <td></td>
     </tr>
   </tbody>
-</table>
+</table><br>
 <br>
-
-挑選好航空公司後就可以開始準備買票啦～～
-可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買
-雖然在 Expedia 上購買的價格會比在官網上還要低
-但是小編吃了許多次代買的虧  
-
-ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理）
-綜合過去的經驗
-所以這次小編選擇自己到官網上進行購買
-
-每家航空公司會不定期推出一些優惠方案
-但大多都是在旅行淡季
-
+挑選好航空公司後就可以開始準備買票啦～～<br>
+可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買<br>
+雖然在 Expedia 上購買的價格會比在官網上還要低<br>
+但是小編吃了許多次代買的虧<br>
+(ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理)<br>
+<br>
+綜合過去的經驗<br>
+所以這次小編選擇自己到官網上進行購買<br>
+<br>
+每家航空公司會不定期推出一些優惠方案<br>
+但大多都是在旅行淡季<br>
+<br>
 萬一要是在旅行旺季要出遊也沒關係<br>
 有幾個購買重點需要注意：<br>
 1. 廉價航空的票價每天都變動，像樂桃航空週三購買是最便宜的（印象中應該是這個時間點），小編就是天天都守在電腦前面刷新的那位 XD<br>
-2. 可以搭配信用卡進行結帳，像小編刷的是中國信託信用卡，除了促銷的折扣外，搭配紅利點數，來回機票一人約10000元左右就到手了
-
+2. 可以搭配信用卡進行結帳，像小編刷的是中國信託信用卡，除了促銷的折扣外，搭配紅利點數，來回機票一人約10000元左右就到手了<br>
 <br>
 <br>
 <br>
-
 這個是樂桃航空的粉紅色小飛機，真的好可愛～～<br>
 連同空服員都是穿著小邊最喜愛的小粉紅呢<br>
-
-![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.JPG)
-
-![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.JPG)
-
+![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.JPG)<br>
+<br>
+![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.JPG)<br>
+<br>
+<br>
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
-
-1. 班機時間不一定，有可能延遲也有可能提早。  
-    去程跟回程兩家航空公司都比表定整整延遲了一個多小時
-
-2. 位子比較窄。  
-    對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XDD
-
-3. 對於行李要求非常嚴格  
-    兩家航空公司都只能帶一件手提行李上飛機。
-    行李公斤數的要求捷星相對來說會比樂桃嚴格～
-    捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。
-    像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。
-
-4. 事前購買行李公斤數會比超重補額更便宜  
-    預先購買：從20KG補到40KG為290HKD
-    現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！
-    ![jetstar-1](//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png)
-    ![jetstar-2](//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png)
+1. 班機時間不一定，有可能延遲也有可能提早。
+<span style="text-indent: 2em;"></span>去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
+<br>
+2. 位子比較窄。<br>
+<span style="text-indent: 2em;">對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD</span><br>
+<br>
+3. 對於行李要求非常嚴格<br>
+<span style="text-indent: 2em;">兩家航空公司都只能帶一件手提行李上飛機。<br>
+    行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
+    捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。<br>
+    像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。</span><br>
+<br>
+4. 事前購買行李公斤數會比超重補額更便宜<br>
+<span style="text-indent: 2em;">預先購買：從20KG補到40KG為290HKD<br>
+    現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！</span><br>
+    ![jetstar-1](//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png)<br>
+    ![jetstar-2](//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png)<br>
+<br>
