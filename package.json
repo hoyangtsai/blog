@@ -1,0 +1,30 @@
+{
+  "name": "hoyangtsai.github.io",
+  "version": "1.0.0",
+  "description": "Hoyang's Memo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hoyangtsai@github.com/hoyangtsai/hoyangtsai.github.io.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gh-page",
+    "github"
+  ],
+  "author": "Hoyang Tsai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyangtsai/hoyangtsai.github.io/issues"
+  },
+  "homepage": "https://github.com/hoyangtsai/hoyangtsai.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.0"
+  }
+}
