@@ -149,21 +149,21 @@ tag:
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
 <ol>
   <li>班機時間不一定，有可能延遲也有可能提早。<br>
-    <i style="margin-left: 1em;"></i>去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
+    去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
   </li>
   <li>位子比較窄<br>
-    <i style="margin-left: 1em;"></i>對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br>
+    對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br>
   </li>
   <li>對於行李要求非常嚴格<br>
-    <i style="margin-left: 1em;"></i>兩家航空公司都只能帶一件手提行李上飛機。<br>
-    <i style="margin-left: 1em;"></i>行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
-    <i style="margin-left: 1em;"></i>捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。<br>
-    <i style="margin-left: 1em;"></i>像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br>
+    兩家航空公司都只能帶一件手提行李上飛機。<br>
+    行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
+    捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。<br>
+    像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br>
   </li>
   <li>事前購買行李公斤數會比超重補額更便宜<br>
-    <i style="margin-left: 1em;"></i>預先購買：從20KG補到40KG為290HKD<br>
-    <i style="margin-left: 1em;"></i>現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
-    ![jetstar-1](//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png)
-    ![jetstar-2](//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png)
+    預先購買：從20KG補到40KG為290HKD<br>
+    現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
+    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1">
+    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2">
   </li>
 </ol>
