@@ -51,7 +51,7 @@ author:
 owner:
   name: Ho-Yang Tsai
   avatar: IMG_0942.jpg
-  # email:
+  email: hoyang.t@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
@@ -67,19 +67,19 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
-  - title: <i class="iconside iconm-home"></i> Home
+  - title: <i class="fa fa-home"></i> Home
     url: /
-  - title: <i class="iconside iconm-user"></i> About
+  - title: <i class="fa fa-user"></i> About
     url: /about/
-  - title: <i class="iconside iconm-quill"></i> Blog
+  - title: <i class="fa fa-align-left"></i> Blog
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="iconside iconm-envelop"></i> Contact
+  - title: <i class="fa fa-address-book"></i> Contact
     url: /contact/
-  - title: <i class="iconside iconm-feed2"></i> Feed
+  - title: <i class="fa fa-rss-square"></i> Feed
     url: /feed.xml
 
 # Google Custom Search:
