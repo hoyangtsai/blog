@@ -37,7 +37,6 @@ tag:
       <th>捷星 (Jetstar)</th>
       <th>台灣虎航</th>
       <th>酷航</th>
-      <th>威航</th>
     </tr>
   </thead>
   <tbody>
@@ -111,15 +110,6 @@ tag:
       <td></td>
       <td>✔</td>
       <td>✔</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>高雄 -> 沖繩</td>
-      <td>✔</td>
-      <td></td>
-      <td></td>
-      <td>✔</td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>
