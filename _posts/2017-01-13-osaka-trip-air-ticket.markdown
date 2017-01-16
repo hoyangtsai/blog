@@ -11,7 +11,7 @@ tag:
 ---
 
 現在到日本旅遊，為了精打細算大家都會想到購買廉價航空<br>
-但是要怎麼買才划算，是我這篇文章要分享的重點<br>
+但是要怎麼買才划算呢！？<br>
 
 關於廉價航空，首先要破解幾個<span style="color: #F00;">迷思</span> : <br>
 1. 並非紅眼班機就是最便宜的價格<br>
@@ -20,14 +20,14 @@ tag:
 這次我們從高雄出發，搭的是樂桃航空；而回程目的地為香港，搭的是捷星航空。<br>
 
 兩家都是<span style="color: #F00;">日本</span>的廉價航空公司<br>
-非常幸運的時段都還不錯 <br>
-高雄 - 大阪 (關西機場) <span style="margin: 1em"></span> 16:25<br>
-大阪 (關西機場) - 香港 <span style="margin: 1em"></span> 16:10<br>
+非常幸運的是班機的時段都還不錯 <br>
+高雄 - 大阪 (關西機場) <span style="margin: 1em"></span> 16:25-17:55<br>
+大阪 (關西機場) - 香港 <span style="margin: 1em"></span> 16:10-19:45<br>
 
-要買到最划算的機票<br>
+想要買到最划算的機票<br>
 可以先到 <a href="https://www.skyscanner.com.tw/" target="_blank">skyscanner</a> 進行查詢、比價<br>
 
-依照<span style="color: #F00;">不同的目的地</span>和<span style="color: #F00;">個人方便的出發地</span>挑選合適的航空公司
+依照<span style="color: #F00;">目的地</span>和<span style="color: #F00;">個人方便的出發地</span>挑選合適的航空公司
 <table>
   <thead>
     <tr>
@@ -109,11 +109,12 @@ tag:
 
 挑選好航空公司後就可以開始準備買票啦～～<br>
 可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買<br>
-雖然在 Expedia 上購買的價格會比在官網上還要低<br>
-但是小編吃了許多次代買的虧<br>
+雖然部分機票在 Expedia 上購買的價格會比在官網上還要低<br>
+但是小編吃了許多次代訂機票的虧<br>
 (ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理)<br>
 綜合過去的經驗<br>
 所以這次小編選擇自己到官網上進行購買<br>
+
 
 每家航空公司會不定期推出一些優惠方案<br>
 但大多都是在旅行淡季<br>
@@ -124,7 +125,7 @@ tag:
 <br>
 
 這個是樂桃航空的粉紅色小飛機，真的好可愛～～<br>
-連同空服員都是穿著小邊最喜愛的小粉紅呢<br>
+連同空服員都是穿著小編最喜愛的小粉紅呢<br>
 ![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.JPG)
 ![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.JPG)
 
@@ -133,7 +134,7 @@ tag:
   <li>班機時間不一定，有可能延遲也有可能提早。<br>
     去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
   </li>
-  <li>位子比較窄<br>
+  <li>班機座位比較窄<br>
     對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br>
   </li>
   <li>對於行李要求非常嚴格<br>
@@ -148,4 +149,12 @@ tag:
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1">
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2">
   </li>
+  <li>搭乘航廈要特別留意<br>
+    像去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!
+  </li>
 </ol>
+
+
+
+
+這一篇主要介紹購買機票，剩餘的資訊小編會在下一篇文章跟大家分享～～～
