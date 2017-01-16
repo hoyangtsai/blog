@@ -10,7 +10,7 @@ encoding: utf-8
 title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
 url: https://hoyangtsai.github.io
-# baseurl: "/"
+baseurl: "/"
 urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 paginate: 5
@@ -19,7 +19,7 @@ excerpt_separator: <!--more-->
 default_bg: sitebg.jpg
 default_logo: sitelogo.png
 safe: false
-# timezone: Asia/Taipei
+timezone: Asia/Taipei
 future: true
 
 ## code highlight options
@@ -55,10 +55,10 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hoyangtsai
+  twitter: hoyangtsai
   facebook:
-  github:         hoyangtsai
-  linkedin:       https://www.linkedin.com/in/hoyangtsai
+  github: hoyangtsai
+  linkedin: https://www.linkedin.com/in/hoyangtsai
   instagram:
   flickr:
   tumblr:

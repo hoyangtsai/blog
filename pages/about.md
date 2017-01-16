@@ -14,11 +14,17 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-09-09
+    lastmod: 2017-01-16
 # tags will be used as html meta keywords.    
 tags:
-  - "foo boo"
-  - "city tx"
+  - "front-end developer"
+  - "javascript"
+  - "html5"
+  - "react"
+  - "web app"
+  - "firefox"
+  - "chrome"
+
 ---
 
 <div class="post-author text-center">
@@ -30,7 +36,7 @@ tags:
 </span>
 </div>
 
-Currently, I'm working as a front-end engineer. Besides of the work duty, I like to develop or contribute some stuff, which are most based on front-end skills.
+Currently, I'm working as a front-end developer. Besides of the work duty, I like to develop or contribute some stuff, which are most based on front-end skills.
 My first job was to drive Java SE with MS SQL Server to customize a web-based PTC Windchill PLM system features, and use Javascript to customize PTC Arbortext document software automations for one year and half.
 After the first career, I started to develop Firefox OS apps and web applications, these were based on HTML5 like cloud drive and restaurant search system.
 In the cloud drive, I involved with back-end RESTful service development and front-end media files preview on the web. In the restaurant search system, I was in charge of all of the beck-end REST APIs for the web and native apps.
