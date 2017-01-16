@@ -79,7 +79,7 @@ links:
     url: /archive/
   - title: <i class="fa fa-address-book"></i> Contact
     url: /contact/
-  - title: <i class="fa fa-rss-square"></i> Feed
+  - title: <i class="fa fa-rss"></i> Feed
     url: /feed.xml
 
 # Google Custom Search:
