@@ -43,67 +43,67 @@ tag:
   <tbody>
     <tr>
       <td>桃園 -> 東京 (成田機場)</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
     </tr>
     <tr>
       <td>桃園 -> 東京 (羽田機場)</td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 函館</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 札幌</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
     </tr>
     <tr>
       <td>桃園 -> 沖繩</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 東京 (成田機場)</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
       <td></td>
-      <td style="text-align: center;">✔️️</td>
-      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
     </tr>
   </tbody>
 </table>
@@ -112,7 +112,7 @@ tag:
 可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買<br>
 雖然部分機票在 Expedia 上購買的價格會比在官網上還要低<br>
 但是小編吃了許多次代訂機票的虧<br>
-<p style="font-style: italic;">(ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理)</p><br><br>
+<p style="font-style: italic; color: #a2a2a2`;">(ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好。通常都是要我們自己打電話到航空公司值班櫃檯進行處理)</p><br><br>
 綜合過去的經驗<br>
 所以這次小編選擇自己到『官網』上進行購買<br>
 
@@ -147,13 +147,14 @@ tag:
     像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br><br>
   </li>
   <li><span style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜</span><br>
-    預先購買：從20KG補到40KG為290HKD<br>
+    預先購買（乘機前）：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1"><br>
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2"><br>
+    但不管怎麼樣，
   </li>
   <li><span style="font-weight: bold;">搭乘航廈要特別留意</span><br>
-    像去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!
+    以關西機場來說，並不是所有廉價航空都是在第二航廈搭乘。像我們去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!♥️
   </li>
 </ol>
 
