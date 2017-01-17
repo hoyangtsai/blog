@@ -44,65 +44,65 @@ tag:
       <td>桃園 -> 東京 (成田機場)</td>
       <td style="text-align: center;">✔️️</td>
       <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
     </tr>
     <tr>
       <td>桃園 -> 東京 (羽田機場)</td>
       <td></td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 函館</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
       <td></td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 札幌</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
     </tr>
     <tr>
       <td>桃園 -> 沖繩</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 東京 (成田機場)</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
       <td></td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔️️</td>
+      <td style="text-align: center;">✔️️</td>
     </tr>
   </tbody>
 </table>
@@ -118,8 +118,8 @@ tag:
 
 每家航空公司會不定期推出一些優惠方案<br>
 但大多都是在旅行淡季<br>
-萬一要是在旅行旺季要出遊也沒關係<br>
-有幾個購買重點需要注意：<br>
+萬一要是在旅行旺季要出遊也沒關係<br><br>
+有幾個<span style="color: red;">購買重點</span>需要注意：<br>
 1. 廉價航空的票價每天都變動，像樂桃航空週三購買是最便宜的（印象中應該是這個時間點），小編就是天天都守在電腦前面刷新的那位 XD<br>
 2. 可以搭配信用卡進行結帳，像小編刷的是中國信託信用卡，除了促銷的折扣外，搭配紅利點數，來回機票一人約10000元左右就到手了<br>
 <br>
@@ -129,27 +129,29 @@ tag:
 ![peach-airplane-1](//hoyangtsai.github.io/images/osaka-trip/IMG_0084.JPG)
 ![peach-airplane-2](//hoyangtsai.github.io/images/osaka-trip/IMG_0085.JPG)
 
+
+
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
 <ol>
-  <li>班機時間不一定，有可能延遲也有可能提早。<br>
-    去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
+  <li style="font-weight: bold;">班機時間不一定（有可能延遲也有可能提早）<br>
+    去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br><br>
   </li>
-  <li>班機座位比較窄<br>
-    對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br>
+  <li style="font-weight: bold;">班機座位比較窄<br>
+    對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br><br>
   </li>
-  <li>對於行李要求非常嚴格<br>
+  <li style="font-weight: bold;">對於行李要求非常嚴格<br>
     兩家航空公司都只能帶一件手提行李上飛機。<br>
     行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
     捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。<br>
-    像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br>
+    像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br><br>
   </li>
-  <li>事前購買行李公斤數會比超重補額更便宜<br>
+  <li style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜<br>
     預先購買：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1">
-    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2">
+    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2"><br>
   </li>
-  <li>搭乘航廈要特別留意<br>
+  <li style="font-weight: bold;">搭乘航廈要特別留意<br>
     像去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!
   </li>
 </ol>
