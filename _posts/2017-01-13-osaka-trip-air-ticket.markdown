@@ -42,67 +42,67 @@ tag:
   <tbody>
     <tr>
       <td>桃園 -> 東京 (成田機場)</td>
-      <td>✔️️</td>
+      <td style="text-align: center;">✔️️</td>
       <td></td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
+      <td style="text-align: center;">✔️</td>
     </tr>
     <tr>
       <td>桃園 -> 東京 (羽田機場)</td>
       <td></td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 大阪 (關西機場)</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 函館</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
       <td></td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
     </tr>
     <tr>
       <td>桃園 -> 札幌</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
     </tr>
     <tr>
       <td>桃園 -> 沖繩</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 東京 (成田機場)</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
       <td></td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
     </tr>
     <tr>
       <td>高雄 -> 大阪 (關西機場)</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
       <td></td>
-      <td>✔</td>
-      <td>✔</td>
+      <td style="text-align: center;">✔</td>
+      <td style="text-align: center;">✔</td>
     </tr>
   </tbody>
 </table>
@@ -111,9 +111,9 @@ tag:
 可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買<br>
 雖然部分機票在 Expedia 上購買的價格會比在官網上還要低<br>
 但是小編吃了許多次代訂機票的虧<br>
-(ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理)<br>
+<p style="font-style: italic;">(ex. 需要臨時改航班，Expedia沒辦法協助處理，面對突發狀況的應變能力不太好，通常都是要我們自己打電話到航空公司值班櫃檯進行處理)</p><br><br>
 綜合過去的經驗<br>
-所以這次小編選擇自己到官網上進行購買<br>
+所以這次小編選擇自己到『官網』上進行購買<br>
 
 
 每家航空公司會不定期推出一些優惠方案<br>
