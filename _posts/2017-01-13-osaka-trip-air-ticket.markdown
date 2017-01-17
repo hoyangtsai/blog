@@ -149,7 +149,7 @@ tag:
   <li><span style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜</span><br>
     預先購買：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
-    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1">
+    <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1"><br>
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2"><br>
   </li>
   <li><span style="font-weight: bold;">搭乘航廈要特別留意</span><br>
