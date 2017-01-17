@@ -18,7 +18,9 @@ tag:
 * Color Highlighter
 
     > 在編輯檔案的時，把滑鼠游標移到 RGB 或 HEX 色碼上會顯示視覺顏色
-    
+
+<!-- more -->
+
 * CSS Extended Completions
 
     > 增加 CSS3 Flexbox 屬性自動完成

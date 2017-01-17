@@ -13,6 +13,8 @@ tag:
 git checkout <target_brach>
 git checkout -p | --patch <source_branch> <file>
 ```
+<!-- more -->
+
 y - stage this hunk 變更此區塊 <br>
 n - do not stage this hunk 不變更此區塊 <br>
 q - quit; do not stage this hunk nor any of the remaining ones 離開；不變更此區塊和後面剩餘部分 <br>

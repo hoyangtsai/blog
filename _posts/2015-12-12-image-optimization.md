@@ -16,6 +16,8 @@ tag:
 ### 圖片壓縮程式
 根據 Google PageSpeed Insights 建議對於 JPEG 檔案壓縮可以使用 [jpegtran](http://jpegclub.org/) 或 [jpegoptim](http://freshmeat.net/projects/jpegoptim/) (與 --strip-all 選項一併執行)；對於 PNG 檔案壓縮可以使用 [OptiPNG](http://optipng.sourceforge.net/) 或 [PNGOUT](http://www.advsys.net/ken/util/pngout.htm)。
 
+<!-- more -->
+
 透過 Homebrew 就可以安裝 jpegoptim 和 OptiPNG，如下
 {% highlight bash %}
 brew install jpegoptim

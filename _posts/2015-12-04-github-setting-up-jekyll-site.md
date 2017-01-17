@@ -16,6 +16,8 @@ tag:
 ---
 [GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。
 
+<!-- more -->
+
 ### 環境建置
 如果要在本地端開發 Jekyll 架構的網站，首先要有 ruby 環境 (Mac OS 本身已有 ruby 環境，只需要確認 ruby 版本為 2.0 以上。可用 `ruby -v` 指令檢查目前ruby版本)。<br>
 之後用 ruby 的 gem 安裝 jekyll `gem install jekyll`<br>
