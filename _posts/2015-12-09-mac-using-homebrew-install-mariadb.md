@@ -14,6 +14,9 @@ tag:
 發現 MySQL 資料庫又掛了...不是流量太大或電腦有問題，而是 MySQL 無法啟動<br>
 試著打 `mysql.server start` 時，終端機印出<br>
 `ERROR! The server quit without updating PID file (/usr/local/mysql/data/...pid)`<br>
+
+<!-- more -->
+
 網路搜尋到的方法都無法解決<br>
 像是 `ps -aux | grep 'mysql'` 列出 mysql 程序把它砍掉<br>
 或是刪除 rm /usr/local/mysql/data/*.err<br>

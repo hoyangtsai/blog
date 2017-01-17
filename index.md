@@ -23,11 +23,11 @@ description: ""
 </div>
 
 <div class="posts">
-  {% for post in site.posts limit:2 %}
+  {% for post in site.posts limit:5 %}
   {% unless post.category contains "featured" %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.url }}{{ post.url }}">
+      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>

@@ -15,6 +15,8 @@ flexible box 伸縮容器 在 caniuse 上已經有很高的支持度
 
 為什麼要講 flexible box 而不是 flex box，因為其實 flexible box 經過好幾次的演進
 
+<!-- more -->
+
 從最初 2009 年的版本 `display: box` 和 `box-{*}` 的前綴屬性
 到 2011 年的版本 `display: flexbox` 和 `flex()` 的函數
 到最新 2012年 修訂的 CR 版本 `display: flex` 和 `flex-{*}` 的前綴屬性

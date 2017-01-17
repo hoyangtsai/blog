@@ -19,6 +19,8 @@ tag:
 > 情境二、個人需求<br>
 > 使用 ES6 語法開發 Nodejs 模組、其他 Framework 或 node 工具依賴的模組要求 Node.js 版本要是最新版
 
+<!-- more -->
+
 **此時多種版本 Node.js 切換的需求因應而生**
 
 ### 安裝腳本
