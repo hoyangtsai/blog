@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
 encoding: utf-8
 
@@ -10,7 +10,7 @@ encoding: utf-8
 title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
 url: https://hoyangtsai.github.io
-# baseurl: "/"
+baseurl: ""
 urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
@@ -36,8 +36,8 @@ gems:
 jekyll-mentions:
   base_url: https://twitter.com
 
-paginate: 5
-paginate_path: "page:num"
+paginate: 3
+paginate_path: "/blog/page:num/"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]

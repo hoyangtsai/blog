@@ -27,7 +27,7 @@ description: ""
   {% unless post.category contains "featured" %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ site.url }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
