@@ -32,8 +32,8 @@ layout: default
   <h2>Related Posts</h2>
 <ul>
   {% for post in site.posts %}
-    {% if post.url != page.url %} 
-      {% for tag in page.tags %} 
+    {% if post.url != page.url %}
+      {% for tag in page.tags %}
         {% if post.tags contains tag %}
           <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br /></li>
           {% break %}
@@ -60,3 +60,5 @@ layout: default
 <div class="page-break"></div>
 
 {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+
+{% if site.facebook_appId and page.comments == true %}<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"></div>{% endif %}
