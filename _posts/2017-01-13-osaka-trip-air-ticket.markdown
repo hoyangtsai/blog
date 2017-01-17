@@ -133,25 +133,25 @@ tag:
 
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
 <ol>
-  <li style="font-weight: bold;">班機時間不一定（有可能延遲也有可能提早）<br>
+  <li><span style="font-weight: bold;">班機時間不一定（有可能延遲也有可能提早）</span><br>
     去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br><br>
   </li>
-  <li style="font-weight: bold;">班機座位比較窄<br>
+  <li><span style="font-weight: bold;">班機座位比較窄</span><br>
     對於同行180cm的Mr. Prince來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 XD<br><br>
   </li>
-  <li style="font-weight: bold;">對於行李要求非常嚴格<br>
+  <li><span style="font-weight: bold;">對於行李要求非常嚴格</span><br>
     兩家航空公司都只能帶一件手提行李上飛機。<br>
     行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
-    捷星會要求將手提行李上秤，一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。<br>
+    捷星會要求將手提行李上秤，<span style="font-weight: bold; color: red;">一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。</span><br>
     像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br><br>
   </li>
-  <li style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜<br>
+  <li><span style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜</span><br>
     預先購買：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！<br>
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-1.png" alt="jetstar-1">
     <img src="//hoyangtsai.github.io/images/osaka-trip/Jetstar-2.png" alt="jetstar-2"><br>
   </li>
-  <li style="font-weight: bold;">搭乘航廈要特別留意<br>
+  <li><span style="font-weight: bold;">搭乘航廈要特別留意</span><br>
     像去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!
   </li>
 </ol>
