@@ -4,6 +4,7 @@ layout: post
 date: 2017-01-13
 published: true
 comments: true
+category: featured
 tag:
   - japan
   - osaka
