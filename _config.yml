@@ -73,8 +73,6 @@ links:
     url: /
   - title: <i class="fa fa-user"></i> About
     url: /about/
-  - title: <i class="fa fa-align-left"></i> Blog
-    url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
