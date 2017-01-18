@@ -30,84 +30,86 @@ tag:
 可以先到 <a href="https://www.skyscanner.com.tw/" target="_blank">skyscanner</a> 進行查詢、比價<br>
 
 依照<span style="color: #F00;">目的地</span>和<span style="color: #F00;">個人方便的出發地</span>挑選合適的航空公司
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>香草航空</th>
-      <th>樂桃 (Peach)</th>
-      <th>捷星 (Jetstar)</th>
-      <th>台灣虎航</th>
-      <th>酷航</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>桃園 -> 東京 (成田機場)</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-    </tr>
-    <tr>
-      <td>桃園 -> 東京 (羽田機場)</td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>桃園 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>桃園 -> 函館</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>桃園 -> 札幌</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-    </tr>
-    <tr>
-      <td>桃園 -> 沖繩</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>高雄 -> 東京 (成田機場)</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>高雄 -> 大阪 (關西機場)</td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-      <td></td>
-      <td style="text-align: center;">✔️</td>
-      <td style="text-align: center;">✔️</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>香草航空</th>
+        <th>樂桃 (Peach)</th>
+        <th>捷星 (Jetstar)</th>
+        <th>台灣虎航</th>
+        <th>酷航</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>桃園 -> 東京 (成田機場)</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+      </tr>
+      <tr>
+        <td>桃園 -> 東京 (羽田機場)</td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>桃園 -> 大阪 (關西機場)</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>桃園 -> 函館</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>桃園 -> 札幌</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+      </tr>
+      <tr>
+        <td>桃園 -> 沖繩</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>高雄 -> 東京 (成田機場)</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>高雄 -> 大阪 (關西機場)</td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+        <td></td>
+        <td style="text-align: center;">✔️</td>
+        <td style="text-align: center;">✔️</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 挑選好航空公司後就可以開始準備買票啦～～<br>
 可以透過 Expedia 、旅行社 、 Ctrip (攜程) 等渠道進行購買<br>
