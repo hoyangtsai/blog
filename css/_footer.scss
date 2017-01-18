@@ -1,0 +1,14 @@
+.footer {
+  .social-list {
+    list-style: none;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: #007fe6;
+    }
+    & > li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
-# - name: Twitter
-#   url: https://twitter.com/abcd
-#   class: fa fa-twitter-square
-#   title: "Follow me @foo"
+- name: Twitter
+  url: https://twitter.com/hoyangtsai
+  class: fa-twitter
+  title: "Follow me @hoyangtsai"
 
 # - name: Google Plus
 #   url: https://plus.google.com/+foo
@@ -10,15 +10,15 @@
 
 - name: GitHub
   url: https://github.com/hoyangtsai
-  class: fa fa-github-square
-  title: Code repository
+  class: fa-github
+  title: Github
 
 - name: Contact
   url: "/contact/"
-  class: fa fa-envelope-square
-  title: "Reach Us"
+  class: fa-envelope
+  title: "Contact"
 
 - name: RSS
   url: "/feed.xml"
-  class: fa fa-rss-square
+  class: fa-rss
   title: "Subscribe to RSS"
