@@ -14,8 +14,6 @@ tag:
 // 刪除 git 記錄的遠端分支
 git fetch -p | --prune
 
-<!-- more -->
-
 // 刪除不在遠端的本地分支
 git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
 ```
