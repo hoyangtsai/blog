@@ -94,7 +94,7 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 <img src="{{ site.urlimg }}/osaka-trip/namba-nara-stops.jpg" alt="namba-nara-stops"><br>
 
 這邊<b><u>千萬千萬千萬不要選擇特急</u></b><br>
-特急與快速急行的停靠站只差一站<br>
+特急與快速急行的停靠站只差兩站<br>
 但是價格卻是差了好多<br>
 選擇特急列車，除了原先的票價外，還要購買特急列車券（因為在進站時有刷了IC卡，特急列車的票在月台購買）<br>
 <img src="{{ site.urlimg }}/osaka-trip/IMG_5803.JPG" alt="IMG_5803"><br>
