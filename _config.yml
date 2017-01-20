@@ -11,7 +11,7 @@ title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
 url: https://hoyangtsai.github.io
 baseurl: ""
-urlimg: https://hoyangtsai.github.io/images
+urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
 excerpt_separator: '<!-- more -->'

@@ -15,7 +15,7 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 小編搭乘的樂桃航空到達關西機場時<br>
 停靠的是第二航廈（T2）<br>
 在停機坪上下飛機後步行進航廈<br>
-<img src="{{ site.urlimg }}/osaka-trip/IMG_0085.JPG" alt="flypeach-airplane"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0085.JPG" alt="flypeach-airplane"><br>
 
 在飛機上空姐會發放入境卡跟申告單<br>
 可以事先領取，在飛機上填寫好<br>
@@ -44,18 +44,18 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 在完成入境後<br>
 一踏出門看到的是一間7-11<br>
 抬頭仔細看會有標示告知接駁至T1的巴士乘坐地點<br>
-<img src="{{ site.urlimg }}/osaka-trip/shuttle-bus-sign.png" alt="shuttle-bus-sign"><br>
+<img src="{{ site.urlimg }}osaka-trip/shuttle-bus-sign.png" alt="shuttle-bus-sign"><br>
 <br>
 附上一張關西機場的地圖，上頭有清楚標示著巴士的搭乘地點<br>
 接駁巴士約5～8分鐘一班<br>
-<img src="{{ site.urlimg }}/osaka-trip/airport-map01.jpg" alt="airport-map"><br>
+<img src="{{ site.urlimg }}osaka-trip/airport-map01.jpg" alt="airport-map"><br>
 
 到了T1後<br>
 就可以依照個人的目的地選擇需要搭乘的交通工具<br>
 
 在日本比較常見的IC卡就是ICOCA和PiTaPa<br>
 若是自由行的人建議可以先在關西機場自動販賣機購買一張ICOCA卡<br>
-<img src="{{ site.urlimg }}/osaka-trip/icoca.jpg" alt="icoca"><br>
+<img src="{{ site.urlimg }}osaka-trip/icoca.jpg" alt="icoca"><br>
 
 後續可以減少一些排隊買票的時間<br>
 這張卡有點像是悠遊卡一樣<br>
@@ -85,24 +85,24 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 輸入了目的地後，會提供對應的大眾交通工具時刻表以及價格<br>
 這些方便的資訊對於自由行的人真的是一大福音<br>
 <br>
-<img src="{{ site.urlimg }}/osaka-trip/IMG_5989.png" alt="google-map-train-timetable"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5989.png" alt="google-map-train-timetable"><br>
 
 ### 大阪 <-> 奈良
 從大阪到奈良可以選擇搭乘近鐵奈良線<br>
 附圖是各種列車的停靠站<br>
 <br>
-<img src="{{ site.urlimg }}/osaka-trip/namba-nara-stops.jpg" alt="namba-nara-stops"><br>
+<img src="{{ site.urlimg }}osaka-trip/namba-nara-stops.jpg" alt="namba-nara-stops"><br>
 
 這邊<b><u>千萬千萬千萬不要選擇特急</u></b><br>
 特急與快速急行的停靠站只差兩站<br>
 但是價格卻是差了好多<br>
 選擇特急列車，除了原先的票價外，還要購買特急列車券（因為在進站時有刷了IC卡，特急列車的票在月台購買）<br>
-<img src="{{ site.urlimg }}/osaka-trip/IMG_5803.JPG" alt="IMG_5803"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5803.JPG" alt="IMG_5803"><br>
 
 另外，在買票的時候也要特別注意<br>
 購買成人票記得要選擇左邊的選項<br>
 千萬別像小編一樣選擇了右邊，買了孩童票，上車被驗票真的是很尷尬。<br>
-<img src="{{ site.urlimg }}/osaka-trip/IMG_5805.JPG" alt="IMG_5805"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5805.JPG" alt="IMG_5805"><br>
 
 ### 大阪 -> 關西機場
 返程要從大阪到關西機場時<br>
@@ -113,6 +113,6 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 不仿考慮搭乘<br>
 
 但像前面說的一樣，需要額外支付一筆費用（920日圓）<br>
-<img src="{{ site.urlimg }}/osaka-trip/IMG_5815.JPG" alt="IMG_5815"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5815.JPG" alt="IMG_5815"><br>
 
 下篇文章，將會跟大家分享日本行最重要的行程 — Shopping 😆😆😆
