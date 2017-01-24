@@ -103,7 +103,7 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 <img src="{{ site.urlimg }}osaka-trip/IMG_5805.JPG" alt="IMG_5805">
 
 ### 大阪 -> 關西機場
-小編這次的大阪行都是住在 スーパーホテルLohas地下鉄四つ橋線・本町24号口<br>
+小編這次的大阪行都是住在 <a href="http://www.superhotel.co.jp/s_hotels/honmachi/" target="_blank">スーパーホテルLohas地下鉄四つ橋線・本町24号口</a><br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_5780.JPG" alt="スーパーホテルLohas">
 飯店的門口緊鄰地鐵口非常方便！！
 <img src="{{ site.urlimg }}osaka-trip/IMG_0554.JPG" alt="スーパーホテルLohas">
@@ -111,10 +111,9 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 因為回程這天，早上一些行程的耽誤<br>
 只好從飯店出發直接到關西機場<br>
 出發前一樣先用 Google map 規劃好路線<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0767.PNG" alt="IMG_0767">
 因為我們飯店的地鐵口下去離我們最近的是藍色四つ橋線<br>
-比較一下時間和價錢<br>
-我們選擇了路線4
+比較一下時間和價錢，我們選擇了路線4<br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0767.PNG" alt="IMG_0767">
 <img src="{{ site.urlimg }}osaka-trip/IMG_0768.PNG" alt="IMG_0768">
 
 但是沒想到在這吃了點虧...<br>
