@@ -1,12 +1,12 @@
 ---
 layout: post
-date: 2017-01-13
+date: 2017-01-20
 title: 【大阪行】交通 - 日本境內篇
 description: 如何在日本各城市內穿梭自如
 published: true
 comments: true
 category: featured
-tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "Osaka", "Tokyo", "Okinawa", "travel guide", "transportation", "FlyPeach", "budget airlines"]
+tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "Osaka", "travel guide", "transportation", "FlyPeach", "budget airlines"]
 ---
 延續前一篇<a href="{{ site.url }}{{page.previous.url}}">{{ page.previous.title }}</a>，現在要來說說日本境內的交通了<br>
 
