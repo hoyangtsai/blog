@@ -63,17 +63,17 @@ Dyson v8 absolute 的未含消費稅的訂價為 &yen;96,800<br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_0522.JPG" alt="dyson-v8-absolute">
 
 附上幾張 Dyson v8 absolute+ 和 NA98 的照片給大家生火一下 😛<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0667.JPG" alt="dyson-v8-absolute+"><br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0672.JPG" alt="dyson-v8-absolute+"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0667.JPG" alt="dyson-v8-absolute+">
+<img src="{{ site.urlimg }}osaka-trip/IMG_0672.JPG" alt="dyson-v8-absolute+">
 
-<img src="{{ site.urlimg }}osaka-trip/IMG_0693.JPG" alt="Panasonic-CNA98"><br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0695.JPG" alt="Panasonic-CNA98"><br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0696.JPG" alt="Panasonic-CNA98"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0693.JPG" alt="Panasonic-CNA98">
+<img src="{{ site.urlimg }}osaka-trip/IMG_0695.JPG" alt="Panasonic-CNA98">
+<img src="{{ site.urlimg }}osaka-trip/IMG_0696.JPG" alt="Panasonic-CNA98">
 <img src="{{ site.urlimg }}osaka-trip/IMG_0698.JPG" alt="Panasonic-CNA98">
 
 店家資訊<br>
 店名：EDION 電器行<br>
 位置：solaha 3.5F（與辦理退稅同一樓層）<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0526.JPG" alt="EDION"><br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0526.JPG" alt="EDION">
 <img src="{{ site.urlimg }}osaka-trip/IMG_0527.JPG" alt="EDION">
 
