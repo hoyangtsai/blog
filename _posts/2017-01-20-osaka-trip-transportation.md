@@ -113,11 +113,11 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 因為回程這天，早上一些行程的耽誤<br>
 只好從飯店出發直接到關西機場<br>
 出發前一樣先用 Google map 規劃好路線<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5803.JPG" alt="IMG_5803">
+<img src="{{ site.urlimg }}osaka-trip/IMG_0767.PNG" alt="IMG_0767">
 因為我們飯店的地鐵口下去離我們最近的是藍色四つ橋線<br>
 比較一下時間和花費<br>
 我們就選擇了第四個路線<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0768.JPG" alt="IMG_0768">
+<img src="{{ site.urlimg }}osaka-trip/IMG_0768.PNG" alt="IMG_0768">
 但是沒想到在這吃了點虧...<br>
 在岸里下車後原本以為可以從地下道走到天下茶屋<br>
 結果是要從地鐵走上平面道路，才可以再到另外一個車站<br>
