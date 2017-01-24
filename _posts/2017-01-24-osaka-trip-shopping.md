@@ -15,6 +15,8 @@ tag: ["日本", "大阪", "旅遊指南", "購物", "Osaka", "travel guide", "sh
 原本我也是非常猶豫到底要不要買<br>
 但是一看到退完稅以後的價格就馬上衝了😆😆😆<br>
 
+<!-- more -->
+
 我們買了 Dyson v8 以及新推出的 Panasonic NA98<br>
 這次的購物經驗<br>
 讓我了解到並不是所有東西在 Big Camera 買都是最便宜的<br>
