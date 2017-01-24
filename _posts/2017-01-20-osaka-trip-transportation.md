@@ -105,12 +105,30 @@ tag: ["日本", "大阪", "旅遊指南", "樂桃", "交通", "廉價航空", "O
 <img src="{{ site.urlimg }}osaka-trip/IMG_5805.JPG" alt="IMG_5805"><br>
 
 ### 大阪 -> 關西機場
-返程要從大阪到關西機場時<br>
-小編為了要節省時間選擇了開往關西機場特急列車<br>
-從大阪市中心到關西機場只要30分鐘<br>
-出了閘門過個天橋就能到達T1實在是很方便<br>
-如果行李很多的人<br>
-不仿考慮搭乘<br>
+小編這次的大阪行都是住在 スーパーホテルLohas地下鉄四つ橋線・本町24号口<br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5780.JPG" alt="スーパーホテルLohas">
+飯店的門口緊鄰地鐵口非常方便！！
+<img src="{{ site.urlimg }}osaka-trip/IMG_0554.JPG" alt="スーパーホテルLohas">
+
+因為回程這天，早上一些行程的耽誤<br>
+只好從飯店出發直接到關西機場<br>
+出發前一樣先用 Google map 規劃好路線<br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_5803.JPG" alt="IMG_5803">
+因為我們飯店的地鐵口下去離我們最近的是藍色四つ橋線<br>
+比較一下時間和花費<br>
+我們就選擇了第四個路線<br>
+<img src="{{ site.urlimg }}osaka-trip/IMG_0768.JPG" alt="IMG_0768">
+但是沒想到在這吃了點虧...<br>
+在岸里下車後原本以為可以從地下道走到天下茶屋<br>
+結果是要從地鐵走上平面道路，才可以再到另外一個車站<br>
+(還好日本的路都很好走，拖著一堆行李也不會覺得累)<br>
+
+上了南海特急列車只要30分鐘就可以直達關西空港
+<img src="{{ site.urlimg }}osaka-trip/IMG_0628.JPG" alt="南海特急列車">
+出了閘門過個天橋就能到達第一航廈，非常方便～
+
+如果行李很多的人，又趕時間的人<br>
+不仿考慮搭乘特急列車<br>
 
 但像前面說的一樣，需要額外支付一筆費用（920日圓）<br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_5815.JPG" alt="IMG_5815"><br>
