@@ -71,9 +71,11 @@ Dyson v8 absolute 的未含消費稅的訂價為 &yen;96,800<br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_0696.JPG" alt="Panasonic-CNA98">
 <img src="{{ site.urlimg }}osaka-trip/IMG_0698.JPG" alt="Panasonic-CNA98">
 
+<br>
 店家資訊<br>
-店名：EDION 電器行<br>
-位置：solaha 3.5F（與辦理退稅同一樓層）<br>
+店名：愛電王 (EDION)<br>
+位置：阿倍野 Abeno Harukas 近鐵百貨 - 翼館 3.5樓<br>
+網站：<a href="https://abenoharukas.d-kintetsu.co.jp/special/foreign/index-ct.html" target="_blank">近鐵百貨海闊天空總店</a><br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_0526.JPG" alt="EDION">
 <img src="{{ site.urlimg }}osaka-trip/IMG_0527.JPG" alt="EDION">
 
