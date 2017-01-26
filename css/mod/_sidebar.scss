@@ -1,0 +1,110 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -14rem;
+  width: 14rem;
+  visibility: hidden;
+  overflow-y: auto;
+  font-size: .875rem;
+  color: rgba(255, 255, 255, .6);
+  background-color: #202020;
+  transition: all .3s ease-in-out;
+
+  a {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1rem;
+  }
+}
+
+.sidebar-item {
+  padding: 1rem;
+}
+.sidebar-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.sidebar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  &.active, &:focus, &:hover {
+    background-color: rgba(255, 255, 255, .1);
+    border-color: transparent;
+  }
+}
+
+.sidebar-checkbox {
+  position: absolute;
+  opacity: 0;
+  user-select: none;
+}
+.sidebar-toggle {
+  position: absolute;
+  top: .8rem;
+  left: 1rem;
+  display: block;
+  padding: .25rem .75rem;
+  color: #505050;
+  background-color: #fff;
+  border-radius: .25rem;
+  cursor: pointer;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: .75rem;
+    background-image: linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  }
+}
+
+#sidebar-checkbox:checked~.sidebar-toggle, #sidebar-checkbox:focus~.sidebar-toggle, .sidebar-toggle:active {
+  color: #fff;
+  background-color: #555;
+}
+a.pagination-item:hover, a.prevnext-item:hover {
+  background-color: #f5f5f5;
+}
+#sidebar-checkbox:checked~.sidebar-toggle:before, #sidebar-checkbox:focus~.sidebar-toggle:before, .sidebar-toggle:active:before {
+  background-image: linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+}
+
+@media (min-width:30em) {
+  .sidebar {
+    font-size: .75rem;
+  }
+}
+@media (min-width:48em) {
+  .sidebar-item {
+    padding: 1.5rem;
+  }
+  .sidebar-nav-item {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width:30.1em) {
+  .sidebar-toggle {
+    position: fixed;
+  }
+}
+
+.sidebar, .sidebar-toggle, .wrap {
+  backface-visibility: hidden;
+}
+.sidebar-toggle, .wrap {
+  transition: transform .3s ease-in-out;
+}
+#sidebar-checkbox:checked+.sidebar {
+  z-index: 10;
+  visibility: visible;
+}
+#sidebar-checkbox:checked~.sidebar, #sidebar-checkbox:checked~.sidebar-toggle, #sidebar-checkbox:checked~.wrap {
+  transform: translateX(14rem);
+}
+
+@media all {
+  .page-break, .printMsg {
+    display: none;
+  }
+}
