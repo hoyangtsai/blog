@@ -1,24 +1,24 @@
 - name: Twitter
   url: https://twitter.com/hoyangtsai
-  class: fa-twitter
-  title: "Follow me @hoyangtsai"
-
-# - name: Google Plus
-#   url: https://plus.google.com/+foo
-#   class: fa fa-google-plus-square
-#   title: "Follow me +foo"
+  class: fa fa-twitter
+  title: "@hoyangtsai"
 
 - name: GitHub
   url: https://github.com/hoyangtsai
-  class: fa-github
-  title: Github
+  class: fa fa-github
+  title: hoyangtsai (Ho-Yang Tsai)
 
-- name: Contact
-  url: "/contact/"
-  class: fa-envelope
-  title: "Contact"
+# - name: Facebook
+#   url: https://www.facebook.com/hoyangtsai/
+#   class: fa fa-facebook-official
+#   title: "Hoyang Tsai • Facebook"
 
-- name: RSS
-  url: "/feed.xml"
-  class: fa-rss
-  title: "Subscribe to RSS"
+- name: Instagram
+  url: https://www.instagram.com/hoyangtsai/
+  class: fa fa-instagram
+  title: "Hoyang（@hoyangtsai）• Instagram"
+
+- name: Linkedin
+  url: https://www.linkedin.com/in/hoyangtsai
+  class: fa fa-linkedin-square
+  title: "Ho-Yang Tsai | Linkedin"

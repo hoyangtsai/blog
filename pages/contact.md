@@ -4,24 +4,28 @@ permalink: /contact/
 title: Contact
 show_meta: false
 published: true
-description: "Contact example.com"
+description: "My yellow book"
 comments: false
 mathjax: false
 noindex: false
 sitemap:
     priority: 0.5
     changefreq: 'monthly'
-    lastmod: 2016-02-13
-tags:
-  - "foo boo"
-  - "driving directions"
-  - address
+    lastmod: 2017-01-27
+tags: ["about", "contact"]
 ---
 
-| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }}) | 
-| <i class="fa fa-paper-plane">  | {{ site.owner.email }} |
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a> <a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
+<table>
+  {% for social_item in site.data.socialmedia %}
+    <tr>
+      <td><i class="{{ social_item.class }}"></i></td>
+      <td><a href="{{ social_item.url }}" target="_blank">{{ social_item.title }}</a></td>
+    </tr>
+  {% endfor %}
+</table>
+  
+<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a>
+<a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a> -->
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
@@ -39,7 +43,7 @@ tags:
   Recent Tweets</a>
  </div>
 <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 </div>
 {% else %}

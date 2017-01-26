@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
 encoding: utf-8
@@ -36,7 +36,7 @@ gems:
 jekyll-mentions:
   base_url: https://twitter.com
 
-paginate: 3
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 include: [".htaccess"]
@@ -54,17 +54,13 @@ owner:
   name: Ho-Yang Tsai
   avatar: IMG_0942.jpg
   email: hoyang.t@gmail.com
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
-  # Social networking links used in footer. Update and remove as you like.
   twitter: hoyangtsai
-  facebook:
+  # facebook: hoyangtsai
   github: hoyangtsai
   linkedin: https://www.linkedin.com/in/hoyangtsai
   instagram:
   flickr:
-  tumblr:
-  google_plus:
 
 ## sidebar links:
 # For external links add external: true

@@ -6,7 +6,7 @@ show_meta: true
 # imagefeature path is relative to images/ directory.
 imagefeature: IMG_0942.jpg
 published: true
-description: ""
+description: "About me"
 category: views
 comments: false
 mathjax: false
@@ -14,17 +14,8 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2017-01-16
-# tags will be used as html meta keywords.    
-tags:
-  - "front-end developer"
-  - "javascript"
-  - "html5"
-  - "react"
-  - "web app"
-  - "firefox"
-  - "chrome"
-
+    lastmod: 2017-01-27
+tags: ["font-end developer", "resume", "about"]
 ---
 
 <div class="post-author text-center">
