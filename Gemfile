@@ -15,5 +15,4 @@ group :jekyll_misc_plugins do
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'font-awesome-sass'
 gem 'travis'
-gem 'jekyll-mentions'
 end

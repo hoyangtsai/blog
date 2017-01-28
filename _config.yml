@@ -9,9 +9,9 @@ encoding: utf-8
 # Setup
 title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
-url: https://hoyangtsai.github.io
+url: //hoyangtsai.github.io
 baseurl: ""
-urlimg: https://hoyangtsai.github.io/images/
+urlimg: //hoyangtsai.github.io/images/
 markdown: kramdown
 
 excerpt_separator: '<!-- more -->'
@@ -31,13 +31,9 @@ gems:
   - font-awesome-sass
   - kramdown
   - rouge
-  - jekyll-mentions
-
-jekyll-mentions:
-  base_url: https://twitter.com
 
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/blog/posts/page:num/"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
@@ -45,7 +41,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 # About/contact
 author:
   name: Ho-Yang Tsai
-  url:  https://hoyangtsai.github.io/
+  url:  //hoyangtsai.github.io/
   avatar: IMG_0942.jpg
   email:  hoyang.t@gmail.com
 
@@ -58,7 +54,7 @@ owner:
   twitter: hoyangtsai
   # facebook: hoyangtsai
   github: hoyangtsai
-  linkedin: https://www.linkedin.com/in/hoyangtsai
+  linkedin: //www.linkedin.com/in/hoyangtsai
   instagram:
   flickr:
 
@@ -69,6 +65,8 @@ links:
     url: /
   - title: <i class="fa fa-user"></i> About
     url: /about/
+  - title: <i class="fa fa-tags"></i> Blog
+    url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
