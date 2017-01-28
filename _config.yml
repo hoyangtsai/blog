@@ -65,7 +65,7 @@ links:
     url: /
   - title: <i class="fa fa-user"></i> About
     url: /about/
-  - title: <i class="fa fa-tags"></i> Blog
+  - title: <i class="fa fa-pencil"></i> Blog
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
