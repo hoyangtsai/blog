@@ -9,9 +9,9 @@ encoding: utf-8
 # Setup
 title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
-url: //hoyangtsai.github.io
+url: https://hoyangtsai.github.io
 baseurl: ""
-urlimg: //hoyangtsai.github.io/images/
+urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
 excerpt_separator: '<!-- more -->'
@@ -41,7 +41,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 # About/contact
 author:
   name: Ho-Yang Tsai
-  url:  //hoyangtsai.github.io/
+  url:  https://hoyangtsai.github.io/
   avatar: IMG_0942.jpg
   email:  hoyang.t@gmail.com
 
@@ -54,7 +54,7 @@ owner:
   twitter: hoyangtsai
   # facebook: hoyangtsai
   github: hoyangtsai
-  linkedin: //www.linkedin.com/in/hoyangtsai
+  linkedin: https://www.linkedin.com/in/hoyangtsai
   instagram:
   flickr:
 
