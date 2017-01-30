@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2017-01-13
-title: 【大阪行】交通 - 機票篇
-description: 如何更划算搭廉價航空去日本旅遊
+title: [大阪行] 機票購買篇
+description: 如何比較日本廉價航空，更划算買到優惠機票
 published: true
 comments: true
 category: featured

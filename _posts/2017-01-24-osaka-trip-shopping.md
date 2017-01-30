@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2017-01-24
-title: 【大阪行】購物 - 家電篇
-description: 如何便宜的購買日本家電
+title: [大阪行] 家電購物篇
+description: 更便宜地買到超夯 Dyson 吸塵器, Panasonic 吹風機等電器
 published: true
 comments: true
 category: featured
