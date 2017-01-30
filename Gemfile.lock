@@ -272,7 +272,6 @@ DEPENDENCIES
   guard-jekyll-plus
   guard-livereload
   jekyll-compose
-  jekyll-mentions
   jekyll-paginate
   jemoji
   kramdown

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-01-20
-title: [大阪行] 日本境內交通篇
+title: 大阪行 - 日本境內交通篇
 description: 關西機場到大阪市區、大阪到京都、大阪到奈良。日本電車種類介紹、交通搭乘指南
 published: true
 comments: true
