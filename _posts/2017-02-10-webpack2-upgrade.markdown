@@ -1,9 +1,36 @@
 ---
 layout: post
-title: Mac 用 Homebrew 安裝 MariaDB
-tags: [nodejs, webpack, react]
+date: 2017-02-10
+title: 從 Webpack 1 遷移到 Webpack 2
+description: Webpack 2 升級指南
+comments: true
+category: featured
 published: false
+tags: [webpack, react, webpack2]
 ---
+
+取自於 webpack 官方文件
+
+## webpack 1 和 wepback 2 差別
+* 原生支援 ES6 import, export 和 System.import
+* Tree Shaking for ES6
+ - tree shaking 是一個 ES2015+ 移除不必要代碼的算法
+ - Tree shaking 最終 bundles 只有你引入的模塊到腳本中，任何模塊不會被引入，不會再最終 javascript build which means 可以讓 bundle 比之前再更小，據說可以減少 28% webpack 項目大小
+* Needs Promise polyfill in old browsers (only if you’re using code splitting)
+* chunk error handling 片段錯誤控制
+* Many plugins now take options objects instead of multiple parameters. 很多插件現在可以用 取代多個參數
+* config can be a function and –env 配置可以是一個 function 和 -env
+* Removed deprecated argument configs (except with one argument shortcut if possible)
+* loaders now match resourcePath instead of resource with query
+* webpack config can return a Promise
+* -p 參數現在設置 NODE_ENV="production"
+* uglifyjs 插件不再最小化其他 assets
+* 現在有 LoaderOptionsPlugin
+* webpackfile.js 現在也支援
+* 新增 HashedModuleIdsPlugin
+
+
+
 
 最近使用 React 整理工作的 UI 設計規範
 
