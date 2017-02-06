@@ -5,11 +5,9 @@
     <a href="{{ site.url }}{{ page.url }}#disqus_thread" title="Comments"><i class="fa fa-comments"></i></a>
   {% endif %}
   {% if page.category contains "featured" %}
-    <a href="{{ site.url }}/featured" title="Featured posts"><i class="fa fa-paperclip" title="Featured"></i></a>
+    <a href="{{ site.url }}/featured" title="Featured"><i class="fa fa-paperclip" title="Featured"></i></a>
   {% endif %}
   <a href="javascript:window.print()" title="Printer friendly format"><i class="fa fa-print"></i></a>
-  <div class="fb-share-button"
-    data-href="{{ site.url }}{{ page.url }}"
-    data-layout="button_count">
+  <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button">
   </div>
 </div>
