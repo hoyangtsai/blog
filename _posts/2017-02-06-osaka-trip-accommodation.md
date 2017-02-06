@@ -63,7 +63,7 @@ tag: ["日本", "大阪", "旅遊指南", "Osaka", "travel guide"]
 
 這是大門口踏進來的樣子<br>
 有種綠意盎然、讓人心情非常好的感覺
-<img src="{{ site.urlimg }}osaka-trip/accommodation/IDSC05080.jpg" alt="Superhotel Lohas 門口" />
+<img src="{{ site.urlimg }}osaka-trip/accommodation/DSC05080.jpg" alt="Superhotel Lohas 門口" />
 
 飯店的大廳設置在 2F<br>
 電梯一打開後可以看到休息區以及櫃檯<br>
