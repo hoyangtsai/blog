@@ -24,26 +24,30 @@ tag: ["日本", "大阪", "旅遊指南", "Osaka", "travel guide"]
 當時看上了這幾間飯店再做考慮
 
 * 關機機場日航飯店<br>
-> 優點：就在關西機場內，所以對於早班航班的旅客非常適合<br>
-> 缺點：距離大阪市中心距離有點遠
+
+  > 優點：就在關西機場內，所以對於早班航班的旅客非常適合<br>
+  > 缺點：距離大阪市中心距離有點遠
 
 <img src="{{ site.urlimg }}osaka-trip/accommodation/hotel-nikko-kansai-airport.png" alt="關機機場日航飯店" />
 
 * Remm新大阪飯店<br>
-> 優點：在JR新大阪樓上，地理位置非常方便<br>
-> 缺點：飯店空間小
+
+  > 優點：在JR新大阪樓上，地理位置非常方便<br>
+  > 缺點：飯店空間小
 
 <img src="{{ site.urlimg }}osaka-trip/accommodation/remm-shin-osaka.png" alt="Remm新大阪飯店" />
 
 * Superhotel Lohas 地下鐵四之橋線本町24號出口<br>
-> 優點：位於本町地鐵站24號出口，地理位置非常方便<br>
-> 缺點：地鐵站出口沒有電梯，對於搬運大型行李的我們實在很痛苦 😣
+
+  > 優點：位於本町地鐵站24號出口，地理位置非常方便<br>
+  > 缺點：地鐵站出口沒有電梯，對於搬運大型行李的我們實在很痛苦 😣
 
 <img src="{{ site.urlimg }}osaka-trip/accommodation/superhotel-lohas-honmachi-subway-exit-24.png" alt="Superhotel Lohas" />
 
 * 大阪心齋橋 NEST 飯店<br>
-> 優點：離心齋橋筋很近，步行就能到達<br>
-> 缺點：心齋橋附近飯店價位都相對高一點，在旅遊旺季也比較不好訂房
+
+  > 優點：離心齋橋筋很近，步行就能到達<br>
+  > 缺點：心齋橋附近飯店價位都相對高一點，在旅遊旺季也比較不好訂房
 
 <img src="{{ site.urlimg }}osaka-trip/accommodation/nest-hotel-osaka-shinsaibashi.png" alt="大阪心齋橋 NEST 飯店" />
 
@@ -89,9 +93,11 @@ tag: ["日本", "大阪", "旅遊指南", "Osaka", "travel guide"]
 <img src="{{ site.urlimg }}osaka-trip/accommodation/DSC03623.jpg" alt="Superhotel Lohas 男湯" />
 
 女湯在4F<br>
+
 > 為了女性房客的安全<br>
 > 飯店很貼心的設置了密碼<br>
 > 要進去女湯需要輸入密碼（密碼每天變更，需要跟櫃台索取）
+
 <img src="{{ site.urlimg }}osaka-trip/accommodation/DSC03619.jpg" alt="Superhotel Lohas 女湯" />
 
 另外<br>
