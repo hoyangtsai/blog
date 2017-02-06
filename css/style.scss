@@ -5,6 +5,7 @@
 @import "mod/_slidetags";
 @import "mod/_sidebar";
 @import "mod/_pagination";
+@import "mod/_blockquote";
 @import "mod/_share";
 
 h2, h4, h5, h6 {
@@ -130,14 +131,12 @@ pre code {
 .highlight {
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0, 0, 0, .1);
-  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, .1);
   box-shadow: 3px 3px rgba(0, 0, 0, .1);
   margin: 20px 0;
   overflow: auto;
-}
-.highlight pre, blockquote p:last-child {
-  margin-bottom: 0;
+  pre {
+    margin-bottom: 0;
+  }
 }
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace!important;
@@ -163,18 +162,8 @@ pre code {
 .gist .blob-code-inner {
   white-space: normal;
 }
-blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
-}
-@media (min-width:30em) {
-  blockquote {
-  padding-right: 5rem;
-  padding-left: 1.25rem;
-}
-}img {
+
+img {
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
@@ -794,37 +783,7 @@ hr.transp {
   height: 2px;
   margin: .5rem 0;
 }
-blockquote.style1 {
-  background: #fff;
-  border-left: 0 solid #ccc;
-  margin: .5em 10px;
-  padding: .5em 10px;
-  quotes: "\201C""\201D";
-  color: #000;
-  font-family: Tangerine, Georgia, 'Times New Roman', serif;
-  font-size: 200%;
-  text-shadow: 4px 4px 6px #aaa;
-}
-blockquote.style1:after, blockquote.style1:before {
-  color: #333;
-  font-size: 4em;
-  line-height: .1em;
-  margin-right: .25em;
-}
-blockquote.style1:before {
-  content: open-quote;
-  vertical-align: -.1em;
-}
-blockquote.style1:after {
-  content: close-quote;
-  vertical-align: -.2em;
-}
-blockquote.style1 :first-child, blockquote.style1 p {
-  display: inline;
-}
-blockquote.style1 :last-child {
-  margin-bottom: 0;
-}
+
 .qrcode {
   display: none;
 }
