@@ -86,7 +86,7 @@ tag: ["日本", "大阪", "旅遊指南", "Osaka", "travel guide"]
 
 介紹完房間內部後就來說說這間飯店的特色<br>
 飯店裡面就附有天然溫泉，在外面玩了一整天，晚上回飯店泡個溫泉在睡覺，這是一件多麼幸福的事呀～～～ ☺️<br>
-溫泉開放的時間是 15:00 PM ~ 9:40 A.M
+溫泉開放的時間是 15:00 P.M ~ 9:40 A.M
 <img src="{{ site.urlimg }}osaka-trip/accommodation/lohas-hotspring.png" alt="Superhotel Lohas 溫泉" />
 
 男湯在3F
