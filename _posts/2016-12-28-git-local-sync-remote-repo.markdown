@@ -6,8 +6,7 @@ published: true
 comments: true
 tag: [git, cheat sheet]
 ---
-
-#### 本地刪除已經不在遠端的分支
+### 本地刪除已經不在遠端的分支
 ```bash
 // 刪除 git 記錄的遠端分支
 git fetch -p | --prune

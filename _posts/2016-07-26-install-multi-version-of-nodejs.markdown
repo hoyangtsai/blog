@@ -6,8 +6,7 @@ published: true
 comments: true
 tag: [homebrew, nodejs, npm, nvm, command line]
 ---
-
-在開始介紹 nvm 管理 node 版本之前先說一下為什麼會有這個需要<br>
+在開始介紹 nvm 管理 node 版本之前先說一下為什麼會有這個需要
 
 > 情境一、工作需求<br>
 > 使用較穩定 node 開發工具，但工具要求 node 版本較低 (node4-lts)
