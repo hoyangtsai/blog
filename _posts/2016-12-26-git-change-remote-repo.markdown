@@ -4,7 +4,7 @@ layout: post
 date: 2016-12-26
 published: true
 comments: true
-tag: [git, cheat sheet]
+tag: [git, cheat-sheet]
 ---
 ```bash
 git remote add [new-origin] [url_of_new_repo]

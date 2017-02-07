@@ -6,7 +6,7 @@ description: 更便宜地買到超夯 Dyson 吸塵器, Panasonic 吹風機等電
 published: true
 comments: true
 category: featured
-tag: [日本, 大阪, 旅遊指南, 購物, Osaka, "travel guide", shopping]
+tag: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
 ---
 這篇來分享一下我和水怪大阪行的戰利品~~~
 

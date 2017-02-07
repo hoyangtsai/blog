@@ -4,7 +4,7 @@ date: 2016-07-26
 title: 安裝多版本 Node.js
 published: true
 comments: true
-tag: [homebrew, nodejs, npm, nvm, command line]
+tag: [homebrew, nodejs, npm, nvm, commandLine]
 ---
 在開始介紹 nvm 管理 node 版本之前先說一下為什麼會有這個需要
 
