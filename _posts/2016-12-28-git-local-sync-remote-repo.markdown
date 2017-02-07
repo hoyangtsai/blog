@@ -4,9 +4,7 @@ layout: post
 date: 2016-12-28
 published: true
 comments: true
-tag:
-  - git
-  - cheat sheet
+tag: [git, cheat sheet]
 ---
 
 #### 本地刪除已經不在遠端的分支

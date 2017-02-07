@@ -4,11 +4,7 @@ date: 2016-08-24
 title: Sublime Text 安裝套件清單
 published: true
 comments: true
-tag:
-  - sublime
-  - front-end
-  - html5
-  - text-editor
+tag: [sublime, front-end, html5]
 ---
 
 ### 安裝的套件清單

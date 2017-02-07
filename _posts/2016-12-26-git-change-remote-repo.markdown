@@ -4,9 +4,7 @@ layout: post
 date: 2016-12-26
 published: true
 comments: true
-tag:
-  - git
-  - cheat sheet
+tag:[git, cheat sheet]
 ---
 
 ```bash
