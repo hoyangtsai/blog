@@ -10,7 +10,7 @@ encoding: utf-8
 title: Hoyang's Memo
 description: A front-end developer who is looking forward to embrace web potentials.
 url: https://hoyangtsai.github.io
-baseurl: ""
+baseurl:
 urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
