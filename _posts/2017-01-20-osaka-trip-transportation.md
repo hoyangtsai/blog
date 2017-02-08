@@ -8,7 +8,7 @@ comments: true
 category: featured
 tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, FlyPeach, budgetAirlines]
 ---
-延續前一篇<a href="{{ site.url }}{{page.previous.url}}">{{ page.previous.title }}</a>，現在要來說說日本境內的交通了<br>
+延續前一篇<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>，現在要來說說日本境內的交通了<br>
 
 <!-- more -->
 
