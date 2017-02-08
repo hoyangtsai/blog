@@ -7,6 +7,7 @@
 @import "mod/_pagination";
 @import "mod/_blockquote";
 @import "mod/_share";
+@import "mod/_code";
 
 h2, h4, h5, h6 {
   margin-top: 1rem;
@@ -24,9 +25,7 @@ dl, ol, p, pre, ul {
 img, pre {
   display: block;
 }
-.highlight .cm, .highlight .ge, .highlight .sd {
-  font-style: italic;
-}
+
 .wrap, hr {
   position: relative;
 }
@@ -42,10 +41,19 @@ a {
 body, html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 html {
   font-size: 16px;
   line-height: 1.5;
+}
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
 }
 
 @media (min-width:38em) {
@@ -53,15 +61,13 @@ html {
     font-size: 20px;
   }
 }
-body {
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
+    font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem;
 }
 h1 {
   font-size: 2rem;
@@ -76,8 +82,7 @@ h3 {
 h4, h5, h6 {
   font-size: 1rem;
 }
-abbr, code {
-  font-size: 85%}
+
 strong {
   color: #303030;
 }
@@ -87,82 +92,6 @@ hr {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
 }
-abbr {
-  color: #555;
-  text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
-}
-code, pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
-}
-code.yelhglt {
-  color: inherit;
-  background: rgba(255, 255, 0, .17);
-  font-family: inherit;
-  border-radius: inherit;
-  font-size: inherit;
-}
-pre {
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
-  page-break-inside: avoid;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
-.highlight {
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  box-shadow: 3px 3px rgba(0, 0, 0, .1);
-  margin: 20px 0;
-  overflow: auto;
-  pre {
-    margin-bottom: 0;
-  }
-}
-.gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace!important;
-}
-.gist .markdown-body {
-  padding: 15px;
-}
-.gist code, .gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-.gist .gist-file .gist-data {
-  font-size: .8rem!important;
-  line-height: 1.4;
-}
-.gist code {
-  color: inherit;
-  border-radius: 0;
-}
-.message, tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
-}
-.gist .blob-code-inner {
-  white-space: normal;
-}
-
 img {
   max-width: 100%;
   margin: 0 0 1rem;
@@ -197,172 +126,20 @@ td, th {
   margin-right: auto;
   max-width: 28rem;
 }
-.highlight .hll {
-  background-color: #ffc;
-}
-.highlight .c {
-  color: #999;
-}
-.highlight .err {
-  color: #a00;
-  background-color: rgba(255, 170, 170, .34);
-}
-.highlight .k {
-  color: #069;
-}
-.highlight .o {
-  color: #555;
-}
-.highlight .cm {
-  color: #09f;
-}
-.highlight .cp {
-  color: #099;
-}
-.highlight .c1, .highlight .cs {
-  color: #999;
-}
-.highlight .gd {
-  background-color: #fcc;
-  border: 1px solid #c00;
-}
-.highlight .gr {
-  color: red;
-}
-.highlight .gh {
-  color: #030;
-}
-.highlight .gi {
-  background-color: #cfc;
-  border: 1px solid #0c0;
-}
-.highlight .go {
-  color: #aaa;
-}
-.highlight .gp {
-  color: #009;
-}
-.highlight .gu {
-  color: #030;
-}
-.highlight .gt {
-  color: #9c6;
-}
-.highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr {
-  color: #069;
-}
-.highlight .kt {
-  color: #078;
-}
-.highlight .m {
-  color: #f60;
-}
-.highlight .s {
-  color: #d44950;
-}
-.highlight .na {
-  color: #4f9fcf;
-}
-.highlight .nb {
-  color: #366;
-}
-.highlight .nc {
-  color: #0a8;
-}
-.highlight .no {
-  color: #360;
-}
-.highlight .nd {
-  color: #99f;
-}
-.highlight .ni {
-  color: #999;
-}
-.highlight .ne {
-  color: #c00;
-}
-.highlight .nf {
-  color: #c0f;
-}
-.highlight .nl {
-  color: #99f;
-}
-.highlight .nn {
-  color: #0cf;
-}
-.highlight .nt {
-  color: #2f6f9f;
-}
-.highlight .nv {
-  color: #033;
-}
-.highlight .ow {
-  color: #000;
-}
-.highlight .w {
-  color: #bbb;
-}
-.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
-  color: #f60;
-}
-.highlight .s2, .highlight .sb, .highlight .sc, .highlight .se, .highlight .sh {
-  color: #c30;
-}
-.highlight .sd {
-  color: #c30;
-}
-.highlight .si {
-  color: #a00;
-}
-.highlight .sx {
-  color: #c30;
-}
-.highlight .sr {
-  color: #3aa;
-}
-.highlight .s1 {
-  color: #c30;
-}
-.highlight .ss {
-  color: #fc3;
-}
-.highlight .bp {
-  color: #366;
-}
-.highlight .vc, .highlight .vg, .highlight .vi {
-  color: #033;
-}
-.highlight .il {
-  color: #f60;
-}
-.css .nt+.nt, .css .o, .css .o+.nt {
-  color: #999;
-}
-body, html {
-  overflow-x: hidden;
-}
-html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
-}
-.sidebar, h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  color: #313131;
-  letter-spacing: -.025rem;
-}
 .wrap {
-  width: 100%}
+  width: 100%
+}
 @media (min-width:38em) {
   .container {
-  max-width: 32rem;
+    max-width: 32rem;
+  }
 }
-}@media (min-width:56em) {
+@media (min-width:56em) {
   .container {
-  max-width: 48rem;
+    max-width: 48rem;
+  }
 }
-}.masthead {
+.masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -398,7 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .post-date, .post-tags {
   margin-bottom: .5rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 .page-title, .post-title, .post-title a {
   color: #303030;
@@ -699,11 +475,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width:48em) {
   .post-list .entry-date {
-  display: inline;
+    display: inline;
+  }
+  .post-list .excerpt {
+    width: 70%
+  }
 }
 .post-list .excerpt {
-  width: 70%}
-}.post-list .excerpt {
   display: block;
   float: none;
   font-size: 14px;
