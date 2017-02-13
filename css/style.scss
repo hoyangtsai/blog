@@ -6,7 +6,7 @@
 @import "mod/_sidebar";
 @import "mod/_pagination";
 @import "mod/_blockquote";
-@import "mod/_share";
+@import "mod/_postAction";
 @import "mod/_code";
 
 h2, h4, h5, h6 {
@@ -174,7 +174,7 @@ td, th {
   margin-bottom: .2em;
 }
 .post-date, .post-tags {
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
 }
 .page-title, .post-title, .post-title a {
   color: #303030;
@@ -182,13 +182,15 @@ td, th {
 .page-title, .post-title {
   margin-top: 0;
 }
-.post-date, .post-share, .post-tags {
+.post-date, .post-tags {
   color: #9a9a9a;
 }
-.post-share {
-  display: block;
-  margin-bottom: 1rem;
+.post-date {
+  .permalink {
+    padding-left: .5em;
+  }
 }
+
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
