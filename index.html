@@ -41,7 +41,7 @@ description: ""
 </div>
 
 <div class="posts">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:10 %}
   {% unless post.category contains "featured" %}
     <div class="post">
       <h1 class="post-title">

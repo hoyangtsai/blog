@@ -5,7 +5,7 @@ title: 大阪行 - 機票購買篇
 description: 如何比較日本廉價航空，更划算買到優惠機票
 published: true
 comments: true
-category: featured
+category: 
 tag: [日本, 大阪, 旅遊指南, 廉價航空, 樂桃, 捷星, 攜程 , Osaka, Tokyo, Okinawa, budgetAirline, travelGuide, FlyPeach, Jetstar, Skyscanner, Expedia, Ctrip]
 ---
 現在到日本旅遊，為了精打細算大家都會想到購買廉價航空<br>

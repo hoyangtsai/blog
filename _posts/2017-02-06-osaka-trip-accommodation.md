@@ -5,7 +5,7 @@ title: 大阪行 - 住宿篇
 description: 大阪住宿推薦
 published: true
 comments: true
-category: featured
+category: 
 tag: [日本, 大阪, 旅遊指南, Osaka, travelGuide]
 ---
 其實我們這整個大阪行整個就是很Free <br>
