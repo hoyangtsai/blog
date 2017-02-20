@@ -31,6 +31,7 @@ gems:
   - font-awesome-sass
   - kramdown
   - rouge
+  - amp-jekyll
 
 paginate: 5
 paginate_path: "/blog/page:num/"
