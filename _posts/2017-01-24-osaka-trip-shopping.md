@@ -19,7 +19,7 @@ tag: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
 
 我們買了 Dyson v8 以及新推出的 Panasonic NA98<br>
 這次的購物經驗<br>
-讓我了解到並不是所有東西在 Big Camera 買都是最便宜的<br>
+讓我了解到並不是所有東西在 Bic Camera 買都是最便宜的<br>
 
 先來說說購買這兩樣戰利品的過程吧<br>
 一開始我們在 Edion 電器行閒晃<br>
@@ -33,13 +33,13 @@ Panasonic CNA98<span style="margin: 1em"></span>不含消費稅價格為 &yen;20
 <img src="{{ site.urlimg }}osaka-trip/Panasonic-CNA98.jpg" alt="Panasonic-CNA98">
 
 記錄完成後<br>
-我們起身移動到 Big Camera<br>
-一到 Big Camera 門口就是完全不一樣的感受<br>
+我們起身移動到 Bic Camera<br>
+一到 Bic Camera 門口就是完全不一樣的感受<br>
 兩旁擺著各式各樣的福袋、店裡滿滿的人潮<br>
 店面相較於Edion大了許多<br>
 
 但這些都不是重點（拉回正題~~~）<br>
-Big Camera 這兩項要購買的商品價格為：
+Bic Camera 這兩項要購買的商品價格為：
 ● Dyson v8 absolute<span style="margin: 1em"></span>不含消費稅售價為 &yen;82,000多<br>
 ● Panasonic CNA98<span style="margin: 1em"></span>不含消費稅價格為 &yen;19,800<br>
 （因為行程有點急，所以忘了拍照 XD）
