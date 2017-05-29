@@ -1,7 +1,7 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
   <title>
     {% if page.title == "Home" %}
@@ -10,6 +10,10 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+  {% if page.path contains '_posts' %}
+    <link rel="amphtml" href="{{ page.id | prepend: site.ampdir | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
 
   <!-- Search Engine Optimization -->
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
