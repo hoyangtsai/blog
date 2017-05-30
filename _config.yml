@@ -29,10 +29,8 @@ input: GFM
 gems:
   - jekyll-paginate
   - jemoji
-  - font-awesome-sass
   - kramdown
   - rouge
-  - amp-jekyll
 
 paginate: 5
 paginate_path: /blog/page:num/
@@ -80,9 +78,6 @@ links:
   - title: <i class="fa fa-rss"></i> Feed
     url: /feed.xml
 
-# Google Custom Search:
-#google_search: xyz123abc
-
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
 #twitter_widget_id: xyz123abc
@@ -90,10 +85,14 @@ links:
 # Add disqus username for Disqus comment board:
 disqus_shortname: hoyangtsai
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-36297587-6
+facebook:
+  app_id: 1069355273095594
 
-# Add facebook application appId
-facebook_appId: 1069355273095594
+google:
+  analytics: UA-36297587-6
+  verify: AA9TuZRgJxTNDH0EwMVgqegbQqZjvO1m8xSVVyRg1ls
 
-google_verify: AA9TuZRgJxTNDH0EwMVgqegbQqZjvO1m8xSVVyRg1ls
+collections:
+  amp:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/

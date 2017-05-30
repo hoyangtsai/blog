@@ -1,11 +1,11 @@
-{% if site.google_analytics %}
+{% if site.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
   var pluginUrl =
  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
   _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-  _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+  _gaq.push(['_setAccount', '{{ site.google.analytics }}']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -22,6 +22,6 @@
 {% endif %}
 
 <!-- fb jssdk -->
-{% if site.facebook_appId %}
+{% if site.facebook.app_id %}
   {% include facebook_jssdk.html %}
 {% endif %}

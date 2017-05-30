@@ -9,7 +9,6 @@ gem 'rouge'
 gem 'guard'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
-gem 'amp-jekyll'
 end
 
 group :jekyll_misc_plugins do

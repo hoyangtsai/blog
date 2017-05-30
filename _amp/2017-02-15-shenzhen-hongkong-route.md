@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: amp
 date: 2017-02-15
 title: 深圳香港交通指南
 description: 深圳和香港來往的路線
 published: true
 comments: true
-category:
 tag: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
 ---
 深圳距離香港只隔了一條深圳河，大約20M。也因為很近，所以很多人假日都會到香港去玩、或是採購。
@@ -108,4 +107,3 @@ tag: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
 
 順帶一提，船票可以於30天前購買噢～～
 {% include post_image.html src="/images/sz-hk-route/367ECEDB2F224BAEACF92EABE5985A92.png" alt="深圳<->訂票須知" width="506" height="900" %}
-
