@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 relative_permalinks: false
 encoding: utf-8
 
@@ -22,6 +22,7 @@ timezone: Asia/Taipei
 future: true
 
 ## code highlight options
+highlighter: rouge
 syntax_highlighter: rouge
 input: GFM
 
@@ -34,9 +35,9 @@ gems:
   - amp-jekyll
 
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: /blog/page:num/
 
-ampdir: "/amp"
+ampdir: /amp
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
