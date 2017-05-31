@@ -62,7 +62,7 @@ end
 
 ### 增加網頁圖示
 因為 `jekyll new my-site` 預設只提供 github 和 twitter 兩個 svg 圖示<br>
-後來我在 _includes/header.html 裡面增加 [font-awesome](https://fortawesome.github.io/Font-Awesome/) 的 CSS
+後來我在 _includes/head.html 裡面增加 [font-awesome](https://fortawesome.github.io/Font-Awesome/) 的 CSS
 {% highlight html %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 {% endhighlight %}
