@@ -19,7 +19,7 @@
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
   {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
-  {% if site.google.verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+  {% if site.google.verify %}<meta name="google-site-verification" content="{{ site.google.site_verification }}">{% endif %}
 
   <!-- Twitter Cards -->
   {% if site.owner.twitter %}
