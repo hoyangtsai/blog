@@ -12,7 +12,7 @@
   </title>
 
   <!-- AMP Article -->
-  {% if page.path contains 'posts' %}
+  {% if page.path contains '_posts' %}
     {% unless page.skip_amp %}
       <link rel="amphtml" href="{{ page.url | prepend: site.ampdir | prepend: site.baseurl | prepend: site.url }}">
     {% endunless %}
@@ -45,7 +45,7 @@
   <meta property="og:publisher" content="//www.facebook.com/hoyangtsai">
   <!-- End Open Graph -->
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/fotorama.css">
   {% if page.style %}

@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 title: Git 變更遠端倉庫位置
 date: 2016-12-26
 published: true

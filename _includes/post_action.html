@@ -1,6 +1,6 @@
 <div class="post-action">
-  <a href="https://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}&amp;via={{ site.owner.twitter }}"  target="_blank" title="Share on twitter"> <i class="fa fa-twitter meta"></i></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url }}"  target="_blank" title="Share on LinkedIn"> <i class="fa fa-linkedin"></i></a>
+  <a href="https://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url | remove: site.ampdir }}&amp;via={{ site.owner.twitter }}"  target="_blank" title="Share on twitter"> <i class="fa fa-twitter meta"></i></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url | remove: site.ampdir }}"  target="_blank" title="Share on LinkedIn"> <i class="fa fa-linkedin"></i></a>
   {% if page.comments %}
     <a href="{{ site.url }}{{ page.url }}#disqus_thread" title="Comments"><i class="fa fa-comments"></i></a>
   {% endif %}
@@ -8,5 +8,5 @@
     <a href="{{ site.url }}/featured" title="Featured"><i class="fa fa-paperclip" title="Featured"></i></a>
   {% endif %}
   <a href="javascript:window.print()" title="Printer friendly format"><i class="fa fa-print"></i></a>
-  <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  <div class="fb-like" data-href="{{ site.url }}{{ page.url | remove: site.ampdir }}" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 title: Flexbox 使用指南
 published: true
 comments: true

@@ -1,6 +1,13 @@
 <!DOCTYPE html>
+
+{% if page.path contains '_amp' %}
+<html amp>
+{% include amp-header.html %}
+{% else %}
 <html>
 {% include header.html %}
+{% endif %}
+
 <body>
 
   {% include sidebar.html %}

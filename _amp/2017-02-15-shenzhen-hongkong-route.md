@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 date: 2017-02-15
 title: 深圳香港交通指南
 description: 深圳和香港來往的路線

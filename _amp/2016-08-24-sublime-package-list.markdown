@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 date: 2016-08-24
 title: Sublime Text 安裝套件清單
 published: true

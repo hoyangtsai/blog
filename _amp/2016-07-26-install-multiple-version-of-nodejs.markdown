@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 date: 2016-07-26
 title: 安裝多版本 Node.js
 published: true

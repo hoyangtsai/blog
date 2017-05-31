@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 title: Git 本地與遠端倉庫同步
 date: 2016-12-28
 published: true

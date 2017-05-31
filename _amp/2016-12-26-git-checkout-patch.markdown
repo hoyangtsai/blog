@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: post
 title: Git 合併其他分支單一檔案
 date: 2016-12-26
 published: true
