@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title/
 relative_permalinks: false
 encoding: utf-8
 
@@ -33,7 +33,7 @@ gems:
   - rouge
 
 paginate: 5
-paginate_path: /blog/page:num/
+paginate_path: /posts/page:num/
 
 ampdir: /amp
 
@@ -67,8 +67,8 @@ links:
     url: /
   - title: <i class="fa fa-user"></i> About
     url: /about/
-  - title: <i class="fa fa-pencil"></i> Blog
-    url: /blog/
+  - title: <i class="fa fa-pencil"></i> Posts
+    url: /posts/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
@@ -95,4 +95,4 @@ google:
 collections:
   amp:
     output: true
-    permalink: /:collection/:year/:month/:day/:title/
+    permalink: /:collection/posts/:year/:month/:day/:title/
