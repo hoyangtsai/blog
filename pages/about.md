@@ -3,13 +3,11 @@ layout: page
 title: About
 permalink: /about/
 show_meta: true
-# imagefeature path is relative to images/ directory.
 imagefeature: IMG_0942.jpg
 published: true
 description: "About me"
 category: views
 comments: false
-mathjax: false
 noindex: false
 sitemap:
     priority: 0.7

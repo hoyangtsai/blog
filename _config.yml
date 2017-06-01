@@ -15,8 +15,8 @@ urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
 excerpt_separator: '<!-- more -->'
-default_bg: sitebg.jpg
-default_logo: sitelogo.png
+default_bg: /assets/sitebg.jpg
+default_logo: /assets/sitelogo.png
 safe: false
 timezone: Asia/Taipei
 future: true
@@ -38,7 +38,7 @@ paginate_path: /posts/page:num/
 ampdir: /amp
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "test", "package.json", "node_modules", "LICENSE", "_plugins", "public/dormant"]
 
 # About/contact
 author:
@@ -96,3 +96,7 @@ collections:
   amp:
     output: true
     permalink: /:collection/posts/:year/:month/:day/:title/
+
+sass:
+  sass_dir: _sass
+  style: compressed

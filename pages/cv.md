@@ -7,7 +7,7 @@ published: true
 description: "Curriculum Vitae / Resume"
 tags: ["cv", "resume"]
 comments: false
-imagesummary: foo.png
+imagesummary: /assets/foo.png
 modified: "2016-01-03"
 sitemap:
     priority: 0.7

@@ -12,21 +12,21 @@ tag: [日本, 大阪, 旅遊指南, 廉價航空, 樂桃, 捷星, 攜程 , Osaka
 
 <!-- more -->
 
-關於廉價航空，首先要破解幾個<span style="color: #F00;">迷思</span> : <br>
+關於廉價航空，首先要破解幾個<amp-custom style="color: #F00;">迷思</amp-custom> : <br>
 1. 並非紅眼班機就是最便宜的價格<br>
 2. 並非購買來回票才划算<br>
 
 這次我們從高雄出發，搭的是樂桃航空；而回程目的地為香港，搭的是捷星航空。<br>
 
-兩家都是<span style="color: #F00;">日本</span>的廉價航空公司<br>
+兩家都是<amp-custom style="color: #F00;">日本</amp-custom>的廉價航空公司<br>
 非常幸運的是班機的時段都還不錯 <br>
-高雄 - 大阪 (關西機場) <span style="margin: 1em"></span> 16:25-17:55 <span style="font-weight: italic; color: #777; font-size: 14px; margin-left: 15px; line-height: 25px;">  樂桃航空  約 4000元/人</span><br>
-大阪 (關西機場) - 香港 <span style="margin: 1em"></span> 16:10-19:45 <span style="font-weight: italic; color: #777; font-size: 14px; margin-left: 15px; line-height: 25px;">  捷星航空  約 6500元/人</span><br>
+高雄 - 大阪 (關西機場) <amp-custom style="margin: 1em"></amp-custom> 16:25-17:55 <amp-custom style="font-weight: italic; color: #777; font-size: 14px; margin-left: 15px; line-height: 25px;">  樂桃航空  約 4000元/人</amp-custom><br>
+大阪 (關西機場) - 香港 <amp-custom style="margin: 1em"></amp-custom> 16:10-19:45 <amp-custom style="font-weight: italic; color: #777; font-size: 14px; margin-left: 15px; line-height: 25px;">  捷星航空  約 6500元/人</amp-custom><br>
 
 想要買到最划算的機票<br>
 可以先到 <a href="https://www.skyscanner.com.tw/" target="_blank">skyscanner</a> 進行查詢、比價<br>
 
-依照<span style="color: #F00;">目的地</span>和<span style="color: #F00;">個人方便的出發地</span>挑選合適的航空公司
+依照<amp-custom style="color: #F00;">目的地</amp-custom>和<amp-custom style="color: #F00;">個人方便的出發地</amp-custom>挑選合適的航空公司
 <div class="table-container">
   <table>
     <thead>
@@ -120,7 +120,7 @@ tag: [日本, 大阪, 旅遊指南, 廉價航空, 樂桃, 捷星, 攜程 , Osaka
 每家航空公司會不定期推出一些優惠方案<br>
 但大多都是在旅行淡季<br>
 萬一要是在旅行旺季要出遊也沒關係<br><br>
-有幾個<span style="color: red;">購買重點</span>需要注意：<br>
+有幾個<amp-custom style="color: red;">購買重點</amp-custom>需要注意：<br>
 1. 廉價航空的票價每天都變動，像樂桃航空週三購買是最便宜的（印象中應該是這個時間點），小編就是天天都守在電腦前面刷新的那位 😆<br>
 2. 可以搭配信用卡進行結帳，像小編刷的是中國信託信用卡，除了促銷的折扣外，搭配紅利點數，來回機票一人約10000元左右就到手了<br>
 <br>
@@ -133,19 +133,19 @@ tag: [日本, 大阪, 旅遊指南, 廉價航空, 樂桃, 捷星, 攜程 , Osaka
 
 搭乘廉價航空雖然便宜，但也有以下幾個問題：<br>
 <ol>
-  <li><span style="font-weight: bold;">班機時間不一定（有可能延遲也有可能提早）</span><br>
+  <li><amp-custom style="font-weight: bold;">班機時間不一定（有可能延遲也有可能提早）</amp-custom><br>
     去程跟回程兩家航空公司都比表定整整延遲了一個多小時<br>
   </li><br>
-  <li><span style="font-weight: bold;">班機座位比較窄</span><br>
+  <li><amp-custom style="font-weight: bold;">班機座位比較窄</amp-custom><br>
     對於同行180cm的水怪來說，整趟旅程大長腿都不知道要擺哪～小編就沒有這個困擾，只能說人矮真好 😆<br>
   </li><br>
-  <li><span style="font-weight: bold;">對於行李要求非常嚴格</span><br>
+  <li><amp-custom style="font-weight: bold;">對於行李要求非常嚴格</amp-custom><br>
     兩家航空公司都只能帶一件手提行李上飛機。<br>
     行李公斤數的要求捷星相對來說會比樂桃嚴格～<br>
-    捷星會要求將手提行李上秤，<span style="font-weight: bold; color: red;">一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。</span><br>
+    捷星會要求將手提行李上秤，<amp-custom style="font-weight: bold; color: red;">一個人上限是7KG（包含隨身小包），同行旅伴一起稱重。</amp-custom><br>
     像我們是兩個人，重量總和就是14KG，能容許最大範圍是14.9KG，當下稱重出現了『15.0KG』，簡直是晴天霹靂⚡️，還好有多餘的託運公斤數，趕緊將其中一個行李給託運才免於補超重行李費用。<br>
   </li><br>
-  <li><span style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜</span><br>
+  <li><amp-custom style="font-weight: bold;">事前購買行李公斤數會比超重補額更便宜</amp-custom><br>
     預先購買（乘機前）：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！
     {% include post_image.html src="/images/osaka-trip/Jetstar-1.png" alt="jetstar-1" width="495" height="412" %}
@@ -153,7 +153,7 @@ tag: [日本, 大阪, 旅遊指南, 廉價航空, 樂桃, 捷星, 攜程 , Osaka
     但不管怎麼樣，還是在一開始訂購機票時直接買足行李重量是最便宜的。
     {% include post_image.html src="/images/osaka-trip/Screenshot-20170119-1542.png" alt="行李託運" width="1200" height="761" %}
   </li><br>
-  <li><span style="font-weight: bold;">搭乘航廈要特別留意</span><br>
+  <li><amp-custom style="font-weight: bold;">搭乘航廈要特別留意</amp-custom><br>
     以關西機場來說，並不是所有廉價航空都是在第二航廈搭乘。像我們去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!❤️
   </li><br>
 </ol>
