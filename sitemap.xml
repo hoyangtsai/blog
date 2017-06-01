@@ -51,4 +51,28 @@ layout: null
     </url>
     {% endunless %}
   {% endfor %}
+  {% for amp in site.amp %}
+    {% unless amp.published == false %}
+    <url>
+      <loc>{{ site.url }}{{ amp.url }}</loc>
+      {% if amp.sitemap.lastmod %}
+        <lastmod>{{ amp.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif amp.date %}
+        <lastmod>{{ amp.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if amp.sitemap.changefreq %}
+        <changefreq>{{ amp.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>weekly</changefreq>
+      {% endif %}
+      {% if amp.sitemap.priority %}
+        <priority>{{ amp.sitemap.priority }}</priority>
+      {% else %}
+        <priority>1</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
 </urlset>
