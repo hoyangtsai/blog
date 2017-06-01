@@ -13,9 +13,6 @@ layout: default
     {% endif %}
 </div>
 
-{% unless page.hide_printmsg == true %}
-  {% include printmsgpages.html %}
-{% endunless %}
 
 <div class="page-break"></div>
 {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
