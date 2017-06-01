@@ -7,6 +7,10 @@
   {% if page.category contains "featured" %}
     <a href="{{ site.url }}/featured" title="Featured"><i class="fa fa-paperclip" title="Featured"></i></a>
   {% endif %}
-  <a href="javascript:window.print()" title="Printer friendly format"><i class="fa fa-print"></i></a>
-  <div class="fb-like" data-href="{{ site.url }}{{ page.url | remove: site.ampdir }}" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  {% if page.print %}
+    <a href="javascript:window.print()" title="Printer friendly format"><i class="fa fa-print"></i></a>
+  {% endif %}
+  {% if page.path contains '_post' %}
+    <div class="fb-like" data-href="{{ site.url }}{{ page.url | remove: site.ampdir }}" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  {% endif %}
 </div>

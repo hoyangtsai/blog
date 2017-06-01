@@ -52,13 +52,11 @@
       {% include style/main.scss %}
     {% endcapture %}
     {{ main_style | scssify }}
-  </style>
 
-  {% if page.style %}
-    <style type="text/css">
+    {% if page.style %}
       {{ page.style }}
-    </style>
-  {% endif %}
+    {% endif %}
+  </style>
 
   <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script async src="{{ "/js/fotorama.js" | prepend: site.baseurl }}"></script>

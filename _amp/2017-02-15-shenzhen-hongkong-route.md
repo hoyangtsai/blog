@@ -6,6 +6,10 @@ description: 深圳和香港來往的路線
 published: true
 comments: true
 tag: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
+style: |
+  .txt-orange {
+    color: #FF7F00;
+  }
 ---
 深圳距離香港只隔了一條深圳河，大約20M。也因為很近，所以很多人假日都會到香港去玩、或是採購。
 
@@ -35,7 +39,7 @@ tag: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
 
 * 皇崗口岸
 
-  * 唯一<span style="font-weight: bold; color: red;">24小時開放</span>通關的口岸，和福田口岸一樣坐落於福田區。過關後，可搭乘穿梭巴士前往香港
+  * 唯一<span class="em-red">24小時開放</span>通關的口岸，和福田口岸一樣坐落於福田區。過關後，可搭乘穿梭巴士前往香港
 
 {% include post_image.html src="/images/sz-hk-route/huanggang.png" alt="皇崗口岸" width="900" height="675" %}
 
@@ -88,7 +92,7 @@ tag: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
    * 票價：蛇口 -> 香港機場 260 RMB（可退稅）、香港機場 -> 蛇口 180HKD<br>
    * 購票要求：<span class="em-red">航班時間需大於飛機起飛時間150分鐘，節假日需大於180分鐘</span><br>
    * 在香港海天客運碼頭完成辦理登機時，櫃檯人員會給一張退稅單，記得在專門櫃檯去進行退稅。<span class="em-red">退稅金額為一人120HKD！！</span><br>
-   * 部分航空公司在蛇口郵輪中心有提供<b style="color: #FF7F00; text-decoration: underline;">行李直掛</b>的服務，如果要使用此服務，須在發船<span class="em-red">前30分鐘</span>到櫃台進行報到手續。<br>
+   * 部分航空公司在蛇口郵輪中心有提供<b class="txt-orange"><u>行李直掛</u></b>的服務，如果要使用此服務，須在發船<span class="em-red">前30分鐘</span>到櫃台進行報到手續。<br>
       可以在<a href="https://xunlongferry.swiftpass.cn/weixin/pager/5101" target="_blank">值机服务</a>，查看自己所搭乘的航空公司有無提供行李直掛的服務
 
 {% include post_image.html src="/images/sz-hk-route/338DF72471D169AD1E57C85431476462.png" alt="深圳<->香港機場時刻表" width="506" height="900" %}
