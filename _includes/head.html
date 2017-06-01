@@ -74,4 +74,31 @@
   <link rel="canonical" href="{{ canonical }}">
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {{ page.url | prepend: site.baseurl | prepend: site.url }},
+      "headline": {{ page.title }},
+      {% if page.date %}
+        "datePublished": {{ page.date | date_to_string }},
+      {% endif %}
+      "description": {% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %},
+      "author": {
+        "@type": "Person",
+        "name": {% if page.author %} {{ page.author }} {% else %} {{ site.author.name }} {% endif %}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/sitelogo.png",
+          "width": 200,
+          "height": 200
+        }
+      }
+    }
+  </script>
 </head>
