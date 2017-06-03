@@ -19,7 +19,7 @@
   {% endif %}
 
   <!-- Search Engine Optimization -->
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
   {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
@@ -30,7 +30,7 @@
     {% include twitter_card.html %}
   {% endif %}
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
   <!-- End Twitter Cards -->
 
@@ -79,15 +79,14 @@
     {
       "@context": "http://schema.org",
       "@type": "NewsArticle",
-      "mainEntityOfPage": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-      "headline": "{{ page.title }}",
-      {% if page.date %}
-        "datePublished": "{{ page.date | date_to_string }}",
-      {% endif %}
-      "description": {% if page.description %} "{{ page.description }}" {% elsif page.content %} "{{ page.content | strip_html | truncatewords: 50 }}" {% else %} "{{ site.description }}" {% endif %},
+      "mainEntityOfPage": "{{ page.url | replace:'index.html', '' | prepend: site.baseurl | prepend: site.url }}",
+      "headline": "{{ page.title | escape }}",
+      "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "description": "{% if page.description %} {{ page.description }} {% elsif page.content %} {{ page.content | strip_html | truncatewords: 160 }} {% else %} {{ site.description }} {% endif %}",
       "author": {
         "@type": "Person",
-        "name": {% if page.author %} "{{ page.author }}" {% else %} "{{ site.author.name }}" {% endif %}
+        "name": "{% if page.author %}{{ page.author }}{% else %}{{ site.author.name }}{% endif %}"
       },
       "publisher": {
         "@type": "Organization",
@@ -95,15 +94,15 @@
         "logo": {
           "@type": "ImageObject",
           "url": "{{ site.url }}/assets/sitelogo.png",
-          "width": 200,
-          "height": 200
+          "width": "60",
+          "height": "60"
         }
       },
       "image": {
         "@type": "ImageObject",
         "url": "{{ site.url }}/assets/sitelogo.png",
-        "height": 200,
-        "width": 200
+        "height": "60",
+        "width": "60"
       }
     }
   </script>
