@@ -1,0 +1,11 @@
+{% if site.facebook.app_id %}
+  {% if page.path contains '_post' %}
+    <div class="fb-comments" data-href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-numposts="5"></div>
+  {% else %}
+    <amp-facebook-comments width="486" height="657"
+      layout="responsive"
+      data-numposts="5"
+      data-href="{{ site.url }}{{ page.url | remove: site.ampdir }}">
+    </amp-facebook-comments>
+  {% endif %}
+{% endif %}

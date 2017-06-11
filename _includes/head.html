@@ -75,6 +75,10 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
 
+  {% if site.facebook.app_id %}
+    {% include facebook_jssdk.html %}
+  {% endif %}
+
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
