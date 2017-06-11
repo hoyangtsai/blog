@@ -6,6 +6,20 @@ description: 更便宜地買到超夯 Dyson 吸塵器, Panasonic 吹風機等電
 published: true
 comments: true
 tag: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
+style: |
+  .mg-space {
+    margin: 1em;
+  }
+  .side-txt {
+    font-weight: italic;
+    color: #777;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 25px;
+  }
+  .txt-gray-a2 {
+    color: #a2a2a2;
+  }
 ---
 這篇來分享一下我和水怪大阪行的戰利品~~~
 
@@ -25,10 +39,10 @@ tag: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
 發現人實在是好少，也搞不清楚到底是價格太貴所以人潮稀少，還是販賣品質有問題導致沒什麼人潮<br>
 記錄了一下想要買的兩項戰利品價格後<br>
 
-Dyson v8 Absolute<span style="margin: 1em"></span>不含消費稅價格為 &yen;72,800
+Dyson v8 Absolute<span class="mg-space"></span>不含消費稅價格為 &yen;72,800
 {% include post_image.html src="/images/osaka-trip/shopping/IMG_0523.JPG" alt="Dyson v8 Absolute" width="517" height="689" %}
 
-Panasonic CNA98<span style="margin: 1em"></span>不含消費稅價格為 &yen;20,800
+Panasonic CNA98<span class="mg-space"></span>不含消費稅價格為 &yen;20,800
 {% include post_image.html src="/images/osaka-trip/shopping/Panasonic-CNA98.jpg" alt="Panasonic CNA98" width="800" height="600" %}
 
 記錄完成後<br>
@@ -39,8 +53,8 @@ Panasonic CNA98<span style="margin: 1em"></span>不含消費稅價格為 &yen;20
 
 但這些都不是重點（拉回正題~~~）<br>
 Bic Camera 這兩項要購買的商品價格為：
-● Dyson v8 absolute<span style="margin: 1em"></span>不含消費稅售價為 &yen;82,000多<br>
-● Panasonic CNA98<span style="margin: 1em"></span>不含消費稅價格為 &yen;19,800<br>
+● Dyson v8 absolute<span class="mg-space"></span>不含消費稅售價為 &yen;82,000多<br>
+● Panasonic CNA98<span class="mg-space"></span>不含消費稅價格為 &yen;19,800<br>
 （因為行程有點急，所以忘了拍照 XD）
 
 兩間店面 Dyson v8 整整差了快 10,000 日幣
@@ -75,6 +89,6 @@ Dyson v8 absolute 的未含消費稅的訂價為 &yen;96,800<br>
 店名：愛電王 (EDION)<br>
 位置：阿倍野 Abeno Harukas 近鐵百貨 - 翼館 3.5樓<br>
 網站：<a href="https://abenoharukas.d-kintetsu.co.jp/special/foreign/index-ct.html" target="_blank">近鐵百貨海闊天空總店</a>
-<amp-iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5478.918274043868!2d135.5150708715675!3d34.64613671241175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bf432c75c1aebd9!2z44Ko44OH44Kj44Kq44Oz6L-R6YmE44GC44G544Gu44OP44Or44Kr44K55bqX!5e0!3m2!1szh-TW!2stw!4v1485444746097" width="" height="" frameborder="0" style="border:0" class="gmap-iframe" allowfullscreen></amp-iframe>
+<amp-iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5478.918274043868!2d135.5150708715675!3d34.64613671241175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bf432c75c1aebd9!2z44Ko44OH44Kj44Kq44Oz6L-R6YmE44GC44G544Gu44OP44Or44Kr44K55bqX!5e0!3m2!1szh-TW!2stw!4v1485444746097" width="" height="" frameborder="0" style="border:0" class="gmap-iframe" width="600" height="450" allowfullscreen></amp-iframe>
 {% include post_image.html src="/images/osaka-trip/shopping/IMG_0526.JPG" alt="EDION" width="517" height="689" %}
 {% include post_image.html src="/images/osaka-trip/shopping/IMG_0527.JPG" alt="EDION" width="800" height="600" %}
