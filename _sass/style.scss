@@ -142,6 +142,8 @@ td, th {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #eee;
+  position: relative;
+  z-index: 5;
 }
 .masthead-title, .sidebar-item p:last-child {
   margin-bottom: 0;

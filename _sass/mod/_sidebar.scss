@@ -3,13 +3,12 @@
   top: 0;
   bottom: 0;
   left: -14rem;
-  width: 14rem;
-  visibility: hidden;
   overflow-y: auto;
+  width: 14rem;
   color: rgba(255, 255, 255, .6);
   background-color: #2B2B2B;
   transition: all .3s ease-in-out;
-
+  z-index: 60;
   a {
     font-weight: 400;
     color: #fff;
@@ -35,7 +34,7 @@
 
 .sidebar-checkbox {
   position: absolute;
-  opacity: 0;
+  clip: rect(0,0,0,0);
   user-select: none;
 }
 .sidebar-toggle {
@@ -48,6 +47,7 @@
   background-color: #fff;
   border-radius: .25rem;
   cursor: pointer;
+  z-index: 50;
   &:before {
     content: "";
     display: inline-block;
@@ -92,16 +92,10 @@ a.pagination-item:hover, a.prevnext-item:hover {
   }
 }
 
-.sidebar, .sidebar-toggle, .wrap {
-  backface-visibility: hidden;
-}
 .sidebar-toggle, .wrap {
   transition: transform .3s ease-in-out;
 }
-#sidebar-checkbox:checked+.sidebar {
-  z-index: 10;
-  visibility: visible;
-}
+
 #sidebar-checkbox:checked~.sidebar,
 #sidebar-checkbox:checked~.sidebar-toggle,
 #sidebar-checkbox:checked~.wrap {
