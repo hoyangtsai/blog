@@ -6,7 +6,6 @@
 @import "mod/_sidebar";
 @import "mod/_pagination";
 @import "mod/_blockquote";
-@import "mod/_postAction";
 @import "mod/_code";
 
 h2, h4, h5, h6 {
@@ -645,4 +644,15 @@ hr.transp {
 
 .txt-red {
   color: #ff0000;
+}
+
+.post-action {
+  a {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.post-content {
+  padding: 2em 0 0;
 }
