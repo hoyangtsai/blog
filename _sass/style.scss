@@ -656,4 +656,5 @@ hr.transp {
 
 .post-content {
   padding: 2em 0 0;
+  @extend %word-break;
 }
