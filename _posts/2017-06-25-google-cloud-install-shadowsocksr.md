@@ -85,7 +85,7 @@ cd && git clone https://github.com/shadowsocksr/shadowsocksr.git && cd shadowsoc
 server_port   任何 0 - 65535 port
 password      登入密碼
 method        加密方法用 chacha20-ietf (需要額外安裝套件) 或 aes-256-cfb
-protocol      加密協議可以用預設或 auth_sha1_v4
+protocol      加密協議用預設 auth_aes128_md5 或 auth_sha1_v4
 obfs          建議用 tls1.2_ticket_auth
 obfs_param    混淆參數建議加上 akamai.com,cloudflare.com
 ```
@@ -139,7 +139,7 @@ chmod 755 bbr.sh
 ```bash
 yum -y groupinstall "Development Tools"
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz
-tar xf libsodium-1.0.12.tar.gz && cd libsodium*
+tar zxf libsodium-1.0.12.tar.gz && cd libsodium*
 ./configure && make && make install
 echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
@@ -147,7 +147,7 @@ ldconfig
 
 全部完成後就可以啟動 SSR server 了
 ```bash
-paython ~/shadowsocksr/shadowsocks/server.py -d start
+python ~/shadowsocksr/shadowsocks/server.py -d start
 ```
 
 再啟動 BBR
