@@ -8,11 +8,11 @@ description: "Curriculum Vitae / Resume"
 tags: ["cv", "resume"]
 comments: false
 imagesummary: /assets/foo.png
-modified: "2016-01-03"
+modified: 2017-08-20
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2017-01-28
+    lastmod: 2017-08-20
 style: |
   .container {
         max-width: 48rem;
