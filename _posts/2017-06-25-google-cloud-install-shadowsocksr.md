@@ -67,13 +67,14 @@ tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 更新一下套件中心
 `yum update -y`
 
-因為 <a href="https://github.com/shadowsocksr/shadowsocksr">ShadowsocksR</a> 要從 github 下載
+因為 <a href="https://github.com/shadowsocksr-backup/shadowsocksr">ShadowsocksR</a> 要從 github 下載 <br>
+(08/20/2017 更新：先前的 repo 不知什麼原因刪除了，重新在 github 上面找到備份版本，同時我也在 GitLab <a href="https://gitlab.com/hoyangtsai/shadowsocksr">備份</a> 一個，避免之後又不見。)
 
 先安裝 git `yum install git -y`
 
-再 git clone ShadowsocksR 源碼
+再下載 ShadowsocksR 原始碼
 ```bash
-cd && git clone https://github.com/shadowsocksr/shadowsocksr.git && cd shadowsocksr
+cd && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd shadowsocksr
 ```
 
 下載完後，執行 `bash initcfg.sh` 自動生成初始配置檔案

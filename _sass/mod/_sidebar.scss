@@ -72,6 +72,10 @@ a.pagination-item:hover, a.prevnext-item:hover {
   background-image: linear-gradient(#fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
 }
 
+.i-amphtml-sidebar-mask {
+  z-index: 49;
+}
+
 @media (min-width:30em) {
   .sidebar {
     font-size: .75rem;
