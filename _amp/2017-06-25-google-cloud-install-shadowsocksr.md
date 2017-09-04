@@ -67,13 +67,14 @@ tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 更新一下套件中心
 `yum update -y`
 
-因為 <a href="https://github.com/shadowsocksr/shadowsocksr">ShadowsocksR</a> 要從 github 下載
+因為 <a href="https://github.com/shadowsocksr-backup/shadowsocksr">ShadowsocksR</a> 要從 github 下載 <br>
+(08/20/2017 更新：先前的 repo 不知什麼原因刪除了，重新在 github 上面找到備份版本，同時我也在 GitLab <a href="https://gitlab.com/hoyangtsai/shadowsocksr">備份</a> 一個，避免之後又不見。)
 
 先安裝 git `yum install git -y`
 
-再 git clone ShadowsocksR 源碼
+再下載 ShadowsocksR 原始碼
 ```bash
-cd && git clone https://github.com/shadowsocksr/shadowsocksr.git && cd shadowsocksr
+cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd shadowsocksr && git checkout -b manyuser origin/manyuser
 ```
 
 下載完後，執行 `bash initcfg.sh` 自動生成初始配置檔案
@@ -85,7 +86,7 @@ cd && git clone https://github.com/shadowsocksr/shadowsocksr.git && cd shadowsoc
 server_port   任何 0 - 65535 port
 password      登入密碼
 method        加密方法用 chacha20-ietf (需要額外安裝套件) 或 aes-256-cfb
-protocol      加密協議可以用預設或 auth_sha1_v4
+protocol      加密協議用預設 auth_aes128_md5 或 auth_sha1_v4
 obfs          建議用 tls1.2_ticket_auth
 obfs_param    混淆參數建議加上 akamai.com,cloudflare.com
 ```
@@ -139,7 +140,7 @@ chmod 755 bbr.sh
 ```bash
 yum -y groupinstall "Development Tools"
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz
-tar xf libsodium-1.0.12.tar.gz && cd libsodium*
+tar zxf libsodium-1.0.12.tar.gz && cd libsodium*
 ./configure && make && make install
 echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
@@ -147,7 +148,7 @@ ldconfig
 
 全部完成後就可以啟動 SSR server 了
 ```bash
-paython ~/shadowsocksr/shadowsocks/server.py -d start
+python ~/shadowsocksr/shadowsocks/server.py -d start
 ```
 
 再啟動 BBR

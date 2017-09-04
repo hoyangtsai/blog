@@ -74,7 +74,7 @@ tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 
 再下載 ShadowsocksR 原始碼
 ```bash
-cd && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd shadowsocksr
+cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd shadowsocksr && git checkout -b manyuser origin/manyuser
 ```
 
 下載完後，執行 `bash initcfg.sh` 自動生成初始配置檔案
