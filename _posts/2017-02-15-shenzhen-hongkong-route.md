@@ -27,7 +27,7 @@ style: |
   * 從羅湖口岸過關後，直接到香港地鐵的羅湖站，從這邊就可以直接轉搭香港地鐵到想去的地方。
 
 {% include post_image.html src="/images/sz-hk-route/luohu.jpg" alt="羅湖口岸" width="550" height="387" %}
-{% include post_image.html src="/images/sz-hk-route/76FCA818-5B67-4708-9984-25DC652ADDBB.png" alt="港鐵路線圖" width="900" height="649" %}
+{% include post_image.html src="/images/sz-hk-route/hk-subway-route.png" alt="港鐵路線圖" width="900" height="649" %}
 
 * 福田口岸
 
@@ -69,7 +69,7 @@ style: |
 
 蛇口郵輪中心提供的航線可以到香港（機場、中環、上環）、澳門、珠海
 
-{% include post_image.html src="/images/sz-hk-route/F2CB2324F9CB713D380F00A8AC3D454E.png" alt="蛇口郵輪中心航線" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/wechat-menu.png" alt="蛇口郵輪中心航線" width="506" height="900" %}
 
 路線的選擇很多<br>
 但是相對的價格也是比一般跨境列車來得貴
@@ -81,8 +81,8 @@ style: |
    * 最早一班從蛇口的航班 - 平日 07:45、假日 09:00<br>
    * 票價：蛇口 -> 香港 120 RMB、香港 -> 蛇口 120 HKD
 
-{% include post_image.html src="/images/sz-hk-route/15D31DAD8B9F6039575A7CC392AF3697.png" alt="深圳<->香港時刻表" width="506" height="900" %}
-{% include post_image.html src="/images/sz-hk-route/8E93928A3146C3C3545C55ADFA5513A0.png" alt="深圳<->香港票價" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-timetable.png" alt="深圳<->香港時刻表" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-fare.png" alt="深圳<->香港票價" width="506" height="900" %}
 
 
 * 深圳 <-> 香港機場
@@ -95,9 +95,9 @@ style: |
    * 部分航空公司在蛇口郵輪中心有提供<b class="txt-orange"><u>行李直掛</u></b>的服務，如果要使用此服務，須在發船<span class="em-red">前30分鐘</span>到櫃台進行報到手續。<br>
       可以在<a href="https://xunlongferry.swiftpass.cn/weixin/pager/5101" target="_blank">值机服务</a>，查看自己所搭乘的航空公司有無提供行李直掛的服務
 
-{% include post_image.html src="/images/sz-hk-route/338DF72471D169AD1E57C85431476462.png" alt="深圳<->香港機場時刻表" width="506" height="900" %}
-{% include post_image.html src="/images/sz-hk-route/213C1D61E0533063080A286DC3F0E87B.png" alt="深圳<->香港票價" width="506" height="900" %}
-{% include post_image.html src="/images/sz-hk-route/4A6BC00B0F274380946DDE9A711D0696.png" alt="深圳<->香港機場訂票須知" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-airport-timetable.png" alt="深圳<->香港機場時刻表" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-airport-fare.png" alt="深圳<->香港票價" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-airport-notice-1.png" alt="深圳<->香港機場訂票須知" width="506" height="900" %}
 
 <br>
 <br>
@@ -110,4 +110,4 @@ style: |
 私人跨境車除了貴鬆鬆以外，還車輛大爆滿，沒趕上飛機！！！ 😭😭😭
 
 順帶一提，船票可以於30天前購買噢～～
-{% include post_image.html src="/images/sz-hk-route/367ECEDB2F224BAEACF92EABE5985A92.png" alt="深圳<->訂票須知" width="506" height="900" %}
+{% include post_image.html src="/images/sz-hk-route/sz-hk-airport-notice-2.png" alt="深圳<->訂票須知" width="506" height="900" %}
