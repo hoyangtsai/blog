@@ -14,7 +14,8 @@ tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, Fl
 小編搭乘的樂桃航空到達關西機場時<br>
 停靠的是第二航廈（T2）<br>
 在停機坪上下飛機後步行進航廈<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0085.JPG" alt="flypeach-airplane"><br>
+{% include post_image.html src="/images/osaka-trip/IMG_0085.JPG" alt="flypeach-airplane" width="800" height="600" %}
+<br>
 
 在飛機上空姐會發放入境卡跟申告單<br>
 可以事先領取，在飛機上填寫好<br>
@@ -43,18 +44,18 @@ tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, Fl
 在完成入境後<br>
 一踏出門看到的是一間7-11<br>
 抬頭仔細看會有標示告知接駁至T1的巴士乘坐地點<br>
-<img src="{{ site.urlimg }}osaka-trip/shuttle-bus-sign.png" alt="shuttle-bus-sign">
+{% include post_image.html src="/images/osaka-trip/shuttle-bus-sign.png" alt="huttle-bus-sign" width="800" height="429" %}
 <br>
 附上一張關西機場的地圖，上頭有清楚標示著巴士的搭乘地點<br>
 接駁巴士約5～8分鐘一班<br>
-<img src="{{ site.urlimg }}osaka-trip/airport-map01.jpg" alt="airport-map">
-
+{% include post_image.html src="/images/osaka-trip/airport-map01.jpg" alt="airport-map" width="729" height="1063" %}
+<br>
 到了T1後<br>
 就可以依照個人的目的地選擇需要搭乘的交通工具
 
 在日本比較常見的IC卡就是ICOCA和PiTaPa<br>
 若是自由行的人建議可以先在關西機場自動販賣機購買一張ICOCA卡<br>
-<img src="{{ site.urlimg }}osaka-trip/icoca.jpg" alt="icoca">
+{% include post_image.html src="/images/osaka-trip/icoca.jpg" alt="icoca" width="577" height="365" %}
 
 後續可以減少一些排隊買票的時間<br>
 這張卡有點像是悠遊卡一樣<br>
@@ -83,37 +84,37 @@ tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, Fl
 講到這個真的不得不誇獎 Google map 實在愈來愈強大了<br>
 輸入了目的地後，會提供對應的大眾交通工具時刻表以及價格<br>
 這些方便的資訊對於自由行的人真的是一大福音<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5989.png" alt="google-map-train-timetable">
+{% include post_image.html src="/images/osaka-trip/IMG_5989.png" alt="google-map-train-timetable" width="450" height="800" %}
 
 ### 大阪 <-> 奈良
 從大阪到奈良可以選擇搭乘近鐵奈良線<br>
 附圖是各種列車的停靠站<br>
-<img src="{{ site.urlimg }}osaka-trip/namba-nara-stops.jpg" alt="namba-nara-stops">
+{% include post_image.html src="/images/namba-nara-stops.jpg" alt="namba-nara-stops" width="438" height="591" %}
 
 這邊<u>千萬千萬千萬不要</u>選擇特急<br>
 特急與快速急行的停靠站只差<b>兩站</b><br>
 但是價格卻是差了好多<br>
 選擇特急列車，除了原先的票價外，還要購買特急列車券（因為在進站時有刷了IC卡，特急列車的票在月台購買）<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5803.JPG" alt="IMG_5803">
+{% include post_image.html src="/images/IMG_5803.JPG" alt="IMG_5803" width="600" height="800" %}
 
 另外，在買票的時候也要特別注意<br>
 購買成人票記得要選擇左邊的選項<br>
 千萬別像小編一樣選擇了右邊，買了孩童票，上車被驗票真的是很尷尬。<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5805.JPG" alt="IMG_5805">
+{% include post_image.html src="/images/IMG_5805.JPG" alt="IMG_5805" width="800" height="600" %}
 
 ### 大阪 -> 關西機場
 小編這次的大阪行都是住在 <a href="http://www.superhotel.co.jp/s_hotels/honmachi/" target="_blank">スーパーホテルLohas地下鉄四つ橋線・本町24号口</a><br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5780.JPG" alt="スーパーホテルLohas">
+{% include post_image.html src="/images/IMG_5780.JPG" alt="スーパーホテルLohas" width="800" height="600" %}
 飯店的門口緊鄰地鐵口非常方便！！
-<img src="{{ site.urlimg }}osaka-trip/IMG_0554.JPG" alt="スーパーホテルLohas">
+{% include post_image.html src="/images/IMG_0554.JPG" alt="スーパーホテルLohas" width="800" height="600" %}
 
 因為回程這天，早上一些行程的耽誤<br>
 只好從飯店出發直接到關西機場<br>
 出發前一樣先用 Google map 規劃好路線<br>
 因為我們飯店的地鐵口下去離我們最近的是藍色四つ橋線<br>
 比較一下時間和價錢，我們選擇了路線4<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_0767.PNG" alt="IMG_0767">
-<img src="{{ site.urlimg }}osaka-trip/IMG_0768.PNG" alt="IMG_0768">
+{% include post_image.html src="/images/IMG_0767.JPG" alt="IMG_0767" width="450" height="800" %}
+{% include post_image.html src="/images/IMG_0768.JPG" alt="IMG_0768" width="450" height="800" %}
 
 但是沒想到在這吃了點虧...<br>
 在岸里下車後原本以為可以從地下道直通天下茶屋<br>
@@ -122,12 +123,12 @@ tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, Fl
 
 上了南海特急列車後，只要30分鐘就可以直達關西空港<br>
 出了閘門過個天橋就能到達第一航廈，非常方便～
-<img src="{{ site.urlimg }}osaka-trip/IMG_0628.JPG" alt="南海特急列車">
+{% include post_image.html src="/images/IMG_0628.JPG" alt="南海特急列車" width="800" height="600" %}
 
 如果行李很多、趕時間的人<br>
 不仿考慮搭乘特急列車<br>
 
 但像前面所說的，需要額外支付一筆費用（920日圓）<br>
-<img src="{{ site.urlimg }}osaka-trip/IMG_5815.JPG" alt="IMG_5815"><br>
+{% include post_image.html src="/images/IMG_5815.JPG" alt="IMG_5815" width="600" height="800" %}
 
 下篇文章，將會跟大家分享日本行另外一個重要的行程 <a href="{{ page.next.url }}">【大阪行】購物 - 家電篇 </a> 😆
