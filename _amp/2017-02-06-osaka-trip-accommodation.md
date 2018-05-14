@@ -6,6 +6,15 @@ description: 大阪住宿推薦
 published: true
 comments: true
 tag: [日本, 大阪, 旅遊指南, Osaka, travelGuide]
+style: |
+  .gmap-iframe {
+    border: none;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin-bottom: 1em;
+  }
 ---
 其實我們這整個大阪行整個就是很Free <br>
 在討論時只列出必須要去的幾個景點 <br>
@@ -126,4 +135,4 @@ _烘衣: 免費_<br>
 地址：大阪府大阪市西区西本町1-5-10<br>
 官網：[http://www.superhotel.co.jp/s_hotels/honmachi/index.html](http://www.superhotel.co.jp/s_hotels/honmachi/index.html)<br>
 線上訂房：[官網預訂](https://hotel.reservation.jp/superhotel/jpn/reservation/3.asp?ne_area=5&ne_hotel=122&ne_reserv_d=4&ne_reserv_ym=2016/04/06)、[Agoda預訂](https://www.agoda.com/zh-tw/superhotel-lohas-honmachi-subway-yotsubashi-line-exit-24/hotel/osaka-jp.html)<br>
-<amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.907855914221!2d135.49403841526768!3d34.68227498043923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ee2ac20be3d2922!2z44K544O844OR44O844Ob44OG44OrTG9oYXPlnLDkuIvpiYTlm5vjgaTmqYvnt5rjg7vmnKznlLoyNOWPt-WPow!5e0!3m2!1szh-TW!2stw!4v1486396471044" width="600" height="450" frameborder="0" style="border:0" class="gmap-iframe" allowfullscreen></amp-iframe>
+<amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.907855914221!2d135.49403841526768!3d34.68227498043923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ee2ac20be3d2922!2z44K544O844OR44O844Ob44OG44OrTG9oYXPlnLDkuIvpiYTlm5vjgaTmqYvnt5rjg7vmnKznlLoyNOWPt-WPow!5e0!3m2!1szh-TW!2stw!4v1486396471044" width="600" height="450" frameborder="0" class="gmap-iframe" allowfullscreen></amp-iframe>

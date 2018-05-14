@@ -2,6 +2,7 @@
 layout: post
 date: 2015-12-12
 title: 圖片最佳化
+description: PageSpeed 審視網頁效能，和 png, jpg 圖片最佳化。jpegoptim 和 optipng 圖片壓縮工具指令說明。
 published: true
 comments: true
 tag: [最佳化, 優化, PageSpeedInsights, googleDeveloper, commandLine]

@@ -2,6 +2,7 @@
 layout: post
 date: 2016-07-26
 title: 安裝多版本 Node.js
+description: 透過 NVM 工具管理 Node.js 版本
 published: true
 comments: true
 tag: [homebrew, nodejs, npm, nvm, commandLine]
