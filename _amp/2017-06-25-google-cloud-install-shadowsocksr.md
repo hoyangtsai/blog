@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-06-25
+modifiedDate: 2018-05-23
 title: Google Cloud 安裝 ShadowsocksR
 description: 試用 Google Cloud 安裝 ShadowsocksR 翻牆上網
 published: true
@@ -8,15 +9,11 @@ comments: true
 tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 ---
 
-近幾年雲服務市場競爭激烈
-
-從一開始的亞馬遜 AWS，接著微軟的 Microsoft Azure。
-
-到最後 Google 也跳進來做 Google Cloud 谷歌雲
-
-直接推出最優惠的試用方案: <span class="txt-red">一年免費試用，再送 300 美元試用額度</span>
-
-只要有 Google 帳號就可以馬上來申請 [freetrial](https://console.cloud.google.com/freetrial)
+近幾年雲服務市場競爭激烈 <br>
+從一開始的亞馬遜 AWS，接著微軟的 Microsoft Azure <br>
+到最後 Google 也跳進來做 Google Cloud 谷歌雲服務 <br>
+直接推出最優惠的試用方案: <span class="txt-red">一年免費試用，再送 300 美元試用額度</span> <br>
+只要有 Google 帳號就可以馬上來申請 [freetrial](https://console.cloud.google.com/freetrial) <br>
 
 <!-- more -->
 
@@ -28,21 +25,19 @@ tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 再到專案中的 Computer Engine 建立 VM 執行個體
 {% include post_image.html src="/images/gc-ssr/create-vm-instance.png" alt="建立 VM 執行個體" width="975" height="466" %}
 
-* instance 名稱隨便取
-* 區域，如果是要翻牆，建議選 asia-northeast 或 asia-east
-
+* 名稱：名稱隨便取，像 instance-1
+* 區域：如果是要翻牆，建議選 asia-northeast 或 asia-east
   > 亞洲區的分別在
   > 1. asia-northeast -> 日本
   > 2. asia-east -> 台灣
   > 3. asia-southeast -> 新加坡
   >
   > 其他區域: [https://cloud.google.com/about/locations](https://cloud.google.com/about/locations)
-
-* 機器類型，建議選微型
-* 開機磁碟選 CentOS 6
-* 身分及 API 存取權、防火牆，不需要修改
-* 網路可以用預設的，系統會自動配一個臨時 IP 位址
-
+* 機器類型：微型
+* 開機磁碟：CentOS 6
+* 身分及 API 存取權，不用修改
+* 防火牆，不用修改
+* 網路用預設的，系統會自動配一個臨時 IP 位址
   > IP 用臨時就可以了，因為一個專案每一個區域只能申請一個免費的固定 IP
 
 {% include post_image.html src="/images/gc-ssr/new-vm-instance.png" alt="新 VM 執行個體" width="763" height="742" %}
@@ -64,47 +59,55 @@ tag: [GoogleCloud, gettingStarted, shadowsockR, ssr, vpn]
 登入 console 直接切換管理者角色 `sudo su` <br>
 避免之後安裝套件或執行程式權限不足
 
-更新一下套件中心
-`yum update -y`
+更新一下套件中心 `yum update -y`
 
 因為 <a href="https://github.com/shadowsocksr-backup/shadowsocksr">ShadowsocksR</a> 要從 github 下載 <br>
 (08/20/2017 更新：先前的 repo 不知什麼原因刪除了，重新在 github 上面找到備份版本，同時我也在 GitLab <a href="https://gitlab.com/hoyangtsai/shadowsocksr">備份</a> 一個，避免之後又不見。)
 
-先安裝 git `yum install git -y`
+先安裝 git 工具 `yum install git -y`
 
-再下載 ShadowsocksR 原始碼
+再下載 ShadowsocksR 源碼
 ```bash
 cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd shadowsocksr && git checkout -b manyuser origin/manyuser
 ```
 
-下載完後，執行 `bash initcfg.sh` 自動生成初始配置檔案
+下載完後 <br>
+執行 `bash initcfg.sh` 自動生成初始配置檔案
 
 用 `vim user-config.json` 編輯使用者配置
+```json
+{
+    "server": "0.0.0.0",
+    "server_ipv6": "::",
+    "server_port": 3888, // 任何 0 - 65535 port
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
 
-```
-// 主要修改
-server_port   任何 0 - 65535 port
-password      登入密碼
-method        加密方法用 chacha20-ietf (需要額外安裝套件) 或 aes-256-cfb
-protocol      加密協議用預設 auth_aes128_md5 或 auth_sha1_v4
-obfs          建議用 tls1.2_ticket_auth
-obfs_param    混淆參數建議加上 akamai.com,cloudflare.com
+    "password": "", // shadowsocksr 客戶端登入密碼
+    "method": "aes-256-cfb", // 加密方式 aes-256-cfb
+    "protocol": "auth_aes128_md5", // 加密協議 auth_aes128_md5 或 auth_sha1_v4
+    "protocol_param": "",
+    "obfs": "tls1.2_ticket_auth", // 建議用 tls1.2_ticket_auth
+    "obfs_param": "akamai.com,cloudflare.com", // 混淆參數 akamai.com,cloudflare.com
+    "speed_limit_per_con": 0,
+    "speed_limit_per_user": 0,
+
+    // 其他保留預設
+}
 ```
 {% include post_image.html src="/images/gc-ssr/edit-user-config.png" alt="編輯使用者配置" width="900" height="701" %}
 
 ### 設定 iptables
-
+將上面 user-config.json 設定的 server_port ，同樣設定到系統的 iptables 對應輸入的埠
 ```bash
 iptables -I INPUT -p tcp --dport <server_port> -j ACCEPT
 iptables -I INPUT -p udp --dport <server_port> -j ACCEPT
 ```
-
 儲存設置，重新啟動 iptables
 ```bash
 /etc/rc.d/init.d/iptables save
 /etc/init.d/iptables restart
 ```
-
 執行 `/etc/init.d/iptables status` 檢查設定是否成功
 {% include post_image.html src="/images/gc-ssr/check-iptables.png" alt="檢查 iptables 設定" width="900" height="324" %}
 
@@ -112,25 +115,48 @@ iptables -I INPUT -p udp --dport <server_port> -j ACCEPT
 [https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules](https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules)
 
 ### 安裝 BBR
-
 ```bash
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 chmod 755 bbr.sh
 ./bbr.sh
 ```
+啟動時，程式會要求按任何鍵確認開始執行安裝，安裝過程會花比較長的時間 <br>
+安裝完成後，一樣會要求使用者按 y 確認執行重新開機。
 
-安裝會花一段時間，完成後 VM 需要重開。
-
-重新開機後，登入系統 console 執行 `uname -r` 確認有更新到 4.10 以上即可。
+重新開機後，再次連接登入系統執行 `uname -r` 確認有更新到 4.10 以上即可。
+{% include post_image.html src="/images/gc-ssr/bbr-uname-check.png" alt="檢查 BBR 版本" width="706" height="66" %}
 
 ### 新增防火牆規則
 
-根據 SSR user-config.json server_port 設定，開啟對應 tcp/udp port
-
-如圖設定
+根據上面 user-config.json 設定的 server_port，開啟對外 ip 輸入，對應的 tcp 和 udp 埠
 {% include post_image.html src="/images/gc-ssr/new-firewall-rules.png" alt="新增防火牆規則" width="821" height="745" %}
 
-### 安裝 libsodium
+### 啟動 SSR 服務
+
+全部完成後就可以啟動 SSR server
+```bash
+python ~/shadowsocksr/shadowsocks/server.py -d start
+```
+
+啟動 BBR
+```bash
+sysctl net.ipv4.tcp_available_congestion_control
+sysctl net.ipv4.tcp_congestion_control
+sysctl net.core.default_qdisc
+
+## 驗證 BBR 是否運行
+lsmod | grep bbr
+```
+
+### 安裝客戶端
+
+* Mac 系統，推薦 [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
+* iOS 系統，推薦 [Shadowrocket](https://itunes.apple.com/app/shadowrocket/id932747118)
+* Android 系統，推薦 [shadowsocksr-android](https://github.com/shadowsocksr/shadowsocksr-android/releases)
+
+對照 user-config.json 設定客戶端即可 **打完收工**
+
+### 其他（備註）
 
 如果是使用 chacha20-ietf 加密方法 <br>
 直接啟動 SSR server 會出現 'libsodium not found' 的錯誤
@@ -145,25 +171,3 @@ tar zxf libsodium-1.0.12.tar.gz && cd libsodium*
 echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
 ```
-
-全部完成後就可以啟動 SSR server 了
-```bash
-python ~/shadowsocksr/shadowsocks/server.py -d start
-```
-
-再啟動 BBR
-
-```bash
-sysctl net.ipv4.tcp_available_congestion_control
-sysctl net.ipv4.tcp_congestion_control
-sysctl net.core.default_qdisc
-lsmod | grep bbr
-```
-
-### 安裝客戶端
-
-* Mac 系統，推薦 [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
-* iOS 系統，推薦 [Shadowrocket](https://itunes.apple.com/app/shadowrocket/id932747118)
-* Android 系統，推薦 [shadowsocksr-android](https://github.com/shadowsocksr/shadowsocksr-android/releases)
-
-對照 user-config.json 設定客戶端，打完收工

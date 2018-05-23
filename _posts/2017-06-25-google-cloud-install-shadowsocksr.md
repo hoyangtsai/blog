@@ -154,9 +154,7 @@ lsmod | grep bbr
 * iOS 系統，推薦 [Shadowrocket](https://itunes.apple.com/app/shadowrocket/id932747118)
 * Android 系統，推薦 [shadowsocksr-android](https://github.com/shadowsocksr/shadowsocksr-android/releases)
 
-對照 user-config.json 設定客戶端即可
-
-**打完收工**
+對照 user-config.json 設定客戶端即可 **打完收工**
 
 ### 其他（備註）
 
