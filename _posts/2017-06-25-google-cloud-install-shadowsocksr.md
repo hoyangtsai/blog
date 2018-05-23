@@ -97,8 +97,6 @@ cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd 
 ```
 {% include post_image.html src="/images/gc-ssr/edit-user-config.png" alt="編輯使用者配置" width="900" height="701" %}
 
-p.s. 記得把逗號後面的 "//" 註解拿掉，不然程式會報錯
-
 ### 設定 iptables
 將上面 user-config.json 設定的 server_port ，同樣設定到系統的 iptables 對應輸入的埠
 ```bash
@@ -158,7 +156,7 @@ lsmod | grep bbr
 
 對照 user-config.json 設定客戶端即可
 
-** 打完收工 **
+**打完收工**
 
 ### 其他（備註）
 
