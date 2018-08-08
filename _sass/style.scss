@@ -92,8 +92,9 @@ hr {
   border-bottom: 1px solid #fff;
 }
 img {
-  // max-width: 100%;
   margin: 0 0 1rem;
+  max-width: 100%;
+  object-fit: contain;
 }
 .message, table {
   margin-bottom: 1rem;
