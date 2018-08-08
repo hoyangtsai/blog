@@ -238,4 +238,4 @@ whistle 運行方式主要有兩種
 後續有其他使用情境再更新
 
 如果這篇文章有幫助到你，也歡迎請我一杯珍奶～
-{%include paypal_donate.html %}
+{%include donate_paypal.html %}
