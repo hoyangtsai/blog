@@ -15,19 +15,18 @@ noindex: true
     var name = '微信支付';
     url = 'wxp://f2f0iwTnrnM6iy_HaLoqGqs0LUopmsUoW6In';
     var iconImg = '<img src="http://ww2.sinaimg.cn/large/005zWjpngy1fojrwgr20oj303k03kglg.jpg" width="48px" height="48px" alt="微信支付">';
-    window.open(url);
+    window.location.href = url;
   } else if (ua.search(/AlipayClient/) >= 0) {
     //支付宝链接
     url = 'HTTPS://QR.ALIPAY.COM/FKX05230ZI3SARQHNUUF45';
-    // window.location.href = url;
-    window.open(url);
+    window.location.href = url;
   } else if (ua.search(/QQ/) >= 0) {
     var type = 'qq';
     var name = 'QQ钱包支付';
     //QQ钱包支付链接
     url = 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=3279174526&ac=73209950D80DB42A59772086E990E0E99771E4B3812746CA457989607989F91E&n=%E5%92%8C%E6%B4%8B%20Keit&f=wallet';
     var iconImg = '<img src="http://ww2.sinaimg.cn/large/005zWjpngy1fojrvmp427j303k03kjrb.jpg" width="48px" height="48px" alt="QQ钱包支付">';
-    window.open(url);
+    window.location.href = url;
   } else {
     var type = 'other';
     var name = '打赏作者';
