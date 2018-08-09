@@ -237,5 +237,6 @@ whistle 運行方式主要有兩種
 
 後續有其他使用情境再更新
 
-如果這篇文章有幫助到你，也歡迎請我一杯珍奶～
+如果這篇文章有幫助到你，也歡迎請我一杯珍奶～ (也是我更新的動力來源)
 {%include donate_paypal.html %}
+{%include donate_china.html %}
