@@ -8,7 +8,7 @@ comments: true
 tag: [proxy, nodejs, mac, homebrew, nvm]
 ---
 
-涉及前端開發後，所需必備的技能之一，網路代理。不論是文件代理還是網站代理，為了更真實模擬線上環境和 debug。
+涉及前端開發後，所需必備的技能之一，網路代理。不論是文件代理還是網站代理，為了更真實模擬線上環境和 debug
 
 <!-- more -->
 
@@ -98,27 +98,26 @@ whistle 運行方式主要有兩種
 
     **Firefox**
 
-    > 偏好設定 -> 一般 -> 網路代理伺服器 -> 設定...  {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="800" height="664" %}
+    > 偏好設定 -> 一般 -> 網路代理伺服器 -> 設定...
+    > {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="800" height="664" %}
 
     **Chrome**
 
     > 使用擴充工具，推薦安裝 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank">Proxy SwitchyOmega</a>
-    > {%include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="800" height="470" %}
-    > {%include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="800" height="424" %} 
-    > {%include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="222" height="400" %}
-    
+    > {% include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="800" height="470" %}
+    > {% include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="800" height="424" %}
+    > {% include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="222" height="400" %}
+
     **微信開發者工具**
 
     > 頂部選單 -> 設置 -> 代理設置
-    > {%include post_image.html src="/images/whistle/wx-devtool-config-proxy.png" alt="Weixin Developer Tool Config Proxy" width="800" height="649" %}
-
+    > {% include post_image.html src="/images/whistle/wx-devtool-config-proxy.png" alt="wx-devtool-config-proxy" width="800" height="649" %}
 
   - 系統偏好設定的網路
 
     > 在系統設定中網路的代理服務器，將網頁代理服務器（HTTP）和安全網頁代理服務器（HTTPS）的 ip 設置 whistle 代理服務器位址。
     > 如果啟動 whistle 時沒有修改 port 設置，默認為 127.0.0.1:8899
     > {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="600" height="464" %}
-
 
 #### 設置 HTTPS
 
@@ -171,22 +170,25 @@ whistle 運行方式主要有兩種
 
 ### 代理配置方式
 
-目前開發經常遇到的情境有兩種
+開發經常遇到的情境有以下幾種
 
 1. 修改請求位置
 2. 修改響應，替換本地假數據
+3. 同域名，不同子路徑，訪問本地前端網頁和遠端後台API
 
   - 修改請求位置
 
-    第一種和配置系統 hosts 很像，如果在 /etc/hosts 增加一行
+    > 發布流程，前端頁面和CDN資源在不同源的情況
+
+    和配置系統 hosts 一樣，如果在系統路徑 /etc/hosts 增加一行
     ```
     cdn.example.com 127.0.0.1
     ```
-    在瀏覽器訪問 cdn.example.com 時就會改連到本地
+    在瀏覽器訪問 cdn.example.com 時就會連到本地
 
-    之後再配置本地 web server (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境了
+    之後再配置本地 web server (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
 
-    但是 whistle 比配置系統 hosts 更加強大的是，如前面介紹的 pattern 支持正則表達式、通配符...等等
+    但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符
 
     在 whistle rules 的地方配置  {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
 
@@ -194,26 +196,14 @@ whistle 運行方式主要有兩種
     *.example.com 127.0.0.1
 
     # 說明
-    # abc.example.com             127.0.0.1
-    # xyz123.example.com          127.0.0.1
-    # 任何字符&不限長度.example.com  127.0.0.1
-    ```
-
-    更厲害的是，下面這個例子就可以知道正則表達式的強大
-
-    ```
-    /.*example.*\/(?!cgi)/i 127.0.0.1
-
-    # 說明
-    # abc123.example.cn/user    127.0.0.1
-    # sub.abc.example.com/news  127.0.0.1
-    # xzy.example.hk/info       127.0.0.1
-    # qwe.example.com/cgi       忽略
+    # proj1.example.com            127.0.0.1
+    # project2.example.com         127.0.0.1
+    # 任何字串&不限長度.example.com   127.0.0.1
     ```
 
   - 修改響應，替換本地假數據
 
-    開發期間經常會遇到，後台先給接口文檔，但實際接口還無法調用的情況
+    > 有後台接口文檔，但實際接口還無法調用的情況
 
     這時候就必須先用 json 假數據文件模擬後台接口響應
 
@@ -225,7 +215,6 @@ whistle 運行方式主要有兩種
     # www.example.com/cgi/common/userinfo.do  $1 = common/userinfo.do
     # www.example.com/cgi/news/list.do        $1 = news/list.do
     ```
-
     也可以模擬含 id query 的 get 請求
     ```
     /example.*\/cgi\/(.*\.do)\?id=(.*)$/ resBody:///Users/tommy/path/to/project/cgi/$1/$2 resType://json resCharset://utf8 statusCode://200
@@ -235,8 +224,40 @@ whistle 運行方式主要有兩種
     # www.example.com/cgi/news/post.do?id=6  $1 = news/post.do; $2 = 6
     ```
 
-後續有其他使用情境再更新
+  - 同域名，不同子路徑，訪問不同目標位置
 
-如果這篇文章有幫助到你，也歡迎請我一杯珍奶～ (也是我更新的動力來源)
-{%include donate_paypal.html %}
-{%include donate_china.html %}
+    > 後台接口已實現，本地開發 UI 和邏輯
+
+    whistle rules 的 pattern 除了支持通配符，也支持正則表達式<br>
+    所以可以用 regex 過濾子路徑，甚至一行表達式匹配子域名、頂級域（Top-Level Domain）
+
+    ```
+    # 指定特定域名和子路徑後台接口
+    /xyz\.example\.com\/(?!cgi)/i 127.0.0.1
+    /xyz\.example\.com\/cgi/ 10.55.66.123
+
+    # 說明
+    # xyz.example.com/任何字串路徑  127.0.0.1
+    # xyz.example.com/cgi         10.55.66.123
+
+    # xyz.example.com/cgi 連到 10.55.66.123
+    # 而 xyz.example.com/cgi 以外的路徑，連到 127.0.0.1
+    # 註1: 也可以不用寫第二行，訪問路徑含 /cgi 就不會連到本地
+    # 註2: 不能只用 hosts 的寫法 xyz.example.com 127.0.0.1 放在第一行
+    #      因為 hosts 寫法優先級會比較高
+    #      第二行的 /xyz\.example\.com\/cgi/ 10.55.66.123 不會生效
+    ```
+
+    ```
+    # 不指定二級域名和頂級域
+    /.*example.*\/(?!cgi)/i 127.0.0.1
+
+    # 說明
+    # xyz.example.cn/user       127.0.0.1
+    # sub.xyz.example.com/news  127.0.0.1
+    # xyz.example.com.hk/info   127.0.0.1
+    # xyz.example.com/cgi       忽略
+    ```
+
+{% include donate_paypal.html %}
+{% include donate_china.html %}
