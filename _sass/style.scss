@@ -52,7 +52,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Hiragino Sans GB", "Heiti TC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 @media (min-width:38em) {
@@ -658,4 +658,11 @@ hr.transp {
 .post-content {
   padding: 2em 0 0;
   @extend %word-break;
+}
+
+.donation {
+  img {
+    display: inline-block;
+    margin-bottom: 0;
+  }
 }

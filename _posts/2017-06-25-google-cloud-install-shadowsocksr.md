@@ -171,3 +171,6 @@ tar zxf libsodium-1.0.12.tar.gz && cd libsodium*
 echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
 ```
+
+{% include donate_paypal.html %}
+{% include donate_china.html %}

@@ -1,7 +1,6 @@
 ---
 layout: null
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -19,6 +18,8 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <description>{{ post.description | xml_escape }}</description>
+        <dc:creator>{{ site.author.name }}</dc:creator>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>
     {% endfor %}
