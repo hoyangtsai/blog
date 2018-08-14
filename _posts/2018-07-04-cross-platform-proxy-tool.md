@@ -190,7 +190,8 @@ whistle 運行方式主要有兩種
 
     但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符
 
-    在 whistle rules 的地方配置  {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
+    在 whistle rules 的地方配置
+    {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
 
     ```
     *.example.com 127.0.0.1

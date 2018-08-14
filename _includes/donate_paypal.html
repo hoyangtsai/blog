@@ -1,5 +1,11 @@
 <p>如果這篇文章有幫助到你，歡迎請我一杯珍奶～ (也是我更新的動力)</p>
 <div class="donation">
   <h4 class="donation__title">Paypal 打賞</h4>
-  <a href="//www.paypal.me/hoyangtsai" target="_blank"><img src="/images/paypal-donate.png" alt="paypal-donate" width="100" height="38"></a>
+  <a href="//www.paypal.me/hoyangtsai" target="_blank">
+    {% if page.path contains '_amp' %}
+      <amp-img src="{{ site.baseurl }}/images/paypal-donate.png" width="100" height="38" alt="paypal-donate" layout="fixed"></amp-img>
+    {% else %}
+      <img src="/images/paypal-donate.png" alt="paypal-donate" width="100" height="38" />
+    {% endif %}
+  </a>
 </div>
