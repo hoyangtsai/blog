@@ -182,24 +182,25 @@ whistle 運行方式主要有兩種
 
     和配置系統 hosts 一樣，如果在系統路徑 /etc/hosts 增加一行
     ```
-    cdn.example.com 127.0.0.1
+    www.example.com 127.0.0.1
     ```
-    在瀏覽器訪問 cdn.example.com 時就會連到本地
+    在瀏覽器訪問 `www.example.com` 時就會代理到本地
 
-    之後再配置本地 web server (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
+    之後再配置本地服務器 (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
 
     但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符
 
     在 whistle rules 的地方配置
-    {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
+
+      {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
 
     ```
     *.example.com 127.0.0.1
 
     # 說明
-    # proj1.example.com            127.0.0.1
-    # project2.example.com         127.0.0.1
-    # 任何字串&不限長度.example.com   127.0.0.1
+    # proj1.example.com         127.0.0.1
+    # project2.example.com      127.0.0.1
+    # [任何字串長度].example.com  127.0.0.1
     ```
 
   - 修改響應，替換本地假數據
@@ -209,20 +210,23 @@ whistle 運行方式主要有兩種
     這時候就必須先用 json 假數據文件模擬後台接口響應
 
     ```
-    /example.*\/cgi\/(.*\.do)$/ resBody:///Users/hoyang/path/to/project/cgi/$1 resType://json resCharset://utf8 statusCode://200
+    /example.*\/cgi\/(.*\.do)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1 resType://json resCharset://utf8 statusCode://200
 
-    # 說明
     # $1 含層級的路徑
-    # www.example.com/cgi/common/userinfo.do  $1 = common/userinfo.do
-    # www.example.com/cgi/news/list.do        $1 = news/list.do
+    # www.example.com/cgi/(common/userinfo.do)  $1 = common/userinfo.do
+    # => /Users/hoyang/path/to/project/mock_data/(common/userinfo.do)
+    #
+    # www.example.com/cgi/(news/list.do)        $1 = news/list.do
+    # => /Users/hoyang/path/to/project/mock_data/(news/list.do)
     ```
-    也可以模擬含 id query 的 get 請求
-    ```
-    /example.*\/cgi\/(.*\.do)\?id=(.*)$/ resBody:///Users/hoyang/path/to/project/cgi/$1/$2 resType://json resCharset://utf8 statusCode://200
 
-    # 說明
+    也可以模擬包含 id get 請求
+    ```
+    /example.*\/cgi\/(.*\.do)\?id=(.*)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1/$2 resType://json resCharset://utf8 statusCode://200
+
     # $1 含層級的路徑; $2 id後面的關鍵字
-    # www.example.com/cgi/news/post.do?id=6  $1 = news/post.do; $2 = 6
+    # www.example.com/cgi/(news/post.do)?id=(6)  $1 = news/post.do; $2 = 6
+    # => /Users/hoyang/path/to/project/mock_data/(news/post.do)/(6)
     ```
 
   - 同域名，不同子路徑，訪問不同目標位置
@@ -237,29 +241,30 @@ whistle 運行方式主要有兩種
     /xyz\.example\.com\/(?!cgi)/i 127.0.0.1
     /xyz\.example\.com\/cgi/ 10.55.66.123
 
-    # 說明
-    # xyz.example.com/任何字串路徑  127.0.0.1
-    # xyz.example.com/cgi         10.55.66.123
+    # xyz.example.com/其他字串  127.0.0.1
+    # xyz.example.com/cgi      10.55.66.123
+    #
+    # 註: 也可以不用寫第二行，訪問路徑含 /cgi 就不會連到本地
+    ```
 
-    # xyz.example.com/cgi 連到 10.55.66.123
-    # xyz.example.com/cgi 以外的路徑，連到 127.0.0.1
-    # 註1: 也可以不用寫第二行，訪問路徑含 /cgi 就不會連到本地
-    # 註2: 不能只用 hosts 的寫法
-           xyz.example.com 127.0.0.1
-           /xyz\.example\.com\/cgi/ 10.55.66.123 # 不會生效
-    #      猜測 hosts 表示式優先級會比較高
-    #      第二行的 /xyz\.example\.com\/cgi/ 10.55.66.123 不會生效
+    ```
+    xyz.example.com 127.0.0.1
+    /xyz\.example\.com\/cgi/ 10.55.66.123 # 不會生效
+
+    # 註: 不能只用 hosts 的寫法
+    #     猜測 hosts 表示式優先級會比較高
+    #     第二行的 /xyz\.example\.com\/cgi/ 10.55.66.123 不會生效
     ```
 
     ```
     # 不指定二級域名和頂級域
     /.*example.*\/(?!cgi)/i 127.0.0.1
 
-    # 說明
     # xyz.example.cn/user       127.0.0.1
-    # sub.xyz.example.com/news  127.0.0.1
-    # xyz.example.com.hk/info   127.0.0.1
+    # xyz.example.com.hk/news   127.0.0.1
     # xyz.example.com/cgi       忽略
+    # xyz.example.com.hk/cgi    忽略
+    # sub.xyz.example.com/cgi   忽略
     ```
 
 {% include donate_paypal.html %}
