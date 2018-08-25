@@ -176,9 +176,12 @@ whistle 運行方式主要有兩種
 2. 修改響應，替換本地假數據
 3. 同域名，不同子路徑，分別訪問本地前端頁面和遠端後台接口
 
+在 whistle rules 的地方配置代理規則
+{% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
+
   - 修改請求位置
 
-    > 開發、發布流程，前端頁面和CDN資源在不同源的情況
+    > 開發或發布流程，前端頁面和CDN資源在不同源的情況
 
     和配置系統 hosts 一樣，如果在系統路徑 /etc/hosts 增加一行
     ```
@@ -188,11 +191,7 @@ whistle 運行方式主要有兩種
 
     之後再配置本地服務器 (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
 
-    但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符
-
-    在 whistle rules 的地方配置
-
-      {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
+    但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符，如下例
 
     ```
     *.example.com 127.0.0.1
