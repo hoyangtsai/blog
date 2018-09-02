@@ -135,7 +135,7 @@ chmod 755 bbr.sh
 
 全部完成後就可以啟動 SSR server
 ```bash
-python ~/shadowsocksr/shadowsocks/server.py -d start
+cd ~/shadowsocksr/shadowsocks && python server.py -d start
 ```
 
 啟動 BBR
