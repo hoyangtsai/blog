@@ -152,7 +152,7 @@ lsmod | grep bbr
 
 * Mac 系統，推薦 [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
 * iOS 系統，推薦 [Shadowrocket](https://itunes.apple.com/app/shadowrocket/id932747118)
-* Android 系統，推薦 [shadowsocksr-android](https://github.com/shadowsocksr/shadowsocksr-android/releases)
+* Android 系統，推薦 [shadowsocksr-android](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases)
 
 對照 user-config.json 設定客戶端即可 **打完收工**
 
