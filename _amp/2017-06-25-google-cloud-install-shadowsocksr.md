@@ -75,7 +75,7 @@ cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd 
 執行 `bash initcfg.sh` 自動生成初始配置檔案
 
 用 `vim user-config.json` 編輯使用者配置
-```json
+```js
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
@@ -84,13 +84,11 @@ cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd 
     "local_port": 1080,
 
     "password": "", // shadowsocksr 客戶端登入密碼
-    "method": "aes-256-cfb", // 加密方式 aes-256-cfb
-    "protocol": "auth_aes128_md5", // 加密協議 auth_aes128_md5 或 auth_sha1_v4
+    "method": "aes-256-cfb", // 加密方式
+    "protocol": "auth_aes128_md5", // 加密協議
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_auth", // 建議用 tls1.2_ticket_auth
+    "obfs": "tls1.2_ticket_auth_compatible",
     "obfs_param": "akamai.com,cloudflare.com", // 混淆參數 akamai.com,cloudflare.com
-    "speed_limit_per_con": 0,
-    "speed_limit_per_user": 0,
 
     // 其他保留預設
 }
