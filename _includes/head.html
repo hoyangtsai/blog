@@ -47,9 +47,16 @@
 
   <script async src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script async src="{{ "/js/fotorama.js" | prepend: site.baseurl }}"></script>
 
-  <script defer src="https://pro.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-uyhTADGMAJuHgGNdH+rozTpOkfXUORTgjTmMBtxR8ISQjOs+IIWb8UBn9ixSd4xo" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/v4-shims.css">
+
+  <script async src="https://pro.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-uyhTADGMAJuHgGNdH+rozTpOkfXUORTgjTmMBtxR8ISQjOs+IIWb8UBn9ixSd4xo" crossorigin="anonymous"></script>
+  <script async src="https://use.fontawesome.com/releases/v5.7.0/js/v4-shims.js"></script> -->
+  <!-- End Font Awesome -->
 
   <style type="text/css">
     {% capture main_style %}
@@ -61,8 +68,6 @@
       {{ page.style }}
     {% endif %}
   </style>
-
-  <!-- <script async src="{{ "/js/fotorama.js" | prepend: site.baseurl }}"></script> -->
 
   <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">

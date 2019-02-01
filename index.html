@@ -16,16 +16,16 @@ description: ""
 
     {% if post.modified.size > 2 %}
       <div class="post-date" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}">
-        <i class="far fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
+        <i class="fa fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
         <a href="featured" title="Featured posts">
-          <i class="far fa-paperclip" title="Featured" class="social-icons"></i>
+          <i class="fa fa-paperclip" title="Featured" class="social-icons"></i>
         </a>
       </div>
         {% else %}
       <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-        <i class="far fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
+        <i class="fa fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
         <a href="/featured" title="Featured posts">
-          <i class="far fa-paperclip" title="Featured" class="social-icons"></i></a>
+          <i class="fa fa-paperclip" title="Featured" class="social-icons"></i></a>
       </div>
     {% endif %}
 
@@ -52,11 +52,11 @@ description: ""
 
       {% if post.modified.size > 2 %}
         <div class="post-date" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}">
-          <i class="far fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
+          <i class="fa fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
         </div>
         {% else %}
         <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-          <i class="far fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
+          <i class="fa fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
         </div>
       {% endif %}
 
@@ -73,7 +73,7 @@ description: ""
 </div>
 <div class="post-title">
   <div class="pagination" style="margin: 0.5rem;">
-    <a class="pagination-item older" href="blog"><i class="far fa-edit"> Blog</i></a>
-    <a class="pagination-item newer" href="tags"><i class="far fa-tags"> Tags</i></a>
+    <a class="pagination-item older" href="blog"><i class="fa fa-edit"> Blog</i></a>
+    <a class="pagination-item newer" href="tags"><i class="fa fa-tags"> Tags</i></a>
   </div>
 </div>

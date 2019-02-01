@@ -1,24 +1,24 @@
 - name: Twitter
   url: https://twitter.com/hoyangtsai
-  class: far fa-twitter
+  class: fa fa-twitter
   title: "@hoyangtsai"
 
 - name: GitHub
   url: https://github.com/hoyangtsai
-  class: far fa-github
+  class: fa fa-github
   title: hoyangtsai (Ho-Yang Tsai)
 
 # - name: Facebook
 #   url: https://www.facebook.com/hoyangtsai/
-#   class: far fa-facebook-official
+#   class: fa fa-facebook-official
 #   title: "Hoyang Tsai • Facebook"
 
 - name: Instagram
   url: https://www.instagram.com/hoyangtsai/
-  class: far fa-instagram
+  class: fa fa-instagram
   title: "Hoyang（@hoyangtsai）• Instagram"
 
 - name: Linkedin
   url: https://www.linkedin.com/in/hoyangtsai
-  class: far fa-linkedin-square
+  class: fa fa-linkedin-square
   title: "Ho-Yang Tsai | Linkedin"

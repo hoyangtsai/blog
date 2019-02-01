@@ -1,0 +1,81 @@
+.fa-creative-commons {
+  padding: 2px;
+  transition: .5s;
+  color: #515151;
+  background-color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: #e64a41;
+  }
+}
+.fa-print, .fa-twitter.meta {
+  padding: 1px;
+  transition: .5s;
+}
+.fa-print {
+  transition: .5s;
+  color: #9A9A9A;
+  background-color: #fff;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
+.fa-twitter.meta {
+  transition: .5s;
+  color: #9A9A9A;
+  background-color: #fff;
+  vertical-align: top;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
+
+.fa-comments {
+  transition: .5s;
+  padding: 1px;
+  background-color: #fff;
+  color: #9A9A9A;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
+
+.fa-linkedin, .fa-paperclip {
+  transition: .5s;
+}
+.fa-paperclip {
+  padding: 1px;
+  transition: .5s;
+  color: #9A9A9A;
+  background-color: #fff;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
+.fa-linkedin {
+  transition: .5s;
+  color: #9A9A9A;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
+
+.fa-files-o, .fa-linkedin {
+  padding: 1px;
+  vertical-align: top;
+  background-color: #fff;
+}
+.fa-files-o {
+  transition: .5s;
+  transition: .5s;
+  color: #9A9A9A;
+  &:hover {
+    color: #268bd2;
+    background-color: #fff;
+  }
+}
