@@ -63,19 +63,19 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
-  - title: <i class="fa fa-home"></i> Home
+  - title: <i class="far fa-home"></i> Home
     url: /
-  - title: <i class="fa fa-user"></i> About
+  - title: <i class="far fa-user"></i> About
     url: /about/
-  - title: <i class="fa fa-pencil"></i> Posts
+  - title: <i class="far fa-pencil"></i> Posts
     url: /posts/
-  - title: <i class="fa fa-tags"></i> Tags
+  - title: <i class="far fa-tags"></i> Tags
     url: /tags/
-  - title: <i class="fa fa-archive"></i> Archive
+  - title: <i class="far fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="fa fa-address-book"></i> Contact
+  - title: <i class="far fa-address-book"></i> Contact
     url: /contact/
-  - title: <i class="fa fa-rss"></i> Feed
+  - title: <i class="far fa-rss"></i> Feed
     url: /feed.xml
 
 # Twitter stream widget:

@@ -12,7 +12,7 @@ category: base
 You may also visit [tags]({{ site.url }}/tags) or [archive]({{ site.url }}/archive) page to browse website contents.
 
 {:.text-center}
-<a href="javascript:goBack()" class="social-icons" title="Return to previous page"><i class="fa fa-arrow-circle-left fa-2x"></i></a>
+<a href="javascript:goBack()" class="social-icons" title="Return to previous page"><i class="far fa-arrow-circle-left"></i></a>
 
 <script>
 function goBack() {

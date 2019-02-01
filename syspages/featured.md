@@ -19,11 +19,11 @@ category: base
 
   {% if post.modified.size > 2 %}
     <div class="post-date" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}">
-      <i class="fa fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
+      <i class="far fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i>
     </div>
     {% else %}
     <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-      <i class="fa fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
+      <i class="far fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i>
     </div>
   {% endif %}
 
