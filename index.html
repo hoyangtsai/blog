@@ -23,7 +23,7 @@ description: ""
       </div>
         {% else %}
       <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-          <i class="fal fa-calendar-alt" title="Date published">&nbsp;{{ post.date | date_to_string }}</i>
+          <i class="fal fa-calendar-alt" title="Date published"></i>&nbsp;{{ post.date | date_to_string }}
         <a href="/featured" title="Featured posts">
           <i class="far fa-paperclip" title="Featured" class="social-icons"></i></a>
       </div>
@@ -56,7 +56,7 @@ description: ""
         </div>
         {% else %}
         <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-          <i class="fal fa-calendar-alt" title="Date published">&nbsp;{{ post.date | date_to_string }}</i>
+          <i class="fal fa-calendar-alt" title="Date published"></i>&nbsp;{{ post.date | date_to_string }}
         </div>
       {% endif %}
 
@@ -73,7 +73,15 @@ description: ""
 </div>
 <div class="post-title">
   <div class="pagination" style="margin: 0.5rem;">
-    <a class="pagination-item older" href="blog"><i class="far fa-edit"> Blog</i></a>
-    <a class="pagination-item newer" href="tags"><i class="far fa-tags"> Tags</i></a>
+    {% if paginator.previous_page_path %}
+      <a class="pagination-item older" href="{{ paginator.previous_page_path }}">Older</a>
+    {% else %}
+      <span class="pagination-item older">Older</span>
+    {% endif %}
+    {% if paginator.next_page_path %}
+      <a class="pagination-item newer" href="{{ paginator.next_page_path }}">Newer</a>
+    {% else %}
+      <span class="pagination-item newer">Newer</span>
+    {% endif %}
   </div>
 </div>
