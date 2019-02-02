@@ -12,7 +12,7 @@ category: base
 You may also visit [tags]({{ site.url }}/tags) or [archive]({{ site.url }}/archive) page to browse website contents.
 
 {:.text-center}
-<a href="javascript:goBack()" class="social-icons" title="Return to previous page"><i class="fa fa-arrow-circle-left"></i></a>
+<a href="javascript:goBack()" class="social-icons" title="Return to previous page"><i class="far fa-arrow-circle-left"></i></a>
 
 <script>
 function goBack() {
@@ -25,7 +25,7 @@ function goBack() {
 
 <div id="searchbox2" align="center">
 <div class="searchcont2">
-    <!-- span class="searchicon2"><i class="fa fa-search fa-2x"></i></span -->
+    <!-- span class="searchicon2"><i class="far fa-search fa-2x"></i></span -->
     <form role="search" method="get" action="{{ site.url }}/cse/">
         <input id="searchString2" name="searchString2"
                placeholder=" Search" type="text">

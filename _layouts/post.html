@@ -5,13 +5,13 @@ layout: default
 <div class="post">
   <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
   <div class="post-date" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
-    <i class="fa fa-calendar"></i><a class="permalink" href="{{ site.url }}{{ page.url }}" itemprop="url">{{ page.date | date_to_string }}</a>
+    <i class="fal fa-calendar-alt"></i><a class="permalink" href="{{ site.url }}{{ page.url }}" itemprop="url">{{ page.date | date_to_string }}</a>
   </div>
 
   <div class="post-tags" itemprop="keywords" content="{{ page.tags | array_to_sentence_string }}">
     {% for tag in page.tags %}
       {% if forloop.first %}
-        <i class="fa fa-tags" title="page tags"></i>
+        <i class="far fa-tags" title="page tags"></i>
       {% endif %}
       <a href="{{ site.url }}/tags/#{{ tag | uri_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
       {% unless forloop.last %} &bull; {% endunless %}
@@ -28,13 +28,13 @@ layout: default
   <hr>
 
   <div class="post-date metafoot" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
-    <i class="fa fa-calendar"></i><a class="permalink" href="{{ site.url }}{{ page.url }}" itemprop="url">{{ page.date | date_to_string }}</a>
+    <i class="fal fa-calendar-alt"></i><a class="permalink" href="{{ site.url }}{{ page.url }}" itemprop="url">{{ page.date | date_to_string }}</a>
   </div>
 
   <div class="post-tags" itemprop="keywords" content="{{ page.tags | array_to_sentence_string }}">
     {% for tag in page.tags %}
       {% if forloop.first %}
-        <i class="fa fa-tags" title="page tags"></i>
+        <i class="far fa-tags" title="page tags"></i>
       {% endif %}
       <a href="{{ site.url }}/tags/#{{ tag | uri_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
       {% unless forloop.last %} &bull; {% endunless %}

@@ -20,7 +20,7 @@ style: |
 ---
 
 <div>
-  <a href="{{ site.url }}/files/Resume.pdf" target="_blank" title="open in new tab">Resume <i class="fa fa-external-link"></i></a>
+  <a href="{{ site.url }}/files/Resume.pdf" target="_blank" title="open in new tab">Resume<i class="far fa-external-link"></i></a>
 </div>
 
 <!-- Alternaetly, user html5 embed tag -->

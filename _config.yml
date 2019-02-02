@@ -14,7 +14,7 @@ baseurl:
 urlimg: https://hoyangtsai.github.io/images/
 markdown: kramdown
 
-excerpt_separator: '<!--- more --->'
+excerpt_separator: '<!-- more -->'
 default_bg: /assets/sitebg.jpg
 default_logo: /assets/sitelogo.png
 safe: false
@@ -63,19 +63,19 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
-  - title: <i class="fa fa-home"></i>&nbsp;&nbsp;Home
+  - title: <i class="fas fa-home"></i>&nbsp;&nbsp;Home
     url: /
-  - title: <i class="fa fa-user"></i>&nbsp;&nbsp;About
+  - title: <i class="fas fa-user"></i>&nbsp;&nbsp;About
     url: /about/
-  - title: <i class="fa fa-pencil"></i>&nbsp;&nbsp;Posts
+  - title: <i class="far fa-pencil"></i>&nbsp;&nbsp;Posts
     url: /posts/
-  - title: <i class="fa fa-tags"></i>&nbsp;&nbsp;Tags
+  - title: <i class="far fa-tags"></i>&nbsp;&nbsp;Tags
     url: /tags/
-  - title: <i class="fa fa-archive"></i>&nbsp;&nbsp;Archive
+  - title: <i class="fas fa-archive"></i>&nbsp;&nbsp;Archive
     url: /archive/
-  - title: <i class="fa fa-address-book"></i>&nbsp;&nbsp;Contact
+  - title: <i class="fas fa-address-book"></i>&nbsp;&nbsp;Contact
     url: /contact/
-  - title: <i class="fa fa-rss"></i>&nbsp;&nbsp;Feed
+  - title: <i class="fas fa-rss"></i>&nbsp;&nbsp;Feed
     url: /feed.xml
 
 # Twitter stream widget:
