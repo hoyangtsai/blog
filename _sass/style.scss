@@ -7,7 +7,7 @@
 @import "mod/_pagination";
 @import "mod/_blockquote";
 @import "mod/_code";
-@import "mod/_font-awesome";
+// @import "mod/_font-awesome";
 
 h2, h4, h5, h6 {
   margin-top: 1rem;
@@ -305,6 +305,7 @@ td, th {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 .img-circle {
   border-radius: 50%}
@@ -567,12 +568,12 @@ hr.transp {
   color: #ff0000;
 }
 
-.post-action {
-  a {
-    display: inline-block;
-    vertical-align: top;
-  }
-}
+// .post-action {
+//   a {
+//     display: inline-block;
+//     vertical-align: top;
+//   }
+// }
 
 .post-content {
   padding: 2em 0 0;
