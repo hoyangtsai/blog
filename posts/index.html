@@ -23,8 +23,8 @@ description: ""
         {% endif %}
       </div>
       {% else %}
-      <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}"><i class="fal fa-calendar-alt" title="Date published">
-        {{ post.date | date_to_string }}</i>
+      <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}"><i class="fal fa-calendar-alt" title="Date published"></i>
+        {{ post.date | date_to_string }}
         {% if post.category contains "featured" %}
           <a href="/featured" title="Featured posts">
             <i class="far fa-paperclip" title="Featured" class="social-icons"></i>
