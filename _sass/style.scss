@@ -7,7 +7,6 @@
 @import "mod/_pagination";
 @import "mod/_blockquote";
 @import "mod/_code";
-// @import "mod/_font-awesome";
 
 h2, h4, h5, h6 {
   margin-top: 1rem;
@@ -65,7 +64,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
-    font-weight: 400;
+  font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
 }
