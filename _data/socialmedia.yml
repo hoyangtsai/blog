@@ -8,15 +8,15 @@
   class: fab fa-github
   title: hoyangtsai (Ho-Yang Tsai)
 
-# - name: Facebook
-#   url: https://www.facebook.com/hoyangtsai/
-#   class: fab fa-facebook
-#   title: "Hoyang Tsai • Facebook"
+- name: Facebook
+  url: https://www.facebook.com/hoyangtsai
+  class: fab fa-facebook
+  title: "Hoyang Tsai • Facebook"
 
-- name: Instagram
-  url: https://www.instagram.com/hoyangtsai/
-  class: fab fa-instagram
-  title: "Hoyang（@hoyangtsai）• Instagram"
+# - name: Instagram
+#   url: https://www.instagram.com/hoyang_0906
+#   class: fab fa-instagram
+#   title: "Hoyang（@hoyang_0906）• Instagram"
 
 - name: Linkedin
   url: https://www.linkedin.com/in/hoyangtsai
