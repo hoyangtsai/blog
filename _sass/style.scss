@@ -28,24 +28,18 @@ img, pre {
 .wrap, hr {
   position: relative;
 }
+
 * {
   box-sizing: border-box;
 }
+
 a {
   color: #268bd2;
   text-decoration: none;
   cursor: pointer;
   outline:none;
 }
-body, html {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
+
 body {
   color: #515151;
   background-color: #fff;
@@ -174,6 +168,9 @@ td, th {
   margin-bottom: 2em;
 }
 
+.post {
+  margin-bottom: 2em;
+}
 .post-date, .post-tags {
   margin-bottom: .5em;
 }
@@ -566,13 +563,6 @@ hr.transp {
 .txt-red {
   color: #ff0000;
 }
-
-// .post-action {
-//   a {
-//     display: inline-block;
-//     vertical-align: top;
-//   }
-// }
 
 .post-content {
   padding: 2em 0 0;
