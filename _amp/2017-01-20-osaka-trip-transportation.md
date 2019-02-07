@@ -5,7 +5,7 @@ title: 大阪行 - 日本境內交通篇
 description: 關西機場到大阪市區、大阪到京都、大阪到奈良。日本電車種類介紹、交通搭乘指南
 published: true
 comments: true
-tag: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, FlyPeach, budgetAirlines, 交通指南]
+tags: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, FlyPeach, budgetAirlines, 交通指南]
 ---
 延續前一篇<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>，現在要來說說日本境內的交通了<br>
 

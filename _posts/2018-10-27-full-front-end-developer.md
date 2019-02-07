@@ -5,7 +5,8 @@ title: 成為大前端的起手式
 description: 簡單介紹如何從單純的JS開發者入門成為全方位的前端開發
 published: true
 comments: true
-tag: [frontend, ps, sketch]
+tags: [frontend, ps, sketch]
+skip_amp: true
 ---
 
 ## 零基礎掌握大前端的技能

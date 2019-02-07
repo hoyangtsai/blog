@@ -5,7 +5,7 @@ title: 大阪行 - 住宿篇
 description: 大阪住宿推薦
 published: true
 comments: true
-tag: [日本, 大阪, 旅遊指南, Osaka, travelGuide]
+tags: [日本, 大阪, 旅遊指南, Osaka, travelGuide]
 style: |
   .gmap-iframe {
     border: none;

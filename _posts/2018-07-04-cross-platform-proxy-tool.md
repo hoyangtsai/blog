@@ -5,7 +5,7 @@ title: 跨平台 proxy 代理工具
 description: Whistle 免費 proxy 工具取代 Mac Charles 或 Windows Fiddle
 published: true
 comments: true
-tag: [whistle, nodejs, proxy, mac, homebrew, nvm, charles, fiddle]
+tags: [whistle, nodejs, proxy, mac, homebrew, nvm, charles, fiddle]
 ---
 
 涉及前端開發後，所需必備的技能之一，網路代理。不論是文件代理還是網站代理，為了更真實模擬線上環境和 debug

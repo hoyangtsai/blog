@@ -5,7 +5,7 @@ title: 安裝多版本 Node.js
 description: 透過 NVM 工具管理 Node.js 版本
 published: true
 comments: true
-tag: [homebrew, nodejs, npm, nvm, commandLine]
+tags: [homebrew, nodejs, npm, nvm, commandLine]
 ---
 在開始介紹 nvm 管理 node 版本之前先說一下為什麼會有這個需要
 

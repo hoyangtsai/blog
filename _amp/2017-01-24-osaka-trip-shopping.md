@@ -5,7 +5,7 @@ title: 大阪行 - 家電購物篇
 description: 更便宜地買到超夯 Dyson 吸塵器, Panasonic 吹風機等電器
 published: true
 comments: true
-tag: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
+tags: [日本, 大阪, 旅遊指南, 購物, Osaka, travelGuide, shopping]
 style: |
   .mg-space {
     margin: 1em;

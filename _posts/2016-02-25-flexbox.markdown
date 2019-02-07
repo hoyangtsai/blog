@@ -3,7 +3,7 @@ layout: post
 title: Flexbox 使用指南
 published: true
 comments: true
-tag: [front-end, html5, css3]
+tags: [front-end, html5, css3]
 ---
 ### 背景
 
