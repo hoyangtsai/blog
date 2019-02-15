@@ -131,4 +131,4 @@ tags: [日本, 大阪, 旅遊指南, 樂桃, 廉價航空, Osaka, travelGuide, F
 但像前面所說的，需要額外支付一筆費用（920日圓）<br>
 <img src="{{ site.urlimg }}osaka-trip/IMG_5815.JPG" alt="IMG_5815"><br>
 
-下篇文章，將會跟大家分享日本行另外一個重要的行程 <a href="{{ page.next.url }}">【大阪行】購物 - 家電篇 </a> 😆
+下篇文章，將會跟大家分享日本行另外一個重要的行程 <a href="{{page.next.url}}">【大阪行】購物 - 家電篇 </a> 😆
