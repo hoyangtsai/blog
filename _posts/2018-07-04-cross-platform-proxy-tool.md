@@ -273,5 +273,20 @@ whistle 運行方式主要有兩種
     # sub.xyz.example.com/cgi   忽略
     ```
 
+#### 無腦代理法
+
+直接替換/模擬 server 文件
+
+```
+cdn.example.com/path/to/file.js resBody:///Users/hoyang/path/to/local/file.js resType://js resCharset://utf8 statusCode://200
+```
+
+#### 模擬弱網環境
+
+```
+cdn.example.com 127.0.0.1 resSpeed://300
+# resSpeed://300 表示回應速度為 300 kb/s
+```
+
 {% include donate_paypal.html %}
 {% include donate_china.html %}
