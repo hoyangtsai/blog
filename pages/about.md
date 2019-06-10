@@ -13,7 +13,7 @@ sitemap:
     priority: 0.7
     changefreq: 'monthly'
     lastmod: 2017-01-27
-tags: ["font-end developer", "resume", "about"]
+tags: ["resume", "about"]
 ---
 
 <div class="post-author text-center">
@@ -32,83 +32,3 @@ My first job was to drive Java SE with MS SQL Server to customize a web-based PT
 In the cloud drive, I involved with back-end RESTful service development and front-end media files preview on the web. In the restaurant search system, I was in charge of all of the beck-end REST APIs for the web and native apps.
 My characteristics are well-organized, work efficiently and high self-demanded to productivities in which the tasks responsible for.</p>
 
-### Work
-
-#### Social Hub - built by pure javascript with Material Design Lite
-[https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm](https://chrome.google.com/webstore/detail/social-hub/ghbmmfdmaegmffeogibdgaijaelfaijm)
-
-#### IM Hub - built by React with Material UI
-> Support most of popular chatting web applications like Messenger, Hangouts, Telegram, Skype, Whatsapp and WeChat. Let you switch between different IM apps instantly.
-
-[https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke](https://chrome.google.com/webstore/detail/im-hub/hbmefbfbophhojlhbgbonngkehnacnke)
-
-### Projects
-<h4>FireFox OS Web App - Clock</h4>
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/newclock/home.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/newclock/stopwatch.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/newclock/timer.jpg" />
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
-<h4>Cloud Drive (Desktop)</h4>
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/eos/home.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/eos/imageviewer.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/eos/musicplayer.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/eos/videoplayer.jpg" />
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
-<h4>Cloud Drive (Mobile)</h4>
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/3.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/4.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/5.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/7.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/8.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/9.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/10.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/11.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/13.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/14.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/16.png" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/helios/18.png" />
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
-<h4>Restaurant Search</h4>
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/hungry/popularstore.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/hungry/locationstore.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/hungry/minidiningbrief.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/hungry/storedetail.jpg" />
-    <img class="swiper-slide img-responsive" src="//hoyangtsai.github.io/images/hungry/fuzzysearch.jpg" />
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    loop: true,
-    centeredSlides: true,
-    spaceBetween: 0,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-</script>
