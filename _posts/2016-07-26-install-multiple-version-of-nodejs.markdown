@@ -5,6 +5,7 @@ title: 安裝多版本 Node.js
 published: true
 comments: true
 tags: [homebrew, nodejs, npm, nvm, commandLine]
+description: 使用 nvm 管理多種 nodejs 版本運行在同一台電腦
 ---
 在開始介紹 nvm 管理 node 版本之前先說一下為什麼會有這個需要
 

@@ -5,6 +5,7 @@ title: 圖片最佳化
 published: true
 comments: true
 tags: [最佳化, 優化, PageSpeedInsights, googleDeveloper, commandLine]
+description: jpg, png等圖片格式壓縮最佳化
 ---
 網頁優化/最佳化，圖片壓縮是不可忽視的一塊。<br>
 透過 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) 分析可以為你的網頁打分數。<br>
