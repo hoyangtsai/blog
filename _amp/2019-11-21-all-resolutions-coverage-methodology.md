@@ -23,11 +23,11 @@ style: |
 
 如京東的網站，有圖片比例不對、間隔過大等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="auto" height="50%" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="1334px" height="1200px" %}
 
 網易新聞，有過度放大、缺乏空間利用等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="auto" height="50%" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="1334px" height="1200px" %}
 
 在開發 [騰訊微加信用卡官網](https://wepluscard.qq.com/mdft/index.shtml) 的網站時，為了滿足多端全螢幕適配的需求，調查現在幾個比較熱門支持自適應的 UI 框架
 
@@ -109,7 +109,7 @@ Bootstrap 無疑是最熱門且發展最久的 UI 框架之一
 所以要看的是設備的可視區域 (viewport) 像素，CSS 的媒體查詢也是依此為基準。
 
 分倍率和像素的關係稱為像素密度 (pixel density)
-![https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1QqdZ48smdRjk9itSexZz2DcWI92iXxR7%2Flayout-unitsmeasurements-pixeldensity-lowhigh.png](https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1QqdZ48smdRjk9itSexZz2DcWI92iXxR7%2Flayout-unitsmeasurements-pixeldensity-lowhigh.png)
+{% include post_image.html src="https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1QqdZ48smdRjk9itSexZz2DcWI92iXxR7%2Flayout-unitsmeasurements-pixeldensity-lowhigh.png" alt="grid-options" width="1520px" height="760px" %}
 > Pixel density - Material Design
 
 | 裝置               | 分倍率           | viewport         |
@@ -130,7 +130,7 @@ Bootstrap 無疑是最熱門且發展最久的 UI 框架之一
 2. Gutter - 列與列的間隔
 3. Margin - 主要容器與頁面邊界間距
 
-![https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1P_b7NIZ5_IBvs9VraJx7tu8KO-dUZXJW%2Flayout-responsive-columns-margins-gutters.png](https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1P_b7NIZ5_IBvs9VraJx7tu8KO-dUZXJW%2Flayout-responsive-columns-margins-gutters.png)
+{% include post_image.html src="https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1P_b7NIZ5_IBvs9VraJx7tu8KO-dUZXJW%2Flayout-responsive-columns-margins-gutters.png" alt="grid-options" width="1520px" height="760px" %}
 
 Bootstrap 和 Material Design 默認都是最大設備下一行 (col) 切分成 12 列 (col) 為單位
 
@@ -147,11 +147,11 @@ container 寬度在各尺寸設備下
 
 小設備、中設備、大設備、極大設備分別代表 sm, md, lg, xl 等縮寫，應用到頁面的排版中
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/grid-options.png" alt="grid-options" width="auto" height="100%" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/grid-options.png" alt="grid-options" width="866px" height="600px" %}
 
 ### 寬度均分
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/equal-width.png" alt="equal-width" width="auto" height="100%" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/equal-width.png" alt="equal-width" width="842px" height="360px" %}
 
 ```html
 <div class="container">
@@ -184,7 +184,7 @@ container 寬度在各尺寸設備下
 
 ### 某一列比較寬
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/one-column-wider.png" alt="one-column-wider" width="auto" height="100%" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/one-column-wider.png" alt="one-column-wider" width="843px" height="358px" %}
 
 ```html
 <div class="container">
@@ -250,9 +250,9 @@ container 寬度在各尺寸設備下
 </div>
 ```
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-items.png" alt="adv-items" width="auto" height="100%" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-items.png" alt="adv-items" width="1259px" height="458px" %}
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="auto" height="100%" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="739px" height="656px" %}
 
 ## 自定義
 
@@ -287,11 +287,11 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
 - [Boostrap Build](https://bootstrap.build/app)
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/bootstrap_build.png" alt="bootstrap_build" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/bootstrap_build.png" alt="bootstrap_build" width="1300px" height="800px" %}
 
 - [Bootstrap 4 Customizer](http://upgrade-bootstrap.bootply.com/bootstrap-4-customizer)
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/bootstrap4_customizer.png" alt="bootstrap4_customizer" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/bootstrap4_customizer.png" alt="bootstrap4_customizer" width="1234px" height="800px" %}
 
 ## 設計注意
 
@@ -306,15 +306,15 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     例如頭部的中間 logo 的容器在中設備以下時，空間被限縮，就無法同時展示 logo 和文字。
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/header.png" alt="header" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/header.png" alt="header" width="1246px" height="80px" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/header_md.png" alt="header_md" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/header_md.png" alt="header_md" width="775px" height="67px" %}
 
     另外像微加信用卡首頁的用戶故事，在大螢幕時可以採用左右圖文的設計，到小螢幕時也是因為空間關係必須改成上下排列。
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story.png" alt="user-story" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story.png" alt="user-story" width="1165px" height="698px" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="992px" height="1296px" %}
 
 - 交互
 
@@ -322,9 +322,9 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     另外一個像是導航選單，如果在小螢幕中沒多餘的空間放頁面的入口連結，現在常見的作法是做成一個俗稱漢堡的選單，由上往下展開或由左右兩側滑出入口連結的選單。
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="1026px" height="129px" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="988px" height="932px" %}
 
 - 圖片和文字
 
@@ -334,4 +334,4 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     還有就是像是常用的標題和副標題文字大小，也需要做個相對適度的縮放。
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/image_and_text.png" alt="image_and_text" width="auto" height="100%" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/image_and_text.png" alt="image_and_text" width="1855px" height="834px" %}

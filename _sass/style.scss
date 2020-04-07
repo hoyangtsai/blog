@@ -575,3 +575,7 @@ hr.transp {
     margin-bottom: 0;
   }
 }
+
+amp-img.contain img {
+  object-fit: contain;
+}

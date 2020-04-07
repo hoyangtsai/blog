@@ -4,7 +4,16 @@
     width="{{ include.width }}"
     height="{{ include.height }}"
     alt="{{ include.alt }}"
+    class="contain"
     layout="responsive"></amp-img>
+{% elsif page.path contains "_amp" && include.src contains "http" %}
+  <amp-img
+  src="{{ include.src }}"
+  width="{{ include.width }}"
+  height="{{ include.height }}"
+  alt="{{ include.alt }}"
+  class="contain"
+  layout="responsive"></amp-img>
 {% else %}
   <img class="{{ include.class }}" src="{{ include.src }}" alt="{{ include.alt }}" />
 {% endif %}
