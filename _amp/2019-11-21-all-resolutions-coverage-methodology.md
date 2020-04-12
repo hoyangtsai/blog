@@ -5,7 +5,7 @@ title: 多端全螢幕適配方案
 description: 如何製作一個支援多終端覆蓋全螢幕解析度的網站
 published: true
 comments: true
-tags: [frontend, responsive web design, CSS framework, bootstrap]
+tags: [front-end, responsive web design, CSS framework, bootstrap]
 style: |
   .rem-site {
     width: 60%;

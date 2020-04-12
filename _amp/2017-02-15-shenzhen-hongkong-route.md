@@ -5,7 +5,7 @@ title: 深圳香港交通指南
 description: 深圳和香港來往的路線
 published: true
 comments: true
-tags: [深圳, 香港, 旅遊指南, travelGuide, 交通指南]
+tags: [深圳, 香港, 旅遊指南, 交通指南]
 style: |
   .txt-orange {
     color: #FF7F00;
