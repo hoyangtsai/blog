@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-04-18
-title: Apache Tomcat 服務器環境設置
+title: Tomcat 服務器環境設置
 description: Tomcat 服務器和 JAVA SDK 開發配置
 published: true
 comments: true
@@ -10,15 +10,23 @@ tags: [tomcat, java, homebrew]
 
 ## 環境設置
 
-### 编辑器 (IDE)
+### 安裝 JAVA SDK
 
-安装 [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+CentOS 用下面指令安裝 JDK 版本
 
-建議 Ultimate 版本才有內建 Tomcat 配置功能，或其他完整功能
+```bash
+yum install java-1.8.0-openjdk-devel
+```
 
 <!-- more -->
 
-### 安裝 JAVA SDK
+執行 `java -version` 檢查版本
+
+順帶一提，如果安裝多個 JAVA 版本，可以用下面命令切換 JAVA 版本
+
+```
+alternatives --config java
+```
 
 MacOS 使用 Homebrew 安裝
 
@@ -27,18 +35,11 @@ brew tap adoptopenjdk/openjdk
 brew cask install adoptopenjdk8
 ```
 
-CentOS 用下面指令安裝 JDK 版本
+可以透過修改環境變量 `.bash_profile` 或 `.zshrc` 更換版本
 
 ```bash
-yum install java-1.8.0-openjdk-devel
-```
-
-執行 `java -version` 檢查版本
-
-順帶一提，如果安裝多個 JAVA 版本，可以用下面命令切換 JAVA 版本
-
-```
-alternatives --config java
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME=$(/usr/libexec/java_home -v 9)
 ```
 
 ### 新增環境變量
@@ -55,7 +56,7 @@ PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 export JAVA_HOME JRE_HOME CLASSHOME PATH
 ```
 
-更新文件
+更新環境變量
 
 ```bash
 source ~/.bashrc
@@ -66,7 +67,7 @@ source ~/.bashrc
 到 tomcat 目錄的 bin 路徑下，使用 `./configtest.sh` 檢查配置，前幾行應該看起來像下面配置
 
 ```bash
-[root@VM_centos /etc/tomcat/bin]# ./configtest.sh
+[root@VM_centos /etc/tomcat/bin]$ ./configtest.sh
 Using CATALINA_BASE:   /etc/tomcat
 Using CATALINA_HOME:   /etc/tomcat
 Using CATALINA_TMPDIR: /etc/tomcat/temp
@@ -77,16 +78,8 @@ Using CLASSPATH:       /etc/tomcat/bin/bootstrap.jar:/etc/tomcat/bin/tomcat-juli
 
 ### 安裝 Maven
 
-CentOS
-
 ```bash
 yum install maven
-```
-
-Mac OS
-
-```bash
-brew install maven
 ```
 
 maven 默認安裝在家目錄的 `.m2/` 路徑下
@@ -165,7 +158,27 @@ mvn clean pacakge -DskipTests -Ptest -U
 
 之後執行 `./startup.sh` 在背景啟動服務
 
-瀏覽器訪問 http://ip:port/fortune/index.html， 如果可以訪問表示服務啟動成功
+瀏覽器訪問 http://ip:port/project_name/index.html， 如果可以訪問表示服務啟動成功
+
+### 編輯器 (IDE)
+
+安装 [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+
+建議安裝 Ultimate 版本才有內建 Tomcat 配置功能，和更多完整功能
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_local.png" alt="tomcat_local" width="1070px" height="700px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_add.png" alt="tomcat_config_add" width="800px" height="660px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_server.png" alt="tomcat_server" width="800px" height="660px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_1.png" alt="tomcat_config_1" width="1070px" height="700px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="470px" height="490px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_3.png" alt="tomcat_config_1" width="1070px" height="700px" %}
+
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_4.png" alt="tomcat_config_1" width="1070px" height="700px" %}
 
 ## non-root user (Additional)
 
@@ -227,7 +240,7 @@ sudo chmod g+r bin/*
 
 ## 參考
 
-- https://linuxize.com/post/install-java-on-centos-7/
-- https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/
-- https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat
-- https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/
+- [https://linuxize.com/post/install-java-on-centos-7/](https://linuxize.com/post/install-java-on-centos-7/)
+- [https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/)
+- [https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat](https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat)
+- [https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/](https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/)
