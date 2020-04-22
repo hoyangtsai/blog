@@ -24,7 +24,7 @@ yum install java-1.8.0-openjdk-devel
 
 順帶一提，如果安裝多個 JAVA 版本，可以用下面命令切換 JAVA 版本
 
-```
+```bash
 alternatives --config java
 ```
 

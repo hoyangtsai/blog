@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --wash:  #3E4042;
+    --web-wash:  #18191A;
+    --warning:  hsl(40, 89%, 52%);
+    --surface-background: #242526;
+    --text-color: #fff;
+    --bg-color: #333;
+  }
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  .highlight, code {
+    background-color: #434343;
+  }
+  .page-title, .post-title {
+    color: var(--text-color);
+  }
+}
