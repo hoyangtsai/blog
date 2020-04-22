@@ -8,6 +8,7 @@
   color: rgba(255, 255, 255, .6);
   background-color: #2B2B2B;
   transition: all .3s ease-in-out;
+  // z-index: 60;
   a {
     font-weight: 400;
     color: #fff;
@@ -40,7 +41,6 @@
   position: absolute;
   top: .8rem;
   left: 1rem;
-  display: block;
   padding: .25rem .75rem;
   color: #505050;
   background-color: #fff;
@@ -95,9 +95,9 @@ a.pagination-item:hover, a.prevnext-item:hover {
   transition: transform .3s ease-in-out;
 }
 
-#sidebar-checkbox:checked~.sidebar,
-#sidebar-checkbox:checked~.sidebar-toggle,
-#sidebar-checkbox:checked~.wrap {
+#sidebar-checkbox:checked ~ .sidebar,
+#sidebar-checkbox:checked ~ .sidebar-toggle
+#sidebar-checkbox:checked ~ .wrap {
   transform: translateX(14rem);
 }
 
