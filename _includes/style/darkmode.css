@@ -15,7 +15,13 @@
     color: var(--text-color);
   }
   .highlight, code {
-    background-color: #434343;
+    background-color: var(--surface-background);
+  }
+  .highlight .nv {
+    color: var(--text-color);
+  }
+  .highlight .err, .highlight .nb, .highlight .nt, .highlight .o, .highlight .k {
+    filter: invert(1);
   }
   .page-title, .post-title, .post-title a {
     color: var(--text-color);
@@ -38,5 +44,8 @@
       #fff 60%, #555 60%,
       #555 80%, #fff 80%,
       #fff 100%);
+  }
+  .message, tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    background-color: inherit;
   }
 }
