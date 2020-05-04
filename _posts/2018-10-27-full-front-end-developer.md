@@ -11,17 +11,19 @@ skip_amp: true
 
 ## 零基礎掌握大前端的技能
 
-{% include post_image.html src="/images/full-f2e-devpr/skill_set.jpeg" alt="skill_set" width="auto" height="100%" %}
-
 什麼是大前端？
-
-<!-- more -->
 
 雖然是個很常聽到的詞，但是看了一下網上的資料，其實也沒有定義的很明確  
 透過手邊的資料跟自己的理解  
-總結出大前端需要具備這幾個能力  
+總結出大前端需要具備這幾個能力
+
+<!-- more -->
+
 首先是「JS編程能力」，這是身為前端開發都具備的能力  
-而設計知識基礎、重構能力和調教能力這三個方面是比較弱的部分  
+而設計知識基礎、重構能力和調教能力這三個方面是比較弱的部分
+
+{% include post_image.html src="/images/full-f2e-devpr/skill_set.jpeg" alt="skill_set" width="auto" height="100%" %}
+
 這篇文章主要著重在「設計」這個方向
 
 ## 設計規範
