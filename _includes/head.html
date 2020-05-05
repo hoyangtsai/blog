@@ -5,9 +5,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} - {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} - {{ site.title }}
     {% endif %}
   </title>
 
@@ -19,7 +19,13 @@
   {% endif %}
 
   <!-- Search Engine Optimization -->
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.description And page.description != "" And page.description != nil %}
+  <meta name="description" content="{{ page.description }}">
+  {% elsif page.content And page.content != "" And page.content != nil %}
+  <meta name="description" content="{{ page.content | strip_html | truncatewords: 160 }}">
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
   {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
@@ -45,13 +51,14 @@
   <meta property="og:publisher" content="//www.facebook.com/hoyangtsai">
   <!-- End Open Graph -->
 
-  <!-- <script src="//code.jquery.com/jquery-3.3.1.min.js"></script> -->
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css"></noscript>
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js" as="script">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
-
+  <link rel="dns-prefetch" href="//pro.fontawesome.com">
   <!-- Font Awesome -->
-  <script async src="https://pro.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-uyhTADGMAJuHgGNdH+rozTpOkfXUORTgjTmMBtxR8ISQjOs+IIWb8UBn9ixSd4xo" crossorigin="anonymous"></script>
+  <link rel="preload" href="https://pro.fontawesome.com/releases/v5.7.0/js/all.js" as="script">
   <!-- End Font Awesome -->
 
   <style type="text/css">

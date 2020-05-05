@@ -13,6 +13,7 @@ url: https://hoyangtsai.github.io
 baseurl:
 urlimg: https://hoyangtsai.github.io/images
 markdown: kramdown
+tagline: Dev, Front-end Developer, Full stack developer, Github blog
 
 excerpt_separator: '<!-- more -->'
 default_bg: /assets/sitebg.jpg
@@ -52,7 +53,6 @@ owner:
   name: Ho-Yang Tsai
   avatar: /IMG_0942.jpg
   email: hoyang.t@gmail.com
-  description:
   twitter: hoyangtsai
   # facebook: hoyangtsai
   github: hoyangtsai
