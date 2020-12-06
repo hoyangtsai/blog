@@ -4,7 +4,7 @@ group :jekyll_plugins do
 gem 'github-pages', '~> 193'
 gem 'jekyll-paginate'
 gem 'jemoji'
-gem 'kramdown'
+gem "kramdown", ">= 2.3.0"
 gem 'rouge'
 gem 'guard'
 gem 'guard-jekyll-plus'
