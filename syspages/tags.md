@@ -9,7 +9,7 @@ category: base
 ---
 
 {:.text-center}
-## <i class="far fa-paperclip" title="Featured"></i> <a href="{{ site.url }}/featured">Featured Posts</a>
+## <i class="fas fa-paperclip" title="Featured"></i> <a href="{{ site.url }}/featured">Featured Posts</a>
 
 <hr class="style17" style="margin:1.0rem 0;">
 

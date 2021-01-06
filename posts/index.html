@@ -14,11 +14,11 @@ description: "My Github page"
     </h1>
 
     {% if post.modified.size > 2 %}
-      <div class="post-date" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}"><i class="far fa-edit" title="Last updated">
+      <div class="post-date" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}"><i class="fas fa-edit" title="Last updated">
         {{ post.modified | date_to_string }}</i>
         {% if post.category contains "featured" %}
           <a href="/featured" title="Featured posts">
-            <i class="far fa-paperclip" title="Featured" class="social-icons"></i>
+            <i class="fas fa-paperclip" title="Featured" class="social-icons"></i>
           </a>
         {% endif %}
       </div>
@@ -27,7 +27,7 @@ description: "My Github page"
         {{ post.date | date_to_string }}
         {% if post.category contains "featured" %}
           <a href="/featured" title="Featured posts">
-            <i class="far fa-paperclip" title="Featured" class="social-icons"></i>
+            <i class="fas fa-paperclip" title="Featured" class="social-icons"></i>
           </a>
         {% endif %}
       </div>

@@ -11,7 +11,7 @@ layout: default
   <div class="post-tags" itemprop="keywords" content="{{page.tags | array_to_sentence_string}}">
     {% for tag in page.tags %}
       {% if forloop.first %}
-        <i class="far fa-tags" title="page tags"></i>
+        <i class="fas fa-tags" title="page tags"></i>
       {% endif %}
       <a href="{{site.url}}/tags/#{{tag | uri_escape}}" title="Pages tagged {{tag}}" rel="tag">{{tag}}</a>
       {% unless forloop.last %} &bull; {% endunless %}
