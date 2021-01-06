@@ -23,7 +23,7 @@ category: base
     </div>
     {% else %}
     <div class="post-date" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">
-      <i class="fal fa-calendar-alt" title="Date published"></i>&nbsp;{{ post.date | date_to_string }}
+      <i class="fas fa-calendar-alt" title="Date published"></i>&nbsp;{{ post.date | date_to_string }}
     </div>
   {% endif %}
 

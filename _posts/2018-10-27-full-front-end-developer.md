@@ -202,7 +202,7 @@ WebP是一種支持有損壓縮和無損壓縮的圖片文件格式，根據Goog
 
 #### 適配方案
 
-{% include post_image.html src="/images/full-f2e-devpr/rwd-method" alt="Responsive web design methodology" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/rwd-method.jpeg" alt="Responsive web design methodology" width="auto" height="100%" %}
 
 
 根據不同的需求，可以依照上面列出來的幾種方式去挑選合適的適配方案。
