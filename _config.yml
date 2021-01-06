@@ -67,9 +67,9 @@ links:
     url: /
   - title: <i class="fas fa-user"></i>&nbsp;&nbsp;About
     url: /about/
-  - title: <i class="far fa-pencil"></i>&nbsp;&nbsp;Posts
+  - title: <i class="fas fa-pencil-alt"></i>&nbsp;&nbsp;Posts
     url: /posts/
-  - title: <i class="far fa-tags"></i>&nbsp;&nbsp;Tags
+  - title: <i class="fas fa-tags"></i>&nbsp;&nbsp;Tags
     url: /tags/
   - title: <i class="fas fa-archive"></i>&nbsp;&nbsp;Archive
     url: /archive/
