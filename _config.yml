@@ -65,8 +65,8 @@ owner:
 links:
   - title: <i class="fas fa-home"></i>&nbsp;&nbsp;Home
     url: /
-  - title: <i class="fas fa-user"></i>&nbsp;&nbsp;About
-    url: /about/
+  # - title: <i class="fas fa-user"></i>&nbsp;&nbsp;About
+  #   url: /about/
   - title: <i class="fas fa-pencil-alt"></i>&nbsp;&nbsp;Posts
     url: /posts/
   - title: <i class="fas fa-tags"></i>&nbsp;&nbsp;Tags
