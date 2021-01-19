@@ -53,9 +53,9 @@ owner:
   name: Ho-Yang Tsai
   avatar: /IMG_0942.jpg
   email: hoyang.t@gmail.com
-  twitter: hoyangtsai
+  # twitter: hoyangtsai
   # facebook: hoyangtsai
-  github: hoyangtsai
+  # github: hoyangtsai
   linkedin: https://www.linkedin.com/in/hoyangtsai
   instagram:
   flickr:
@@ -71,10 +71,10 @@ links:
     url: /posts/
   - title: <i class="fas fa-tags"></i>&nbsp;&nbsp;Tags
     url: /tags/
-  - title: <i class="fas fa-archive"></i>&nbsp;&nbsp;Archive
-    url: /archive/
-  - title: <i class="fas fa-address-book"></i>&nbsp;&nbsp;Contact
-    url: /contact/
+  # - title: <i class="fas fa-archive"></i>&nbsp;&nbsp;Archive
+  #   url: /archive/
+  # - title: <i class="fas fa-address-book"></i>&nbsp;&nbsp;Contact
+  #   url: /contact/
   - title: <i class="fas fa-rss"></i>&nbsp;&nbsp;Feed
     url: /feed.xml
 
