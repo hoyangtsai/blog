@@ -7,7 +7,7 @@ permalink: /archive/
 ---
 
 <section id="archive">
-  <h3>This year's posts</h3>
+  ### The latest posts
   {%for post in site.posts %}
     {% unless post.next %}
       <ul class="post-list">
@@ -16,11 +16,20 @@ permalink: /archive/
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         </ul>
-        <h3>{{ post.date | date: '%Y' }}</h3>
+        ### {{ post.date | date: '%Y' }}
         <ul class="post-list">
       {% endif %}
     {% endunless %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span></a></li>
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}"
+          >{{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}"
+              >{{ post.date | date: "%b %d, %Y" }}
+            </time>
+          </span>
+        </a>
+      </li>
   {% endfor %}
   </ul>
 </section>
