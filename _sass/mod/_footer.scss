@@ -1,0 +1,16 @@
+.footer {
+  &-snlist {
+    list-style: none;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: #007fe6;
+    }
+    & > li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+}

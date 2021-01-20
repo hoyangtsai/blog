@@ -1,0 +1,27 @@
+// clearfix
+%clearfix{
+  &:before,
+  &:after{
+    content: '';
+    display: table;
+    font: 0/0 a;
+  }
+  &:after{
+    clear: both;
+  }
+}
+
+// text-overflow
+%text-overflow {
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  max-width:100%;
+  word-wrap:normal;
+}
+
+%word-break {
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}

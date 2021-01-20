@@ -1,0 +1,45 @@
+blockquote {
+  padding: 0 1rem;
+  margin: .5rem auto 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+
+@media (min-width:30em) {
+  blockquote {
+    padding-right: 0;
+    padding-left: 1rem;
+  }
+}
+
+blockquote.style1 {
+  background: #fff;
+  border-left: 0 solid #ccc;
+  margin: .5em 10px;
+  padding: .5em 10px;
+  quotes: "\201C""\201D";
+  color: #000;
+  font-family: Tangerine, Georgia, 'Times New Roman', serif;
+  font-size: 200%;
+  text-shadow: 4px 4px 6px #aaa;
+}
+blockquote.style1:after, blockquote.style1:before {
+  color: #333;
+  font-size: 4em;
+  line-height: .1em;
+  margin-right: .25em;
+}
+blockquote.style1:before {
+  content: open-quote;
+  vertical-align: -.1em;
+}
+blockquote.style1:after {
+  content: close-quote;
+  vertical-align: -.2em;
+}
+blockquote.style1 :first-child, blockquote.style1 p {
+  display: inline;
+}
+blockquote.style1 :last-child {
+  margin-bottom: 0;
+}

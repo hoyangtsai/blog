@@ -1,0 +1,8 @@
+<div class="donation">
+  <h4 class="donation__title">微信、支付寶或QQ掃一掃</h4>
+  {% if page.path contains '_amp' %}
+    <amp-img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=0&data=https%3A%2F%2Fhoyangtsai.github.io%2Fdonate" width="200" height="200" layout="fixed"></amp-img>
+  {% else %}
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=0&data=https%3A%2F%2Fhoyangtsai.github.io%2Fdonate" alt="paypal-donate" width="200" height="200" />
+  {% endif %}
+</div>

@@ -1,0 +1,151 @@
+@import "lib/_mixins";
+@import "lib/_normalize";
+@import "theme/poole";
+@import "theme/lanyon";
+@import "theme/syntax";
+@import "darkmode";
+@import "mod/_pagination";
+@import "mod/_slidetags";
+
+.post-date {
+  .permalink {
+    padding-left: .5em;
+  }
+}
+
+.post-content {
+  padding: 2em 0 0;
+  @extend %word-break;
+}
+
+.ytube-video-container {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 2px;
+  height: 0;
+  overflow: hidden;
+}
+.ytube-video-container embed, .ytube-video-container iframe, .ytube-video-container object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.tag-box {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  overflow: hidden;
+}
+.tag-box.inline li {
+  float: left;
+  font-size: 14px;
+  font-size: .875rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.5;
+}
+.tag-box a {
+  padding: 4px 6px;
+  margin: 2px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+}
+.tag-box a span {
+  vertical-align: super;
+  font-size: 10px;
+  font-size: .625rem;
+  line-height: 2.4;
+  margin-bottom: 1.5rem;
+}
+
+.tag-ts, .tag-ts:visited {
+  color: #888;
+}
+.tags-ts {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+}
+.tags-ts li {
+  display: inline-block;
+  margin: 0 25px 25px 0;
+}
+.tags-ts li:last-child {
+  margin-right: 0;
+}
+.tag-ts {
+  background: #ddd;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #ccc;
+  padding: 2px 8px;
+}
+.tag-ts:hover {
+  background: #ccc;
+  color: #777;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.post-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.33333;
+  margin-bottom: 0;
+}
+.post-list li>a {
+  border-bottom-width: 0;
+}
+.post-list a>span {
+  float: right;
+}
+.post-list .entry-date {
+  font-size: 14px;
+  font-size: .875rem;
+  line-height: 1.71429;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: none;
+}
+
+.post-list li:after, .tag-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.post-list .excerpt {
+  display: block;
+  float: none;
+  font-size: 14px;
+  font-size: .875rem;
+  line-height: 1.14286;
+  margin-bottom: 0;
+}
+
+figure.highlight {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width:48em) {
+  .post-list .entry-date {
+    display: inline;
+  }
+  .post-list .excerpt {
+    width: 70%
+  }
+}
+
+@media screen and (min-width:62.5em) {
+  .post-list .excerpt {
+    width: 60%
+  }
+}

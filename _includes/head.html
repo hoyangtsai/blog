@@ -1,0 +1,124 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  <link rel="canonical" href="{{ canonical }}">
+
+  <!-- AMP Article -->
+  {% if page.path contains '_posts' %}
+  {% unless page.skip_amp %}
+    <link rel="amphtml" href="{{ page.url | prepend: site.ampdir | prepend: site.baseurl | prepend: site.url }}">
+  {% endunless %}
+  {% endif %}
+
+  <!-- Search Engine Optimization -->
+  {% if page.description And page.description != "" And page.description != nil %}
+  <meta name="description" content="{{ page.description }}">
+  {% elsif page.content And page.content != "" And page.content != nil %}
+  <meta name="description" content="{{ page.content | strip_html | truncatewords: 160 }}">
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
+  {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
+  {% if site.google.site_verification %}<meta name="google-site-verification" content="{{ site.google.site_verification }}">{% endif %}
+
+  <!-- Twitter Cards -->
+  {% if site.owner.twitter %}
+  {% include twitter_card.html %}
+  {% endif %}
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+  <!-- End Twitter Cards -->
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="">
+  <meta property="og:publisher" content="//www.facebook.com/hoyangtsai">
+  <!-- End Open Graph -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | absolute_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/favicon.png' | absolute_url }}">
+  <!-- ios meta -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | absolute_url }}">
+  <!-- android meta -->
+  <link rel="icon" type="image/png" sizes="128x128" href="{{ '/assets/favicon.png' | absolute_url }}">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
+
+  <!-- Font Awesome -->
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+  <script defer src="//use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+  <script defer src="//use.fontawesome.com/releases/v5.15.1/js/v4-shims.js"></script>
+  <!-- End Font Awesome -->
+
+  <style type="text/css">
+    {% capture main_style %}
+      {% include style/main.scss %}
+    {% endcapture %}
+    {{ main_style | scssify }}
+
+    {% if page.style %}
+      {{ page.style }}
+    {% endif %}
+  </style>
+
+  {% if site.facebook.app_id %}
+    {% include facebook_jssdk.html %}
+  {% endif %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "url": "{{ page.url | replace:'index.html', '' | prepend: site.baseurl | prepend: site.url }}",
+    "name" : "{{ page.title | escape }}",
+    "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+    "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+    "description": "{% if page.description %} {{ page.description }} {% elsif page.content %} {{ page.content | strip_html | truncatewords: 160 }} {% else %} {{ site.description }} {% endif %}",
+    "author": {
+      "@type": "Person",
+      "name": "{% if page.author %}{{ page.author }}{% else %}{{ site.author.name }}{% endif %}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}"
+    }
+  }
+  </script>
+
+  {% if site.google_analytics_id %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics_id }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</head>

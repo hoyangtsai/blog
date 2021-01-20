@@ -1,0 +1,24 @@
+# - name: Twitter
+#   url: https://twitter.com/hoyangtsai
+#   class: fab fa-twitter
+#   title: "@hoyangtsai"
+
+- name: GitHub
+  url: https://github.com/hoyangtsai
+  class: fab fa-github
+  title: hoyangtsai (Ho-Yang Tsai)
+
+# - name: Facebook
+#   url: https://www.facebook.com/hoyangtsai
+#   class: fab fa-facebook
+#   title: "Hoyang Tsai • Facebook"
+
+# - name: Instagram
+#   url: https://www.instagram.com/hoyang_906
+#   class: fab fa-instagram
+#   title: "Hoyang（@hoyang_906）• Instagram"
+
+- name: Linkedin
+  url: https://www.linkedin.com/in/hoyangtsai
+  class: fab fa-linkedin-in
+  title: "Ho-Yang Tsai | Linkedin"

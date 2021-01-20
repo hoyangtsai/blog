@@ -1,0 +1,80 @@
+encoding: UTF-8
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+paginate: 5
+paginate_path: posts/page:num/
+permalink: pretty
+# permalink: /blog/posts/:year/:month/:day/:title/
+# relative_permalinks: false
+
+# Setup
+title: "Hoyang's Memo"
+description: "A front-end developer who is looking forward to embrace web potentials."
+url: https://hoyangtsai.github.io
+baseurl: "/blog"
+urlimg: https://hoyangtsai.github.io/blog/images
+markdown: kramdown
+tagline: "Dev, Life-style"
+
+excerpt_separator: "<!-- more -->"
+
+# code highlight options
+highlighter: rouge
+syntax_highlighter: rouge
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - kramdown
+  - rouge
+
+ampdir: /amp
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "test", "package.json", "node_modules", "LICENSE", "_plugins", "public/dormant"]
+
+# About/contact
+author:
+  name: Ho-Yang Tsai
+  url:  https://hoyangtsai.github.io/blog/
+  avatar: /blog/images/IMG_0942.jpg
+  email:  hoyang.t@gmail.com
+
+# Owner/author information
+owner:
+  name: Ho-Yang Tsai
+  avatar: /blog/images/IMG_0942.jpg
+  email: hoyang.t@gmail.com
+  twitter: 
+  facebook: 
+  github: hoyangtsai
+  linkedin: https://www.linkedin.com/in/hoyangtsai
+  instagram:
+  flickr:
+
+
+# Twitter stream widget:
+# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
+#twitter_widget_id: xyz123abc
+
+# Add disqus username for Disqus comment board:
+disqus_shortname: hoyangtsai
+
+facebook:
+  app_id: 1069355273095594
+
+google:
+  analytics: UA-36297587-6
+  site_verification: AA9TuZRgJxTNDH0EwMVgqegbQqZjvO1m8xSVVyRg1ls
+
+google_analytics_id: UA-36297587-6
+
+collections:
+  amp:
+    output: true
+    permalink: /blog/:collection/:year/:month/:day/:title/
+
+sass:
+  sass_dir: _sass
+  style: compressed

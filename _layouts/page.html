@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.post_action == true %}
+    {% include post_action.html %}
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.post_action == true %}
+    {% include post_action.html %}
+  {% endif %}
+</div>
