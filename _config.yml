@@ -73,7 +73,7 @@ google_analytics_id: UA-36297587-6
 collections:
   amp:
     output: true
-    permalink: /blog/:collection/:year/:month/:day/:title/
+    permalink: /:collection/:year/:month/:day/:title/
 
 sass:
   sass_dir: _sass
