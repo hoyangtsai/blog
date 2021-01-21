@@ -1,10 +1,22 @@
 <div class="post-action">
-  <a href="https://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url | remove: site.ampdir }}&amp;via={{ site.owner.twitter }}"  target="_blank" title="Share on Twitter"><i class="fab fa-twitter fa-lg" style="color:#268bd2;"></i></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url | remove: site.ampdir }}"  target="_blank" title="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" style="color:#268bd2;"></i></a>
+  <a href="https://twitter.com/share?text={{ page.title }}&url={{ page.url | absolute_url | remove: site.ampdir }}&via={{ site.owner.twitter }}"
+    target="_blank" title="Share on Twitter">
+    <i class="fab fa-twitter-square fa-lg"></i>
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | remove: site.ampdir }}"
+    target="_blank" title="Share on LinkedIn">
+    <i class="fab fa-linkedin fa-lg"></i>
+  </a>
   {% if page.category contains "featured" %}
-    <a href="{{ site.url }}/featured" title="Featured"><i class="fas fa-paperclip" title="Featured"></i></a>
+    <a href="{{ '/featured' | prepend: site.baseurl }}" title="Featured">
+      <i class="fas fa-paperclip" title="Featured"></i>
+    </a>
   {% endif %}
   {% if page.print %}
-    <a href="javascript:window.print()" target="_blank" title="Printer friendly format"><i class="fas fa-print"></i></a>
+    <a href="javascript:window.print()"
+      target="_blank"
+      title="Printer friendly format">
+      <i class="fas fa-print"></i>
+    </a>
   {% endif %}
 </div>

@@ -36,18 +36,18 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 
 # About/contact
 author:
-  name: Ho-Yang Tsai
+  name: Hoyang Tsai
   url:  https://hoyangtsai.github.io/blog/
   avatar: /blog/images/IMG_0942.jpg
   email:  hoyang.t@gmail.com
 
 # Owner/author information
 owner:
-  name: Ho-Yang Tsai
+  name: Hoyang Tsai
   avatar: /blog/images/IMG_0942.jpg
   email: hoyang.t@gmail.com
-  twitter: 
-  facebook: 
+  twitter:
+  facebook:
   github: hoyangtsai
   linkedin: https://www.linkedin.com/in/hoyangtsai
   instagram:

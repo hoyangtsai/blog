@@ -5,7 +5,7 @@ title: VS Code 多行註解時前面不會插入星號
 description: 解決困擾已久多行註解不會自動插入星號
 published: true
 comments: true
-tags: [textEditor, vue]
+tags: [front-end]
 ---
 
 當 VS Code 漸漸取代 Sublime 成爲一些開發者最愛的 coding 編輯器
