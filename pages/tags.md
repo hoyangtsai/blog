@@ -23,16 +23,31 @@ permalink: /tags/
 <ul class="slidetags">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-    <li style="font-size:{{ site.tags[this_word].size | times: 100 | divided_by: site.tags.size | plus: 70 }}%"><a href="#{{ this_word }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+    <li style="font-size:{{ site.tags[this_word].size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">
+      <a href="#{{ this_word }}">{{ this_word }}
+        <span>{{ site.tags[this_word].size }}</span>
+      </a>
+    </li>
   {% endunless %}{% endfor %}
 </ul>
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+{% for item in (0..site.tags.size) %}
+{% unless forloop.last %}
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-<h2 id="{{ this_word }}">{{ this_word }}</h2>
-<ul class="post-list">
-  {% for post in site.tags[this_word] %}{% if post.title != null %}
-  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span></a></li>
-  {% endif %}{% endfor %}
+  <h2 id="{{ this_word }}">{{ this_word }}</h2>
+  <ul class="post-list">
+  {% for post in site.tags[this_word] %}
+    {% if post.title != null %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+        <span class="entry-date">
+          <time datetime="{{ post.date | date_to_xmlschema }}"
+          >{{ post.date | date: "%b %d, %Y" }}</time>
+        </span>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
   </ul>
-{% endunless %}{% endfor %}
+{% endunless %}
+{% endfor %}
