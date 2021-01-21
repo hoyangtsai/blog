@@ -10,6 +10,6 @@
   <img class="{{ include.class }}"
     src="{{ include.src | prepend: site.baseurl }}"
     alt="{{ include.alt }}"
-    width="100%"
-    height="auto" />
+    width="{{ include.width || '100%' }}"
+    height="{{ include.height || 'auto' }}" />
 {% endif %}
