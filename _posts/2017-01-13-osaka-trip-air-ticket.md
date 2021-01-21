@@ -5,7 +5,7 @@ title: 大阪行 - 機票購買篇
 description: 如何比較日本廉價航空，更划算買到優惠機票
 published: true
 comments: true
-tags: [日本, 大阪, 旅遊指南, 廉價航空, Osaka, Okinawa, budget airline]
+tags: [日本, 旅遊指南]
 style: |
   .mg-space {
     margin: 1em;

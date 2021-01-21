@@ -6,7 +6,7 @@ title: Google Cloud 安裝 ShadowsocksR
 description: 試用 Google Cloud 安裝 ShadowsocksR 翻牆上網
 published: true
 comments: true
-tags: [GoogleCloud, gettingStarted]
+tags: [gettingStarted]
 ---
 
 近幾年雲服務市場競爭激烈 <br>
