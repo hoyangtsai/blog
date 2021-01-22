@@ -4,27 +4,27 @@
   {% include head.html %}
 
   <body>
-
     {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ '/' | prepend: site.baseurl }}" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
+    <main class="wrap">
+      <header>
+        <a href="#sidenav-open" id="sidenav-button" class="hamburger" title="Open Menu" aria-label="Open Menu">
+          <svg viewBox="0 0 50 40" role="presentation" focusable="false" aria-label="trigram for heaven symbol">
+            <line x1="0" x2="100%" y1="10%" y2="10%" />
+            <line x1="0" x2="100%" y1="50%" y2="50%" />
+            <line x1="0" x2="100%" y1="90%" y2="90%" />
+          </svg>
+        </a>
+        <h1 class="masthead-title">
+          <a href="{{ '/' | prepend: site.baseurl }}" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h1>
+      </header>
 
-      <div class="container content">
+      <article class="container content">
         {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+      </article>
+    </main>
 
     <script src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
   </body>

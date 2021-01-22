@@ -6,6 +6,34 @@
 @import "darkmode";
 @import "mod/_pagination";
 @import "mod/_slidetags";
+@import "mod/_sidebar";
+@import "mod/_brandnav";
+
+:root {
+  --surface: rgb(27, 27, 27);
+  --surface2: rgb(48, 48, 48);
+  --text: rgb(226, 226, 226);
+  --text2: rgb(171, 171, 171);
+  --brandHSL: 328 100% 54%
+}
+
+@media (color-index: 70) {
+  :root {
+    --surface: rgb(226, 226, 226);
+    --surface2: rgb(255, 255, 254);
+    --text: rgb(48, 48, 48);
+    --text2: rgb(94, 94, 94)
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --surface: rgb(226, 226, 226);
+    --surface2: rgb(255, 255, 254);
+    --text: rgb(48, 48, 48);
+    --text2: rgb(94, 94, 94)
+  }
+}
 
 .post-date {
   .permalink {

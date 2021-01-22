@@ -30,13 +30,14 @@
   {% endif %}
 
   <!-- Search Engine Optimization -->
-  {% if page.description And page.description != "" And page.description != nil %}
-  <meta name="description" content="{{ page.description }}">
-  {% elsif page.content And page.content != "" And page.content != nil %}
-  <meta name="description" content="{{ page.content | strip_html | truncatewords: 160 }}">
-  {% else %}
-  <meta name="description" content="{{ site.description }}">
+  {% if page.description and page.description != "" and page.description != nil %}
+    <meta name="description" content="{{ page.description }}">
+    {% elsif page.content and page.content != "" and page.content != nil %}
+    <meta name="description" content="{{ page.content | strip_html | truncatewords: 160 }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
   {% endif %}
+
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
   {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}

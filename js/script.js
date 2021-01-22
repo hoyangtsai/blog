@@ -1,15 +1,24 @@
 (function(document) {
-  var toggle = document.querySelector('.sidebar-toggle');
-  var sidebar = document.querySelector('#sidebar');
-  var checkbox = document.querySelector('#sidebar-checkbox');
+  const sidenav = document.querySelector('#sidenav-open');
 
-  document.addEventListener('click', function(e) {
-    var target = e.target;
+  sidenav.addEventListener('keyup', e => {
+    if (e.code === 'Escape') {
+      document.location.hash = '';
+    }
+  });
 
-    if(!checkbox.checked ||
-       sidebar.contains(target) ||
-       (target === checkbox || target === toggle)) return;
+  const closenav = document.querySelector('#sidenav-close');
+  const opennav = document.querySelector('#sidenav-button');
 
-    checkbox.checked = false;
-  }, false);
+  sidenav.addEventListener('transitionend', e => {
+    if (e.propertyName !== 'transform') {
+      return;
+    }
+
+    const isOpen = document.location.hash === '#sidenav-open';
+
+    isOpen
+      ? closenav.focus()
+      : opennav.focus();
+  });
 })(document);

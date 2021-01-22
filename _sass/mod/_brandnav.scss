@@ -1,0 +1,150 @@
+/* these are styles to make it pretty */
+/* sidenav.css has all the layout, state and functionality */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 1.25rem;
+  color: rgb(226, 226, 226);
+  color: var(--text);
+}
+
+nav > h4 {
+  text-transform: uppercase;
+
+  &:not(:first-child) {
+    margin-top: 2rem;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 1.25;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+}
+
+@media (min-width: 540px) {
+  nav {
+    padding-top: 4.5rem
+  }
+}
+
+@media (max-width: 540px) {
+  [dir="ltr"] nav {
+    border-right: 1px var(--surface1)
+  }
+
+  [dir="rtl"] nav {
+    border-left: 1px var(--surface1)
+  }
+
+  nav {
+    background-color: rgb(48, 48, 48);
+    background-color: var(--surface2);
+    box-shadow: 5px 0 40px hsla(0, 0%, 0%, .45);
+    font-size: 1.5rem
+  }
+}
+
+[dir="ltr"] .hamburger {
+  margin-left: -1rem
+}
+
+[dir="rtl"] .hamburger {
+  margin-right: -1rem
+}
+
+.hamburger {
+  --size: 4rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  place-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  height: var(--size);
+  width: var(--size);
+  outline: none;
+  transition:
+    border-color .25s ease,
+    background-color .25s ease;
+
+  &:hover {
+    border-color: hsla(328, 100%, 54%, 0.5);
+    border-color: hsl(var(--brandHSL) / 50%);
+
+    svg > line {
+      stroke: hsl(328, 100%, 54%);
+      stroke: hsl(var(--brandHSL));
+    }
+  }
+
+  &:focus {
+    border-color: hsla(328, 100%, 54%, 0.12);
+    border-color: hsl(var(--brandHSL) / 12%);
+    background: hsla(328, 100%, 54%, 0.1);
+    background: hsl(var(--brandHSL) / 10%);
+  }
+
+  &:active {
+    background: hsla(328, 100%, 54%, 0.2);
+    background: hsl(var(--brandHSL) / 20%);
+  }
+
+  & > svg {
+    width: 100%;
+  }
+
+  & > svg > line {
+    stroke: rgb(226, 226, 226);
+    // stroke: var(--text);
+    stroke-width: 7px;
+    transition: stroke .25s ease;
+  }
+}
+
+aside > a {
+  outline-offset: -1px;
+  outline: 1px solid transparent
+}
+
+aside > a:focus {
+    outline-color: hsl(328, 100%, 54%);
+    outline-color: hsl(var(--brandHSL));
+    transition: outline-color .25s ease;
+  }
+
+main {
+  padding: .5rem 1.5rem
+}
+
+main > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+article {
+  display: inline-grid;
+  gap: 2ch;
+  // background: var(--surface2);
+  padding: 2ch;
+  border-radius: 1ch;
+  box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.2);
+
+  & > * {
+    margin: 0;
+  }
+
+  & > p + :matches(h1,h2,h3,h4,h5,h6) {
+    margin-top: 2ch;
+  }
+}
