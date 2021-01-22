@@ -15,9 +15,10 @@ tags: [日本, 旅遊指南]
 
 起初在決定住宿時
 
-我們有幾個訴求：<br>
-1. 交通位置方便 <br>
-2. 旅程中入住同一家飯店（因為我們實在很懶得搬動一堆行李呀 😆
+我們有幾個訴求：
+
+  1. 交通位置方便
+  2. 旅程中入住同一家飯店（因為我們實在很懶得搬動一堆行李呀 😆
 
 所以我們找的飯店幾乎都在中央區 <br>
 當時看上了這幾間飯店再做考慮
@@ -27,29 +28,28 @@ tags: [日本, 旅遊指南]
   > 優點：就在關西機場內，所以對於早班航班的旅客非常適合<br>
   > 缺點：距離大阪市中心距離有點遠
 
-{% include post_image.html src="/images/osaka-trip/accommodation/hotel-nikko-kansai-airport.png" alt="關機機場日航飯店" width="829" height="242" %}
-
+{% include post_image.html src="/images/osaka-trip/accommodation/hotel-nikko-kansai-airport.png" alt="關機機場日航飯店" width="100%" height="auto" %}
 
 * Remm新大阪飯店
 
   > 優點：在JR新大阪樓上，地理位置非常方便<br>
   > 缺點：飯店空間小
 
-{% include post_image.html src="/images/osaka-trip/accommodation/remm-shin-osaka.png" alt="Remm新大阪飯店" width="835" height="245" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/remm-shin-osaka.png" alt="Remm新大阪飯店" width="100%" height="auto" %}
 
 * Superhotel Lohas 地下鐵四之橋線本町24號出口
 
   > 優點：位於本町地鐵站24號出口，地理位置非常方便<br>
   > 缺點：地鐵站出口沒有電梯，對於搬運大型行李的我們實在很痛苦 😣
 
-{% include post_image.html src="/images/osaka-trip/accommodation/superhotel-lohas-honmachi-subway-exit-24.png" alt="Remm新大阪飯店" width="829" height="242" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/superhotel-lohas-honmachi-subway-exit-24.png" alt="Remm新大阪飯店" width="100%" height="auto" %}
 
 * 大阪心齋橋 NEST 飯店
 
   > 優點：離心齋橋筋很近，步行就能到達<br>
   > 缺點：心齋橋附近飯店價位都相對高一點，在旅遊旺季也比較不好訂房
 
-{% include post_image.html src="/images/osaka-trip/accommodation/nest-hotel-osaka-shinsaibashi.png" alt="大阪心齋橋 NEST 飯店" width="833" height="243" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/nest-hotel-osaka-shinsaibashi.png" alt="大阪心齋橋 NEST 飯店" width="100%" height="auto" %}
 
 上面附贈的圖都是這幾天小編才截的圖<br>
 所以跟當初預定的價格有些落差
@@ -59,16 +59,16 @@ tags: [日本, 旅遊指南]
 接下來就來好好介紹一下 Superhotel Lohas 這間飯店<br>
 位於地鐵本町站24號出口右手邊、非常的顯眼、好找<br>
 飯店樓下就有全家便利商店
-{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5783.JPG" alt="全家便利商店" width="800" height="600" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5783.JPG" alt="全家便利商店" width="100%" height="auto" %}
 
 這是大門口踏進來的樣子<br>
 有種綠意盎然、讓人心情非常好的感覺
-{% include post_image.html src="/images/osaka-trip/accommodation/DSC05080.jpg" alt="Superhotel Lohas 門口" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/DSC05080.jpg" alt="Superhotel Lohas 門口" width="100%" height="auto" %}
 
 飯店的大廳設置在 2F<br>
 電梯一打開後可以看到休息區以及櫃檯<br>
 燈光跟擺設的配合給人一種很明亮、舒服的感覺
-{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB046_1606.jpg" alt="Superhotel Lohas 大廳" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB046_1606.jpg" alt="Superhotel Lohas 大廳" width="100%" height="auto" %}
 
 在櫃檯辦理完 check-in 後就可以把行李搬到房間去啦～～<br>
 這次我們住的是12樓<br>
@@ -76,21 +76,21 @@ tags: [日本, 旅遊指南]
 進房門完全不需要使用房卡只要輸入密碼就行了！
 
 房間有點小，但是應有盡有，麻雀雖小五臟俱全的最佳寫照
-{% include post_image.html src="/images/osaka-trip/accommodation/NOB_0059.jpg" alt="Superhotel Lohas 房間" width="616" height="411" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/NOB_0059.jpg" alt="Superhotel Lohas 房間" width="100%" height="auto" %}
 
 浴室整體打掃得很乾淨<br>
 唯一個缺點就是空間很小<br>
 對於同行的水怪來說上廁所時會有腳不知道該放哪邊的窘境
-{% include post_image.html src="/images/osaka-trip/accommodation/86DC662BD70FD6E7B1B9009496B6BCDE.jpg" alt="Superhotel Lohas 浴室" width="540" height="720" %}
-{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB343_1606.jpg" alt="Superhotel Lohas 浴室" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/86DC662BD70FD6E7B1B9009496B6BCDE.jpg" alt="Superhotel Lohas 浴室" width="100%" height="auto" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB343_1606.jpg" alt="Superhotel Lohas 浴室" width="100%" height="auto" %}
 
 介紹完房間內部後就來說說這間飯店的特色<br>
 飯店裡面就附有天然溫泉，在外面玩了一整天，晚上回飯店泡個溫泉在睡覺，這是一件多麼幸福的事呀～～～ ☺️<br>
 溫泉開放的時間是 15:00 P.M ~ 9:40 A.M
-{% include post_image.html src="/images/osaka-trip/accommodation/lohas-hotspring.png" alt="Superhotel Lohas 溫泉" width="963" height="211" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/lohas-hotspring.png" alt="Superhotel Lohas 溫泉" width="100%" height="auto" %}
 
 男湯在3F
-{% include post_image.html src="/images/osaka-trip/accommodation/DSC03623.jpg" alt="Superhotel Lohas 男湯" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/DSC03623.jpg" alt="Superhotel Lohas 男湯" width="100%" height="auto" %}
 
 女湯在4F<br>
 
@@ -98,7 +98,7 @@ tags: [日本, 旅遊指南]
 > 飯店很貼心的設置了密碼<br>
 > 要進去女湯需要輸入密碼（密碼每天變更，需要跟櫃台索取）
 
-{% include post_image.html src="/images/osaka-trip/accommodation/DSC03619.jpg" alt="Superhotel Lohas 女湯" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/DSC03619.jpg" alt="Superhotel Lohas 女湯" width="100%" height="auto" %}
 
 另外<br>
 飯店還有給女性房客一個額外的福利～～～<br>
@@ -106,16 +106,16 @@ tags: [日本, 旅遊指南]
 這些禮物包含洗面乳、乳液、面膜、髮圈等小物
 
 是不是很sweet ❤️
-{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5691.JPG" alt="Superhotel Lohas 禮物" width="800" height="600" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5691.JPG" alt="Superhotel Lohas 禮物" width="100%" height="auto" %}
 
 在小禮物的隔壁有個櫃子裡面放著枕頭、浴衣可供房客自行取用
-{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5694.JPG" alt="Superhotel Lohas 枕頭&浴衣" width="800" height="600" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/IMG_5694.JPG" alt="Superhotel Lohas 枕頭&浴衣" width="100%" height="auto" %}
 
 飯店也有提供自助洗衣<br>
 _洗衣: &yen; 200 日幣_<br>
 _烘衣: 免費_<br>
 位置在3F、4F溫泉前面的房間
-{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB276_1606.jpg" alt="Superhotel Lohas 自助洗衣" width="616" height="462" %}
+{% include post_image.html src="/images/osaka-trip/accommodation/LHhonmcB276_1606.jpg" alt="Superhotel Lohas 自助洗衣" width="100%" height="auto" %}
 
 雖然飯店房間大小整體來說是有點小<br>
 但是住起來十分的舒適<br>

@@ -166,19 +166,19 @@ mvn clean pacakge -DskipTests -Ptest -U
 
 建議安裝 Ultimate 版本才有內建 Tomcat 配置功能，和更多完整功能
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_local.png" alt="tomcat_local" width="1070px" height="700px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_local.png" alt="tomcat_local" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_add.png" alt="tomcat_config_add" width="800px" height="660px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_add.png" alt="tomcat_config_add" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_server.png" alt="tomcat_server" width="800px" height="660px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_server.png" alt="tomcat_server" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_1.png" alt="tomcat_config_1" width="1070px" height="700px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_1.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="470px" height="490px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_3.png" alt="tomcat_config_1" width="1070px" height="700px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_3.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_4.png" alt="tomcat_config_1" width="1070px" height="700px" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_4.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
 ## non-root user (Additional)
 

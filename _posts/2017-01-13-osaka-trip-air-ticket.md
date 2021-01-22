@@ -142,7 +142,7 @@ style: |
 
 這個是樂桃航空的粉紅色小飛機，真的好可愛～～<br>
 連同空服員都是穿著小編最喜愛的小粉紅呢
-{% include post_image.html src="/images/osaka-trip/IMG_0084.JPG" alt="Peach Airplane" width="800" height="600" %}
+{% include post_image.html src="/images/osaka-trip/IMG_0084.JPG" alt="Peach Airplane" width="100%" height="auto" %}
 <br>
 <br>
 
@@ -163,10 +163,10 @@ style: |
   <li><b>事前購買行李公斤數會比超重補額更便宜</b><br>
     預先購買（乘機前）：從20KG補到40KG為290HKD<br>
     現場行李超重補額：每超出1公斤為290HKD、最多被收取15KG，也就是4350HKD！！！
-    {% include post_image.html src="/images/osaka-trip/Jetstar-1.png" alt="jetstar-1" width="495" height="412" %}
-    {% include post_image.html src="/images/osaka-trip/Jetstar-2.png" alt="jetstar-2" width="1200" height="1217" %}
+    {% include post_image.html src="/images/osaka-trip/Jetstar-1.png" alt="jetstar-1" width="100%" height="auto" %}
+    {% include post_image.html src="/images/osaka-trip/Jetstar-2.png" alt="jetstar-2" width="100%" height="auto" %}
     但不管怎麼樣，還是在一開始訂購機票時直接買足行李重量是最便宜的。
-    {% include post_image.html src="/images/osaka-trip/Screenshot-20170119-1542.png" alt="行李託運" width="1200" height="761" %}
+    {% include post_image.html src="/images/osaka-trip/Screenshot-20170119-1542.png" alt="行李託運" width="100%" height="auto" %}
   </li><br>
   <li><b>搭乘航廈要特別留意</b><br>
     以關西機場來說，並不是所有廉價航空都是在第二航廈搭乘。像我們去程搭的樂桃航空在關西機場都是在第二航廈，回程的捷星航空則是在第一航廈。第一航廈跟第二航廈之間有段距離，建議出發前往機場前預先查清楚是哪個航廈，才能替自己留一些時間Shopping。因為，關西機場真的好好買!!!❤️

@@ -35,6 +35,11 @@
   }
 }
 
+.page,
+.post {
+  margin-bottom: 2em;
+}
+
 .post-date {
   .permalink {
     padding-left: .5em;
@@ -166,6 +171,10 @@ figure.highlight {
 // social action
 .post-action {
   padding: 12px 0;
+}
+
+.text-center, .text-footer, .text-tweets {
+  text-align: center;
 }
 
 @media screen and (min-width:48em) {
