@@ -23,12 +23,10 @@ body {
     max-height: 100vh;
     overflow: hidden auto;
     overscroll-behavior: contain;
-
     transform: translateX(-110vw);
     will-change: transform;
     transition: transform var(--duration) var(--easeOutExpo), visibility 0s linear var(--duration);
-
-    z-index: 1;
+    z-index: 5;
 
     &:target {
       visibility: visible;
