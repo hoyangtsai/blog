@@ -13,14 +13,9 @@
     {% endif %}
   </title>
 
-  {% capture canonical %}{{ site.url }}
-    {% if site.permalink contains '.html' %}
-      {{ page.url | prepend: site.baseurl }}
-    {% else %}
-      {{ page.url | prepend: site.baseurl | remove:'index.html' | strip_slash }}
-    {% endif %}
-  {% endcapture %}
-  <link rel="canonical" href="{{ canonical }}">
+  {% if page.url and site.baseurl %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
 
   <!-- AMP Article -->
   {% if page.path contains '_posts' %}

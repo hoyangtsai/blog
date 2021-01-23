@@ -78,3 +78,6 @@ collections:
 sass:
   sass_dir: _sass
   style: compressed
+
+github:
+  repo: https://github.com/hoyangtsai/blog

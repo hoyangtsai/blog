@@ -7,9 +7,17 @@
     class="contain"
     layout="responsive"></amp-img>
 {% else %}
+  {% if include.src contains 'http' %}
+  <img class="{{ include.class }}"
+    src="{{ include.src }}"
+    alt="{{ include.alt }}"
+    width="{{ include.width || '100%' }}"
+    height="{{ include.height || 'auto' }}" />
+  {% else %}
   <img class="{{ include.class }}"
     src="{{ include.src | prepend: site.baseurl }}"
     alt="{{ include.alt }}"
     width="{{ include.width || '100%' }}"
     height="{{ include.height || 'auto' }}" />
+  {% endif %}
 {% endif %}

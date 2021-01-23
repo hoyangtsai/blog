@@ -8,6 +8,7 @@ nav {
   font-size: 1.25rem;
   color: rgb(226, 226, 226);
   color: var(--text);
+  position: relative;
 }
 
 nav > h4 {
@@ -149,3 +150,7 @@ article {
     margin-top: 2ch;
   }
 }
+
+// .sidenav-footer {
+//   padding-top: 10rem;
+// }

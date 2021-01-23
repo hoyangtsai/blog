@@ -8,7 +8,7 @@ title: Home
 
     <div class="post">
       <h1 class="post-title">
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+        <a href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
         </a>
       </h1>
@@ -28,7 +28,7 @@ title: Home
         {% else %}
         {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
       {% endif %}
-      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="Read more"><strong>Read more...</strong></a>
+      <a href="{{ post.url | prepend: site.baseurl }}" title="Read more"><strong>Read more...</strong></a>
     </div>
 
   {% endfor %}
