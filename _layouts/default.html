@@ -31,6 +31,9 @@
       </article>
     </main>
 
+    {% if page.path contains '_amp' %}
+    {% else %}
     <script src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
+    {% endif %}
   </body>
 </html>
