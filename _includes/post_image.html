@@ -1,4 +1,12 @@
 {% if page.path contains '_amp' %}
+  {% if include.src contains 'http' %}
+  <amp-img src="{{ include.src }}"
+    width="{{ include.width }}"
+    height="{{ include.height }}"
+    alt="{{ include.alt }}"
+    class="contain"
+    layout="responsive"></amp-img>
+  {% else %}
   <amp-img
     src="{{ include.src | prepend: site.baseurl }}"
     width="{{ include.width }}"
@@ -6,6 +14,7 @@
     alt="{{ include.alt }}"
     class="contain"
     layout="responsive"></amp-img>
+  {% endif %}
 {% else %}
   {% if include.src contains 'http' %}
   <img class="{{ include.class }}"
