@@ -63,7 +63,7 @@ xcode-select --install
 
   執行首頁的安裝命令會阻擋安裝
 
-  {% include post_image.html src="/images/apple-silicon/homebrew-arm-not-support.png" alt="homebrew arm not support" width="100%" height="auto" %}
+  {% include post_image.html src="/images/apple-silicon/homebrew-arm-not-support.png" alt="homebrew arm not support" width="1.4" height="1" %}
 
   其實  brew 相關功能並沒有不相容的問題
 
