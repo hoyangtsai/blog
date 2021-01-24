@@ -13,7 +13,9 @@
     {% endif %}
   </title>
 
-  <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url | remove: site.ampdir }}">
+  {% if page.url and site.baseurl %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
 
   <!-- Search Engine Optimization -->
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -43,7 +45,11 @@
   <!-- End Open Graph -->
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+  <script async src="//use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+  <script async src="//use.fontawesome.com/releases/v5.15.1/js/v4-shims.js"></script>
   <!-- End Font Awesome -->
 
   <style amp-custom>
