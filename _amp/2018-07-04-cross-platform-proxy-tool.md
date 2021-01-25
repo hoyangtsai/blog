@@ -2,7 +2,7 @@
 layout: post
 date: 2018-07-04
 title: 跨平台 proxy 代理工具
-description: Whistle 免費 proxy 工具取代 Mac Charles 或 Windows Fiddle
+description: 免費 proxy 工具 Whistle 取代 Mac Charles 或 Windows Fiddle
 published: true
 comments: true
 tags: [nodejs, mac, homebrew]
@@ -61,19 +61,24 @@ pattern(匹配模型) operatorURI(操作URI)
 ### 安裝 Nodejs
 
 Mac 系統建議用 <a href="https://brew.sh/" target="_blank">Homebrew</a> 安裝 nodejs
-```
+
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install node
 ```
+
 或者用 [nvm 安裝 nodejs](http://hoyangtsai.github.io/posts/2016/07/26/install-multiple-version-of-nodejs/)
-```
+
+```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install node
 ```
 
 ### 安裝 whistle
+
 whistle 支持 `v.0.10.0` 以上版本的 Nodejs，但建議安裝最新版，以獲得更好的效能。
-```
+
+```bash
 npm install -g whistle --registry=https://registry.npm.taobao.org
 ```
 
@@ -81,11 +86,10 @@ npm install -g whistle --registry=https://registry.npm.taobao.org
 
 安裝 whistle 完成後，可以執行 `w2 help` 查看 whistle 相關命令說明
 
-whistle 運行方式主要有兩種
+whistle 運行方式主要有
 
 1. `w2 run` 在終端機前景運行代理程序，可在同一個終端機視窗中同時按下 `ctrl + c` 停止程序。
 2. `w2 start` 在系統背景運行代理程序，可在任何終端機視窗輸入 `w2 stop` 停止程序。
-
 
 ### 設置代理
 
@@ -93,51 +97,52 @@ whistle 運行方式主要有兩種
 
 1. PC 端
 
-    - 系統全局 - 所有應用的網路請求都會擷取
-    - 瀏覽器 - 僅抓取瀏覽器中的網路請求
-    - 微信開發者工具
+- 系統全局 - 所有應用的網路請求都會擷取
+- 瀏覽器 - 僅抓取瀏覽器中的網路請求
+- 微信開發者工具
 
 2. Mobile 端
 
 #### PC 端
 
-  - 系統
+- 系統
 
-    > 在系統設定中網路的代理服務器，將網頁代理服務器（HTTP）和安全網頁代理服務器（HTTPS）的 ip 設置 whistle 代理服務器位址。
-    > 如果啟動 whistle 時沒有修改 port 設置，默認為 127.0.0.1:8899
-    > {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="600" height="464" %}
+  在系統設定中網路的代理服務器，將網頁代理服務器（HTTP）和安全網頁代理服務器（HTTPS）的 ip 設置 whistle 代理服務器位址。
+  
+  如果啟動 whistle 時沒有修改 port 設置，默認為 127.0.0.1:8899
+  {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="600" height="464" %}
 
-  - 瀏覽器
+- 瀏覽器
 
-    **Firefox**
+  **Firefox**
 
-    > 偏好設定 -> 一般 -> 網路代理伺服器 -> 設定...
-    > {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="800" height="664" %}
+  偏好設定 -> 一般 -> 網路代理伺服器 -> 設定...
+  {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="800" height="664" %}
 
-    **Chrome**
+  **Chrome**
 
-    > 使用擴充工具，推薦安裝 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank">Proxy SwitchyOmega</a>
-    > {% include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="800" height="470" %}
-    > {% include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="800" height="424" %}
-    > {% include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="222" height="400" %}
+  使用擴充工具，推薦安裝 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank">Proxy SwitchyOmega</a>
+  {% include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="800" height="470" %}
+  {% include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="800" height="424" %}
+  {% include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="0.55" height="1" %}
 
-  - 微信開發者工具
+- 微信開發者工具
 
-    > 頂部選單 -> 設置 -> 代理設置
-    > {% include post_image.html src="/images/whistle/wx-devtool-config-proxy.png" alt="wx-devtool-config-proxy" width="800" height="649" %}
+  頂部選單 -> 設置 -> 代理設置
+  {% include post_image.html src="/images/whistle/wx-devtool-config-proxy.png" alt="wx-devtool-config-proxy" width="1.23" height="1" %}
 
-##### 設置 HTTPS
+#### 設置 HTTPS
 
   要擷取 HTTPS 請求，需要導入 whistle 生成的證書到系統中
 
   先打開 whistle 工具選單的「HTTPS」視窗，勾選 "Capture HTTPS CONNECTs" 之後，點擊 QR Code 或 Download RootCA 下載 whistle 憑證
-  {% include post_image.html src="/images/whistle/enable-https.png" alt="enable https" width="800" height="466" %}
+  {% include post_image.html src="/images/whistle/download-rootca.png" alt="download rootca" width="800" height="466" %}
 
   打開鑰匙圈存取 (spotlight 搜尋 keychain) -> 搜尋 whistle -> 雙擊打開憑證，在信任的使用此憑證時，選擇"永遠信任" -> 關閉視窗，跳出輸入系統用戶密碼 -> 更新設定
   {% include post_image.html src="/images/whistle/keychain-cert.png" alt="keychain cert" width="800" height="547" %}
 
   最後驗證 whistle network 頁面看到 Protocol 一行有 HTTPS 的請求，確認配置成功。
-  {% include post_image.html src="/images/whistle/network-https.png" alt="network https" width="800" height="424" %}
+  {% include post_image.html src="/images/whistle/network-request.png" alt="network request" width="800" height="424" %}
 
 #### Mobile 端
 
@@ -147,33 +152,34 @@ whistle 運行方式主要有兩種
 
 - 電腦網路 wifi 分享
 
-  > 先把電腦網路設置透過 wifi 共享
-  > {% include post_image.html src="/images/whistle/system-sharing-internet.png" alt="system-sharing-internet" width="600" height="464" %}
-  > {% include post_image.html src="/images/whistle/system-sharing-internet-config.png" alt="system-sharing-internet-config" width="600" height="464" %}
+  先把電腦網路設置透過 wifi 共享
+  {% include post_image.html src="/images/whistle/system-sharing-internet.png" alt="system-sharing-internet" width="600" height="464" %}
+  {% include post_image.html src="/images/whistle/system-sharing-internet-config.png" alt="system-sharing-internet-config" width="600" height="464" %}
 
 - 手機網路設定代理
 
-  > 手機連上電腦的 wifi 熱點，設置代理
-  > {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="375" height="189" %}
+  手機連上電腦的 wifi 熱點，設置代理
+  {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="375" height="189" %}
 
-  > 確認路由器伺服器 ip，點擊設定代理伺服器
-  > {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="375" height="745" %}
-  > 選擇手動，填入伺服器 ip 和 port
-  > {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="375" height="660" %}
+  確認路由器伺服器 ip，點擊設定代理伺服器
+  {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="375" height="745" %}
+  
+  選擇手動，填入伺服器 ip 和 port
+  {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="375" height="660" %}
 
-  > 用 Safari 訪問 [http://rootca.pro/](http://rootca.pro/)，下載 whistle 憑證並安裝
-  > {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="375" height="750" %}
-  > {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="375" height="812" %}
+  用 Safari 訪問 http://rootca.pro/，下載 whistle 憑證並安裝
+  {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="375" height="750" %}
+  {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="375" height="812" %}
 
-  > 可以從一般 -> 描述檔與裝置管理 -> whistle.xxxxxxx，確認是否為<span style="color:#5cc959;">已驗證</span>
-  > {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="375" height="406" %}
+  可以從一般 -> 描述檔與裝置管理 -> whistle.xxxxxxx，確認是否為<span style="color:#5cc959;">已驗證</span>
+  {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="375" height="406" %}
 
 - 設置信任憑證
 
-  > 憑證設為信任，開發微信 H5 才可以代理 https 頁面
+  憑證設為信任，開發微信 H5 才可以代理 https 頁面
 
-  > 從一般 -> 關於手機 -> 憑證信任設定 -> whistle.xxxxxxx，設定開啟
-  > {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="375" height="488" %}
+  從一般 -> 關於手機 -> 憑證信任設定 -> whistle.xxxxxxx，設定開啟
+  {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="375" height="488" %}
 
 ### 代理規則
 
@@ -186,104 +192,106 @@ whistle 運行方式主要有兩種
 在 whistle rules 的地方配置代理規則
 {% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
 
-  - 修改請求位置
+- 修改請求位置
+  > 開發或發布流程，前端頁面和CDN資源在不同源的情況
 
-    > 開發或發布流程，前端頁面和CDN資源在不同源的情況
+  和配置系統 hosts 一樣，如果在系統路徑 /etc/hosts 增加一行
+  
+  ```bash
+  www.example.com 127.0.0.1
+  ```
 
-    和配置系統 hosts 一樣，如果在系統路徑 /etc/hosts 增加一行
-    ```
-    www.example.com 127.0.0.1
-    ```
-    在瀏覽器訪問 `www.example.com` 時就會代理到本地
+  在瀏覽器訪問 `www.example.com` 時就會代理到本地
 
-    之後再配置本地服務器 (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
+  之後再配置本地服務器 (Apache, Nginx...) 的 virtual host，就可以模擬訪問線上環境
 
-    但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符，如下例
+  但是 whistle 比配置系統 hosts 更強大的是，如前面介紹的 pattern 支持通配符，如下例
 
-    ```
-    *.example.com 127.0.0.1
+  ```bash
+  *.example.com 127.0.0.1
 
-    # 說明
-    # proj1.example.com         127.0.0.1
-    # project2.example.com      127.0.0.1
-    # [任何字串長度].example.com  127.0.0.1
-    ```
+  # 說明
+  # proj1.example.com         127.0.0.1
+  # project2.example.com      127.0.0.1
+  # [任何字串長度].example.com  127.0.0.1
+  ```
 
-  - 修改響應，替換本地假數據
+- 修改響應，替換本地假數據
 
-    > 有後台接口文檔，但實際接口還無法調用的情況
+  > 有後台接口文檔，但實際接口還無法調用的情況
 
-    這時候就必須先用 json 假數據文件模擬後台接口響應
+  這時候就必須先用 json 假數據文件模擬後台接口響應
 
-    ```
-    /example.*\/cgi\/(.*\.do)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1 resType://json resCharset://utf8 statusCode://200
+  ```bash
+  /example.*\/cgi\/(.*\.do)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1 resType://json resCharset://utf8 statusCode://200
 
-    # $1 含層級的路徑
-    # www.example.com/cgi/(common/userinfo.do)  $1 = common/userinfo.do
-    # => /Users/hoyang/path/to/project/mock_data/(common/userinfo.do)
-    #
-    # www.example.com/cgi/(news/list.do)        $1 = news/list.do
-    # => /Users/hoyang/path/to/project/mock_data/(news/list.do)
-    ```
+  # $1 含層級的路徑
+  # www.example.com/cgi/(common/userinfo.do)  $1 = common/userinfo.do
+  # => /Users/hoyang/path/to/project/mock_data/(common/userinfo.do)
+  #
+  # www.example.com/cgi/(news/list.do)        $1 = news/list.do
+  # => /Users/hoyang/path/to/project/mock_data/(news/list.do)
+  ```
 
-    也可以模擬包含 id get 請求
-    ```
-    /example.*\/cgi\/(.*\.do)\?id=(.*)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1/$2 resType://json resCharset://utf8 statusCode://200
+  也可以模擬包含 id get 請求
 
-    # $1 含層級的路徑; $2 id後面的關鍵字
-    # www.example.com/cgi/(news/post.do)?id=(6)  $1 = news/post.do; $2 = 6
-    # => /Users/hoyang/path/to/project/mock_data/(news/post.do)/(6)
-    ```
+  ```bash
+  /example.*\/cgi\/(.*\.do)\?id=(.*)$/ resBody:///Users/hoyang/path/to/project/mock_data/$1/$2 resType://json resCharset://utf8 statusCode://200
 
-  - 同域名，不同子路徑，訪問不同目標位置
+  # $1 含層級的路徑; $2 id後面的關鍵字
+  # www.example.com/cgi/(news/post.do)?id=(6)  $1 = news/post.do; $2 = 6
+  # => /Users/hoyang/path/to/project/mock_data/(news/post.do)/(6)
+  ```
 
-    > 後台接口已實現，本地開發 UI 和邏輯
+- 同域名，不同子路徑，訪問不同目標位置
 
-    whistle rules 的 pattern 除了支持通配符，也支持正則表達式<br>
-    所以可以用 regex 過濾子路徑，甚至一行表達式匹配子域名、頂級域（Top-Level Domain）
+  > 後台接口已實現，本地開發 UI 和邏輯
 
-    ```
-    # 指定特定域名和子路徑後台接口
-    /xyz\.example\.com\/(?!cgi)/i 127.0.0.1
-    /xyz\.example\.com\/cgi/ 10.55.66.123
+  whistle rules 的 pattern 除了支持通配符，也支持正則表達式<br>
+  所以可以用 regex 過濾子路徑，甚至一行表達式匹配子域名、頂級域（Top-Level Domain）
 
-    # xyz.example.com/其他字串  127.0.0.1
-    # xyz.example.com/cgi      10.55.66.123
-    #
-    # 註: 也可以不用寫第二行，訪問路徑含 /cgi 就不會連到本地
-    ```
+  ```bash
+  # 指定特定域名和子路徑後台接口
+  /xyz\.example\.com\/(?!cgi)/i 127.0.0.1
+  /xyz\.example\.com\/cgi/ 10.55.66.123
 
-    ```
-    xyz.example.com 127.0.0.1
-    /xyz\.example\.com\/cgi/ 10.55.66.123 # 不會生效
+  # xyz.example.com/其他字串  127.0.0.1
+  # xyz.example.com/cgi      10.55.66.123
+  #
+  # 註: 也可以不用寫第二行，訪問路徑含 /cgi 就不會連到本地
+  ```
 
-    # 註: 不能只用 hosts 的寫法
-    #     hosts 表示式優先級會比較高
-    #     第二行的 /xyz\.example\.com\/cgi/ 10.55.66.123 不會生效
-    ```
+  ```bash
+  xyz.example.com 127.0.0.1
+  /xyz\.example\.com\/cgi/ 10.55.66.123 # 不會生效
 
-    ```
-    # 不指定二級域名和頂級域
-    /.*example.*\/(?!cgi)/i 127.0.0.1
+  # 註: 不能只用 hosts 的寫法
+  #     hosts 表示式優先級會比較高
+  #     第二行的 /xyz\.example\.com\/cgi/ 10.55.66.123 不會生效
+  ```
 
-    # xyz.example.cn/user       127.0.0.1
-    # xyz.example.com.hk/news   127.0.0.1
-    # xyz.example.com/cgi       忽略
-    # xyz.example.com.hk/cgi    忽略
-    # sub.xyz.example.com/cgi   忽略
-    ```
+  ```bash
+  # 不指定二級域名和頂級域
+  /.*example.*\/(?!cgi)/i 127.0.0.1
+
+  # xyz.example.cn/user       127.0.0.1
+  # xyz.example.com.hk/news   127.0.0.1
+  # xyz.example.com/cgi       忽略
+  # xyz.example.com.hk/cgi    忽略
+  # sub.xyz.example.com/cgi   忽略
+  ```
 
 #### 無腦代理法
 
 直接替換/模擬 server 文件
 
-```
+```bash
 cdn.example.com/path/to/file.js resBody:///Users/hoyang/path/to/local/file.js resType://js resCharset://utf8 statusCode://200
 ```
 
 #### 模擬弱網環境
 
-```
+```bash
 cdn.example.com 127.0.0.1 resSpeed://300
 # resSpeed://300 表示回應速度為 300 kb/s
 ```
