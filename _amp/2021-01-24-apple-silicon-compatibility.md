@@ -205,6 +205,24 @@ xcode-select --install
 
   在 Rosetta 模式下運行也沒有問題
 
+- Git
+
+  其實 git 安裝 Xcode 就內建了
+  
+  當然是原生支援
+
+  有時候還是用 GUI app 來的方便
+
+  之前一直是用 [Souretree](https://www.sourcetreeapp.com)
+  
+  但是隨著版本更新感覺越用越慢
+
+  後來試著改用 [Fork](https://git-fork.com) 感覺順很多
+
+  而且 Fork 是原生支援
+  
+  Sourcetree 是 Rosetta 模式執行 Intel 版本
+  
 - Miscellaneous
 
   - Profixier 3.4 會導致無預警重新開機
