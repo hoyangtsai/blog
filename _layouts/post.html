@@ -63,27 +63,19 @@ layout: default
 {% endif %}
 
 <div class="prevnext">
-  {% if page.previous.url %}
-    <a class="prevnext-item older"
-      href="{{ page.previous.url | prepend: site.baseurl }}"
-      title="{{page.previous.title}}">
-      <span class="mdi mdi-chevron-left"></span>Older
-    </a>
-  {% else %}
-    <span class="prevnext-item older">
-      <span class="mdi mdi-chevron-left"></span>Older
-    </span>
-  {% endif %}
   {% if page.next.url %}
-    <a class="prevnext-item older"
+    <a class="prevnext-item newer"
       href="{{ page.next.url | prepend: site.baseurl }}"
       title="{{page.next.title}}">
-      Newer<span class="mdi mdi-chevron-right"></span>
+      <i class="fas fa-chevron-left"></i>&nbsp;Newer
     </a>
-  {% else %}
-    <span class="prevnext-item older">
-      Newer<span class="mdi mdi-chevron-right"></span>
-    </span>
+  {% endif %}
+  {% if page.previous.url %}
+  <a class="prevnext-item older"
+    href="{{ page.previous.url | prepend: site.baseurl }}"
+    title="{{page.previous.title}}">
+    Older&nbsp;<i class="fas fa-chevron-right"></i>
+  </a>
   {% endif %}
 </div>
 

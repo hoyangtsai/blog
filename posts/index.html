@@ -46,28 +46,22 @@ description: "All Posts"
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older"
-      href="{{ site.baseurl }}/posts/page{{paginator.next_page}}">
-      <span class="mdi mdi-chevron-left"></span>Older
-    </a>
-  {% else %}
-    <span class="pagination-item older"><span class="mdi mdi-chevron-left"></span>Older</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
       <a class="pagination-item newer" href="{{ site.baseurl }}/posts/">
-        Newer<span class="mdi mdi-chevron-right"></span>
+        <i class="fas fa-chevron-left"></i>&nbsp;Newer
       </a>
     {% else %}
       <a class="pagination-item newer"
         href="{{ site.baseurl }}/posts/page{{paginator.previous_page}}">
-        Newer<span class="mdi mdi-chevron-right"></span>
+        <i class="fas fa-chevron-left"></i>&nbsp;Newer
       </a>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">
-      Newer<span class="mdi mdi-chevron-right"></span>
-    </span>
+  {% endif %}
+  {% if paginator.next_page %}
+  <a class="pagination-item older"
+    href="{{ site.baseurl }}/posts/page{{paginator.next_page}}"
+    >Older&nbsp;<i class="fas fa-chevron-right"></i>
+  </a>
   {% endif %}
 </div>
