@@ -142,6 +142,7 @@ xcode-select --install
   到應用程式目錄找到 iTerm 右鍵打開**取得資訊**
 
   勾選 ☑️ 使用 Rosetta 打開
+  {% include post_image.html src="/assets/image/apple-silicon-compatibility/rosetta.jpg" alt="rosetta" width="377" height="556" layout="fixed" %}
 
   結束 iTerm 重新打開就可以安裝 node 12 了
 

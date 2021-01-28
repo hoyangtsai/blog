@@ -174,7 +174,7 @@ mvn clean pacakge -DskipTests -Ptest -U
 
 {% include post_image.html src="/images/tomcat-server-setup/tomcat_config_1.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="100%" height="auto" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="auto" height="494" %}
 
 {% include post_image.html src="/images/tomcat-server-setup/tomcat_config_3.png" alt="tomcat_config_1" width="100%" height="auto" %}
 

@@ -177,6 +177,10 @@ figure.highlight {
   text-align: center;
 }
 
+.amp-img + .amp-img {
+  margin-top: 1rem;
+}
+
 @media screen and (min-width:48em) {
   .post-list .entry-date {
     display: inline;

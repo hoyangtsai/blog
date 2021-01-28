@@ -4,11 +4,12 @@
   "description": "github page blog",
   "main": "index.js",
   "scripts": {
-    "dev": "guard && rollup -c -w",
+    "dev:serve": "bundle exec guard",
+    "dev:js": "rollup -c -w",
+    "dev": "rm -rf dist && concurrently npm:dev:*",
     "build:pre:js": "rollup -c --environment NODE_ENV:production",
     "build": "rm -rf dist && concurrently npm:build:pre:*",
-    "prod": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "npm run build"
   },
   "repository": {
     "type": "git",

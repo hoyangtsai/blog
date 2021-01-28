@@ -23,11 +23,11 @@ style: |
 
 如京東的網站，有圖片比例不對、間隔過大等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="1334px" height="1200px" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="417" height="597" layout="fixed" %}
 
 網易新聞，有過度放大、缺乏空間利用等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="1334px" height="1200px" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="417" height="597" layout="fixed" %}
 
 在開發 [騰訊微加信用卡官網](https://wepluscard.qq.com/mdft/index.shtml) 的網站時，為了滿足多端全螢幕適配的需求，調查現在幾個比較熱門支持自適應的 UI 框架
 
@@ -147,11 +147,11 @@ container 寬度在各尺寸設備下
 
 小設備、中設備、大設備、極大設備分別代表 sm, md, lg, xl 等縮寫，應用到頁面的排版中
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/grid-options.png" alt="grid-options" width="866px" height="600px" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/grid-options.png" alt="grid-options" width="1" height="0.69" %}
 
 ### 寬度均分
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/equal-width.png" alt="equal-width" width="842px" height="360px" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/equal-width.png" alt="equal-width" width="1" height="0.21" %}
 
 ```html
 <div class="container">
@@ -184,7 +184,7 @@ container 寬度在各尺寸設備下
 
 ### 某一列比較寬
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/one-column-wider.png" alt="one-column-wider" width="843px" height="358px" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/one-column-wider.png" alt="one-column-wider" width="1" height="0.21" %}
 
 ```html
 <div class="container">
@@ -250,9 +250,9 @@ container 寬度在各尺寸設備下
 </div>
 ```
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-items.png" alt="adv-items" width="1259px" height="458px" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-items.png" alt="adv-items" width="2.74" height="1" %}
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="739px" height="656px" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="369" height="328" layout="fixed" %}
 
 ## 自定義
 
@@ -314,7 +314,7 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story.png" alt="user-story" width="1165px" height="698px" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="992px" height="1296px" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="248" height="324" layout="fixed" %}
 
 - 交互
 
@@ -322,9 +322,9 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     另外一個像是導航選單，如果在小螢幕中沒多餘的空間放頁面的入口連結，現在常見的作法是做成一個俗稱漢堡的選單，由上往下展開或由左右兩側滑出入口連結的選單。
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="1026px" height="129px" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="1" height="0.125" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="988px" height="932px" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="494" height="466" layout="fixed" %}
 
 - 圖片和文字
 

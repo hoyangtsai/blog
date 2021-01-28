@@ -143,6 +143,8 @@ xcode-select --install
 
   勾選 ☑️ 使用 Rosetta 打開
 
+  {% include post_image.html src="/assets/image/apple-silicon-compatibility/rosetta.jpg" alt="rosetta" width="377px" height="auto" %}
+
   結束 iTerm 重新打開就可以安裝 node 12 了
 
   安裝完成之後可取消勾選 Rosetta 打開

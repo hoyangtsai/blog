@@ -110,21 +110,21 @@ whistle 運行方式主要有
   在系統設定中網路的代理服務器，將網頁代理服務器（HTTP）和安全網頁代理服務器（HTTPS）的 ip 設置 whistle 代理服務器位址。
   
   如果啟動 whistle 時沒有修改 port 設置，默認為 127.0.0.1:8899
-  {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="600" height="464" %}
+  {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="1.18" height="1" %}
 
 - 瀏覽器
 
   **Firefox**
 
   偏好設定 -> 一般 -> 網路代理伺服器 -> 設定...
-  {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="800" height="664" %}
+  {% include post_image.html src="/images/whistle/firefox-proxy.jpg" alt="firefox-proxy" width="1.2" height="1" %}
 
   **Chrome**
 
   使用擴充工具，推薦安裝 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank">Proxy SwitchyOmega</a>
-  {% include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="800" height="470" %}
-  {% include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="800" height="424" %}
-  {% include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="0.55" height="1" %}
+  {% include post_image.html src="/images/whistle/pso-new-proxy.png" alt="Proxy SwitchyOmega new proxy" width="1.7" height="1" %}
+  {% include post_image.html src="/images/whistle/pso-config-whistle.png" alt="Proxy SwitchyOmega config whistle" width="1.88" height="1" %}
+  {% include post_image.html src="/images/whistle/pso-select-whistle.png" alt="Proxy SwitchyOmega select whistle" width="222" height="400" layout="fixed" %}
 
 - 微信開發者工具
 
@@ -136,13 +136,13 @@ whistle 運行方式主要有
   要擷取 HTTPS 請求，需要導入 whistle 生成的證書到系統中
 
   先打開 whistle 工具選單的「HTTPS」視窗，勾選 "Capture HTTPS CONNECTs" 之後，點擊 QR Code 或 Download RootCA 下載 whistle 憑證
-  {% include post_image.html src="/images/whistle/download-rootca.png" alt="download rootca" width="800" height="466" %}
+  {% include post_image.html src="/images/whistle/download-rootca.png" alt="download rootca" width="1.72" height="1" %}
 
   打開鑰匙圈存取 (spotlight 搜尋 keychain) -> 搜尋 whistle -> 雙擊打開憑證，在信任的使用此憑證時，選擇"永遠信任" -> 關閉視窗，跳出輸入系統用戶密碼 -> 更新設定
-  {% include post_image.html src="/images/whistle/keychain-cert.png" alt="keychain cert" width="800" height="547" %}
+  {% include post_image.html src="/images/whistle/keychain-cert.png" alt="keychain cert" width="1.46" height="1" %}
 
   最後驗證 whistle network 頁面看到 Protocol 一行有 HTTPS 的請求，確認配置成功。
-  {% include post_image.html src="/images/whistle/network-request.png" alt="network request" width="800" height="424" %}
+  {% include post_image.html src="/images/whistle/network-request.png" alt="network request" width="1.88" height="1" %}
 
 #### Mobile 端
 
@@ -153,33 +153,33 @@ whistle 運行方式主要有
 - 電腦網路 wifi 分享
 
   先把電腦網路設置透過 wifi 共享
-  {% include post_image.html src="/images/whistle/system-sharing-internet.png" alt="system-sharing-internet" width="600" height="464" %}
-  {% include post_image.html src="/images/whistle/system-sharing-internet-config.png" alt="system-sharing-internet-config" width="600" height="464" %}
+  {% include post_image.html src="/images/whistle/system-sharing-internet.png" alt="system-sharing-internet" width="1.29" height="1" %}
+  {% include post_image.html src="/images/whistle/system-sharing-internet-config.png" alt="system-sharing-internet-config" width="1.29" height="1" %}
 
 - 手機網路設定代理
 
   手機連上電腦的 wifi 熱點，設置代理
-  {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="375" height="189" %}
+  {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="375" height="189" layout="fixed" %}
 
   確認路由器伺服器 ip，點擊設定代理伺服器
-  {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="375" height="745" %}
+  {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="375" height="745" layout="fixed" %}
   
   選擇手動，填入伺服器 ip 和 port
-  {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="375" height="660" %}
+  {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="375" height="660" layout="fixed" %}
 
   用 Safari 訪問 http://rootca.pro/，下載 whistle 憑證並安裝
-  {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="375" height="750" %}
-  {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="375" height="812" %}
+  {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="375" height="750" layout="fixed" %}
+  {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="375" height="812" layout="fixed" %}
 
   可以從一般 -> 描述檔與裝置管理 -> whistle.xxxxxxx，確認是否為<span style="color:#5cc959;">已驗證</span>
-  {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="375" height="406" %}
+  {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="375" height="406" layout="fixed" %}
 
 - 設置信任憑證
 
   憑證設為信任，開發微信 H5 才可以代理 https 頁面
 
   從一般 -> 關於手機 -> 憑證信任設定 -> whistle.xxxxxxx，設定開啟
-  {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="375" height="488" %}
+  {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="375" height="488" layout="fixed" %}
 
 ### 代理規則
 
@@ -190,7 +190,7 @@ whistle 運行方式主要有
 3. 同域名，不同子路徑，分別訪問本地前端頁面和遠端後台接口
 
 在 whistle rules 的地方配置代理規則
-{% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="800" height="454" %}
+{% include post_image.html src="/images/whistle/whistle-rules.png" alt="whistle rules" width="1.76" height="1" %}
 
 - 修改請求位置
   > 開發或發布流程，前端頁面和CDN資源在不同源的情況

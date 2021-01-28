@@ -7,7 +7,7 @@ const dev = {
   input: 'js/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife',
+    format: 'cjs',
     sourcemap: 'inline',
   },
   plugins: [
@@ -31,7 +31,7 @@ const prod = {
   input: 'js/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife',
+    format: 'cjs',
     sourcemap: true,
   },
   plugins: [

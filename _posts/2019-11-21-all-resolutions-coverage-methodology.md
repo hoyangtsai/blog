@@ -23,11 +23,11 @@ style: |
 
 如京東的網站，有圖片比例不對、間隔過大等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="100%" height="auto" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/jd.png" alt="京東購物" width="auto" height="597" %}
 
 網易新聞，有過度放大、缺乏空間利用等問題
 
-{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="100%" height="auto" %}
+{% include post_image.html class="rem-site" src="/images/all-resolutions-coverage-methodology/163.png" alt="網易新聞" width="auto" height="597" %}
 
 在開發 [騰訊微加信用卡官網](https://wepluscard.qq.com/mdft/index.shtml) 的網站時，為了滿足多端全螢幕適配的需求，調查現在幾個比較熱門支持自適應的 UI 框架
 
@@ -252,7 +252,7 @@ container 寬度在各尺寸設備下
 
 {% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-items.png" alt="adv-items" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="100%" height="auto" %}
+{% include post_image.html src="/images/all-resolutions-coverage-methodology/adv-item-md.png" alt="adv-item-md" width="auto" height="328" %}
 
 ## 自定義
 
@@ -314,7 +314,7 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story.png" alt="user-story" width="100%" height="auto" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="100%" height="auto" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="auto" height="648" %}
 
 - 交互
 
@@ -324,7 +324,7 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="100%" height="auto" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="100%" height="auto" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="auto" height="466" %}
 
 - 圖片和文字
 
