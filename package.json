@@ -4,7 +4,7 @@
   "description": "github page blog",
   "main": "index.js",
   "scripts": {
-    "dev:serve": "bundle exec guard",
+    "dev:serve": "bundle exec jekyll serve -w --port 4001",
     "dev:js": "rollup -c -w",
     "dev": "rm -rf dist && concurrently npm:dev:*",
     "build:pre:js": "rollup -c --environment NODE_ENV:production",

@@ -38,6 +38,20 @@ body {
   @media (prefers-reduced-motion: reduce) {
     --duration: 1ms;
   }
+
+  .sidenav-footer {
+    padding-top: 4rem;
+
+    &__para {
+      margin-bottom: 0;
+      a {
+        display: inline;
+        line-height: 1;
+        width: initial;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 #sidenav-button,
