@@ -188,6 +188,42 @@ figure.highlight {
   margin-top: 1rem;
 }
 
+.donate-china {
+  margin: 1rem 0 0;
+}
+
+.donate-paypal {
+  margin: 1rem 0 0;
+}
+
+.linepay-qrcode {
+  display: block;
+  margin: 1rem 0 0;
+}
+
+.linepay-btn {
+  width: 250px;
+  padding-left: 12px;
+  height: 69px;
+  display: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 30%), 0 2px 6px 2px rgba(60, 64, 67, 15%);
+
+  img {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 56em) {
+  .linepay-qrcode {
+    display: none;
+  }
+  .linepay-btn {
+    display: inline-block;
+  }
+}
+
 @media screen and (min-width:48em) {
   .post-list .entry-date {
     display: inline;

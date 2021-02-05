@@ -235,3 +235,9 @@ xcode-select --install
 - [https://doesitarm.com](https://doesitarm.com)
 
 持續更新...
+
+---
+
+{% include donate-line.html %}
+{% include donate_paypal.html %}
+{% include donate_china.html %}

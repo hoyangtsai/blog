@@ -170,5 +170,8 @@ echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
 ```
 
+---
+
+{% include donate-line.html %}
 {% include donate_paypal.html %}
 {% include donate_china.html %}

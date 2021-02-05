@@ -46,3 +46,9 @@ editor.defaultFormatter 預設為 null，如果要變更格式化工具，建議
   }
 }
 ```
+
+---
+
+{% include donate-line.html %}
+{% include donate_paypal.html %}
+{% include donate_china.html %}
