@@ -238,6 +238,4 @@ xcode-select --install
 
 ---
 
-{% include donate-line.html %}
-{% include donate_paypal.html %}
-{% include donate_china.html %}
+{% include donation.html %}

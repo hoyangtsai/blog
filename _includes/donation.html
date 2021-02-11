@@ -1,0 +1,10 @@
+{% if page.hide_title == true %}
+{% else %}
+<div class="donate-title">
+  <p>如果這篇文章有幫助到你，歡迎友情贊助</p>
+</div>
+{% endif %}
+
+{% include donate-line.html %}
+{% include donate_paypal.html %}
+{% include donate_china.html %}

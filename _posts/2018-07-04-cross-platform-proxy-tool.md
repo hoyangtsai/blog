@@ -298,6 +298,4 @@ cdn.example.com 127.0.0.1 resSpeed://300
 
 ---
 
-{% include donate-line.html %}
-{% include donate_paypal.html %}
-{% include donate_china.html %}
+{% include donation.html %}
