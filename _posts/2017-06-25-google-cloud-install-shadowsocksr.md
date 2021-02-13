@@ -20,10 +20,10 @@ tags: [gettingStarted]
 ### 建立 VM 執行個體
 申請完成後 <br>
 直接進入 [Google Cloud 主控台](https://console.cloud.google.com/) 建立一個新的專案，專案名稱可以隨便取
-{% include post_image.html src="/images/gc-ssr/new-project.png" alt="建立專案" width="841" height="710" %}
+{% include post_image.html src="/images/gc-ssr/new-project.png" alt="建立專案" width="100%" height="auto" %}
 
 再到專案中的 Computer Engine 建立 VM 執行個體
-{% include post_image.html src="/images/gc-ssr/create-vm-instance.png" alt="建立 VM 執行個體" width="975" height="466" %}
+{% include post_image.html src="/images/gc-ssr/create-vm-instance.png" alt="建立 VM 執行個體" width="100%" height="auto" %}
 
 * 名稱：名稱隨便取，像 instance-1
 * 區域：如果是要翻牆，建議選 asia-northeast 或 asia-east
@@ -40,7 +40,7 @@ tags: [gettingStarted]
 * 網路用預設的，系統會自動配一個臨時 IP 位址
   > IP 用臨時就可以了，因為一個專案每一個區域只能申請一個免費的固定 IP
 
-{% include post_image.html src="/images/gc-ssr/new-vm-instance.png" alt="新 VM 執行個體" width="763" height="742" %}
+{% include post_image.html src="/images/gc-ssr/new-vm-instance.png" alt="新 VM 執行個體" width="100%" height="auto" %}
 
 機器類型選擇微型，是因為只是要用 ShadowsocksR 服務不需要太多電腦運算能力，而且價差非常的大。
 
@@ -49,12 +49,12 @@ tags: [gettingStarted]
 後來我發現... Google Cloud 有個更大的陰謀 <br>
 就是我建立一個 VM 執行個體，在沒有運行任何程式的情況下 <br>
 過幾天再登入，居然也出現「提升效能」的建議，所以真的可以不用理會平台的升級建議
-{% include post_image.html src="/images/gc-ssr/upgrade-notice.png" alt="建議升級訊息" width="722" height="137" %}
+{% include post_image.html src="/images/gc-ssr/upgrade-notice.png" alt="建議升級訊息" width="100%" height="auto" %}
 
 ### 下載 ShadowsocksR 源碼
 
 建立完成後，在瀏覽器視窗中開啟
-{% include post_image.html src="/images/gc-ssr/open-with-browser.png" alt="在瀏覽器視窗中開啟" width="800" height="339" %}
+{% include post_image.html src="/images/gc-ssr/open-with-browser.png" alt="在瀏覽器視窗中開啟" width="100%" height="auto" %}
 
 登入 console 直接切換管理者角色 `sudo su` <br>
 避免之後安裝套件或執行程式權限不足
@@ -93,7 +93,7 @@ cd ~ && git clone https://github.com/shadowsocksr-backup/shadowsocksr.git && cd 
     // 其他保留預設
 }
 ```
-{% include post_image.html src="/images/gc-ssr/edit-user-config.png" alt="編輯使用者配置" width="900" height="701" %}
+{% include post_image.html src="/images/gc-ssr/edit-user-config.png" alt="編輯使用者配置" width="100%" height="auto" %}
 
 ### 設定 iptables
 將上面 user-config.json 設定的 server_port ，同樣設定到系統的 iptables 對應輸入的埠
@@ -107,7 +107,7 @@ iptables -I INPUT -p udp --dport <server_port> -j ACCEPT
 /etc/init.d/iptables restart
 ```
 執行 `/etc/init.d/iptables status` 檢查設定是否成功
-{% include post_image.html src="/images/gc-ssr/check-iptables.png" alt="檢查 iptables 設定" width="900" height="324" %}
+{% include post_image.html src="/images/gc-ssr/check-iptables.png" alt="檢查 iptables 設定" width="100%" height="auto" %}
 
 其他 iptables 指令說明 <br>
 [https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules](https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules)
@@ -122,12 +122,12 @@ chmod 755 bbr.sh
 安裝完成後，一樣會要求使用者按 y 確認執行重新開機。
 
 重新開機後，再次連接登入系統執行 `uname -r` 確認有更新到 4.10 以上即可。
-{% include post_image.html src="/images/gc-ssr/bbr-uname-check.png" alt="檢查 BBR 版本" width="706" height="66" %}
+{% include post_image.html src="/images/gc-ssr/bbr-uname-check.png" alt="檢查 BBR 版本" width="100%" height="auto" %}
 
 ### 新增防火牆規則
 
 根據上面 user-config.json 設定的 server_port，開啟對外 ip 輸入，對應的 tcp 和 udp 埠
-{% include post_image.html src="/images/gc-ssr/new-firewall-rules.png" alt="新增防火牆規則" width="821" height="745" %}
+{% include post_image.html src="/images/gc-ssr/new-firewall-rules.png" alt="新增防火牆規則" width="100%" height="auto" %}
 
 ### 啟動 SSR 服務
 
@@ -158,7 +158,7 @@ lsmod | grep bbr
 
 如果是使用 chacha20-ietf 加密方法 <br>
 直接啟動 SSR server 會出現 'libsodium not found' 的錯誤
-{% include post_image.html src="/images/gc-ssr/libsodium-not-found.png" alt="libsodium not found" width="853" height="345" %}
+{% include post_image.html src="/images/gc-ssr/libsodium-not-found.png" alt="libsodium not found" width="100%" height="auto" %}
 
 需要安裝 libsodium 套件
 ```bash

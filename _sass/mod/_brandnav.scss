@@ -120,14 +120,14 @@ aside > a {
 }
 
 aside > a:focus {
-    outline-color: hsl(328, 100%, 54%);
-    outline-color: hsl(var(--brandHSL));
-    transition: outline-color .25s ease;
-  }
-
-main {
-  padding: .5rem 1.5rem;
+  outline-color: hsl(328, 100%, 54%);
+  outline-color: hsl(var(--brandHSL));
+  transition: outline-color .25s ease;
 }
+
+// main {
+//   padding: .5rem 1.5rem;
+// }
 
 main > header {
   display: flex;
@@ -138,8 +138,8 @@ main > header {
 }
 
 article {
-  display: inline-grid;
-  gap: 2ch;
+  // display: inline-grid;
+  // gap: 2ch;
   // background: var(--surface2);
   padding: 2ch;
   border-radius: 1ch;

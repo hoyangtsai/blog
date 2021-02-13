@@ -74,6 +74,6 @@ Dyson v8 absolute 的未含消費稅的訂價為 &yen;96,800<br>
 店名：愛電王 (EDION)<br>
 位置：阿倍野 Abeno Harukas 近鐵百貨 - 翼館 3.5樓<br>
 網站：<a href="https://abenoharukas.d-kintetsu.co.jp/special/foreign/index-ct.html" target="_blank">近鐵百貨海闊天空總店</a>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5478.918274043868!2d135.5150708715675!3d34.64613671241175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bf432c75c1aebd9!2z44Ko44OH44Kj44Kq44Oz6L-R6YmE44GC44G544Gu44OP44Or44Kr44K55bqX!5e0!3m2!1szh-TW!2stw!4v1485444746097" width="" height="" frameborder="0" style="border:0" class="gmap-iframe" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5478.918274043868!2d135.5150708715675!3d34.64613671241175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bf432c75c1aebd9!2z44Ko44OH44Kj44Kq44Oz6L-R6YmE44GC44G544Gu44OP44Or44Kr44K55bqX!5e0!3m2!1szh-TW!2stw!4v1485444746097" width="100%" height="400" frameborder="0" style="border:0" class="gmap-iframe" allowfullscreen></iframe>
 {% include post_image.html src="/images/osaka-trip/shopping/IMG_0526.JPG" alt="EDION" width="100%" height="auto" %}
 {% include post_image.html src="/images/osaka-trip/shopping/IMG_0527.JPG" alt="EDION" width="100%" height="auto" %}

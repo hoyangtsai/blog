@@ -109,7 +109,7 @@ whistle 運行方式主要有
 
   在系統設定中網路的代理服務器，將網頁代理服務器（HTTP）和安全網頁代理服務器（HTTPS）的 ip 設置 whistle 代理服務器位址。
   如果啟動 whistle 時沒有修改 port 設置，默認為 127.0.0.1:8899
-  {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="auto" height="506" %}
+  {% include post_image.html src="/images/whistle/system-network-proxy.png" alt="system-network-proxy" width="100%" height="initial" %}
 
 - 瀏覽器
 
