@@ -25,38 +25,12 @@
   {% endif %}
 
   <!-- Search Engine Optimization -->
-  {% if page.description and page.description != "" and page.description != nil %}
-    <meta name="description" content="{{ page.description }}">
-    {% elsif page.content and page.content != "" and page.content != nil %}
-    <meta name="description" content="{{ page.content | strip_html | truncatewords: 160 }}">
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-  {% endif %}
+  {% seo %}
 
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
   {% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
-  {% if site.google.site_verification %}<meta name="google-site-verification" content="{{ site.google.site_verification }}">{% endif %}
 
-  <!-- Twitter Cards -->
-  {% if site.owner.twitter %}
-  {% include twitter_card.html %}
-  {% endif %}
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-  <!-- End Twitter Cards -->
-
-  <!-- Open Graph -->
-  <meta property="og:locale" content="zh_TW">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="">
-  <meta property="og:publisher" content="{{ site.owner.name }}">
-  <!-- End Open Graph -->
 
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"> -->
 
@@ -112,13 +86,13 @@
   </script>
 
   {% if site.google_analytics_id %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics_id }}', 'auto');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics_id }}');
   </script>
   {% endif %}
 </head>

@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid: [stack] 1fr / min-content [stack] 1fr
+  grid: [stack] 1fr / [stack] 100%;
 }
 
 @media (max-width: 540px) {

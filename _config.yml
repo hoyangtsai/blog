@@ -64,11 +64,9 @@ disqus_shortname: hoyangtsai
 facebook:
   app_id: 1069355273095594
 
-google:
-  analytics: UA-36297587-6
-  site_verification: AA9TuZRgJxTNDH0EwMVgqegbQqZjvO1m8xSVVyRg1ls
 
 google_analytics_id: UA-36297587-6
+google_site_verification: AA9TuZRgJxTNDH0EwMVgqegbQqZjvO1m8xSVVyRg1ls
 
 collections:
   amp:
