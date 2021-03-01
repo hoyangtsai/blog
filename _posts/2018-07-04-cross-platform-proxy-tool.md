@@ -159,27 +159,27 @@ whistle 運行方式主要有
 - 手機網路設定代理
 
   手機連上電腦的 wifi 熱點，設置代理
-  {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="375" height="189" %}
+  {% include post_image.html src="/images/whistle/ios-network.png" alt="ios-network" width="auto" height="189" class="img-hfs" %}
 
   確認路由器伺服器 ip，點擊設定代理伺服器
-  {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="375" height="745" %}
+  {% include post_image.html src="/images/whistle/ios-network-config.png" alt="ios-network-config" width="auto" height="745" class="img-hfs" %}
   
   選擇手動，填入伺服器 ip 和 port
-  {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="375" height="660" %}
+  {% include post_image.html src="/images/whistle/ios-network-proxy.png" alt="ios-network-proxy" width="auto" height="660" class="img-hfs" %}
 
   用 Safari 訪問 http://rootca.pro/，下載 whistle 憑證並安裝
-  {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="375" height="750" %}
-  {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="375" height="812" %}
+  {% include post_image.html src="/images/whistle/ios-cert-download.png" alt="ios-cert-download" width="auto" height="750" class="img-hfs" %}
+  {% include post_image.html src="/images/whistle/ios-cert-install.png" alt="ios-cert-install" width="auto" height="812" class="img-hfs" %}
 
   可以從一般 -> 描述檔與裝置管理 -> whistle.xxxxxxx，確認是否為<span style="color:#5cc959;">已驗證</span>
-  {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="375" height="406" %}
+  {% include post_image.html src="/images/whistle/ios-cert.png" alt="ios-cert" width="auto" height="406" class="img-hfs" %}
 
 - 設置信任憑證
 
   憑證設為信任，開發微信 H5 才可以代理 https 頁面
 
   從一般 -> 關於手機 -> 憑證信任設定 -> whistle.xxxxxxx，設定開啟
-  {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="375" height="488" %}
+  {% include post_image.html src="/images/whistle/ios-cert-trust.png" alt="ios-cert-trust" width="auto" height="488" class="img-hfs" %}
 
 ### 代理規則
 

@@ -8,6 +8,7 @@
 @import "mod/_slidetags";
 @import "mod/_sidebar";
 @import "mod/_brandnav";
+@import "mod/_table";
 
 :root {
   --surface: rgb(27, 27, 27);
@@ -215,7 +216,15 @@ figure.highlight {
   }
 }
 
-@media screen and (max-width: 56em) {
+@media (max-width: 28rem) {
+  .img-hfs {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 56em) {
   .linepay-qrcode {
     display: none;
   }
@@ -224,7 +233,7 @@ figure.highlight {
   }
 }
 
-@media screen and (min-width:48em) {
+@media (min-width:48em) {
   .post-list .entry-date {
     display: inline;
   }
@@ -233,7 +242,7 @@ figure.highlight {
   }
 }
 
-@media screen and (min-width:62.5em) {
+@media (min-width:62.5em) {
   .post-list .excerpt {
     width: 60%
   }

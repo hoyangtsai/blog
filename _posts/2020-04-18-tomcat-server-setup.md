@@ -174,7 +174,7 @@ mvn clean pacakge -DskipTests -Ptest -U
 
 {% include post_image.html src="/images/tomcat-server-setup/tomcat_config_1.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
-{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="auto" height="494" %}
+{% include post_image.html src="/images/tomcat-server-setup/tomcat_config_2.png" alt="tomcat_config_1" width="auto" height="494" class="img-hfs" %}
 
 {% include post_image.html src="/images/tomcat-server-setup/tomcat_config_3.png" alt="tomcat_config_1" width="100%" height="auto" %}
 
@@ -244,3 +244,7 @@ sudo chmod g+r bin/*
 - [https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/)
 - [https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat](https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat)
 - [https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/](https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/)
+
+---
+
+{% include donation.html %}

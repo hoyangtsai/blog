@@ -22,7 +22,7 @@ skip_amp: true
 首先是「JS編程能力」，這是身為前端開發都具備的能力  
 而設計知識基礎、重構能力和調教能力這三個方面是比較弱的部分
 
-{% include post_image.html src="/images/full-f2e-devpr/skill_set.jpeg" alt="skill_set" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/skill_set.jpeg" alt="skill_set" width="100%" height="auto" %}
 
 這篇文章主要著重在「設計」這個方向
 
@@ -61,7 +61,7 @@ skip_amp: true
 
 但是這兩個插件的功能有稍微的不同，比較如下圖
 
-{% include post_image.html src="/images/full-f2e-devpr/comparison.png" alt="Sketch Measaure and Zeplin comparison" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/comparison.png" alt="Sketch Measaure and Zeplin comparison" width="100%" height="auto" %}
 
 Sketch Measure和Zeplin最大的差異在於Measure只支援Sketch，而且免費  
 既然已經有 Sketch Measure 或 Zeplin 這些 Plugins，為什麼還要學習PS以及Sketch的基本技巧？
@@ -152,7 +152,7 @@ SVG 圖片 [教程](https://www.w3cplus.com/svg-tutorial?page=1)
 - 支持多色
 - 支持動畫
 
-{% include post_image.html src="/images/full-f2e-devpr/svg.gif" alt="svg" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/svg.gif" alt="svg" width="100%" height="auto" %}
 
 SVG 壓縮 - https://jakearchibald.github.io/svgomg/
 
@@ -171,11 +171,11 @@ WebP是一種支持有損壓縮和無損壓縮的圖片文件格式，根據Goog
 ​
 使用 GIF 效果
 
-{% include post_image.html src="/images/full-f2e-devpr/loading.gif" alt="loading" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/loading.gif" alt="loading" width="auto" height="690" class="img-hfs" %}
 
 使用 Apng 效果
 
-{% include post_image.html src="/images/full-f2e-devpr/loading-apng.gif" alt="loading APNG" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/loading-apng.gif" alt="loading APNG" width="auto" height="667" class="img-hfs" %}
 
 
 ##### Iconfont
@@ -198,11 +198,11 @@ WebP是一種支持有損壓縮和無損壓縮的圖片文件格式，根據Goog
 
 語義標籤取代 Div
 
-{% include post_image.html src="/images/full-f2e-devpr/html5-tags.gif" alt="HTML5 tags" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/html5-tags.gif" alt="HTML5 tags" width="100%" height="auto" %}
 
 #### 適配方案
 
-{% include post_image.html src="/images/full-f2e-devpr/rwd-method.jpeg" alt="Responsive web design methodology" width="auto" height="100%" %}
+{% include post_image.html src="/images/full-f2e-devpr/rwd-method.jpeg" alt="Responsive web design methodology" width="100%" height="auto" %}
 
 
 根據不同的需求，可以依照上面列出來的幾種方式去挑選合適的適配方案。

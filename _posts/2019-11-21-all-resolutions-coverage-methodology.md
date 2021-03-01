@@ -31,6 +31,7 @@ style: |
 
 在開發 [騰訊微加信用卡官網](https://wepluscard.qq.com/mdft/index.shtml) 的網站時，為了滿足多端全螢幕適配的需求，調查現在幾個比較熱門支持自適應的 UI 框架
 
+<div class="table-container" markdown="block">
 | 框架        | 發佈自 | Stars on Github | 網站流量 | CSS.min | JS.min  |
 | ----------- | ------ | --------------- | -------- | ------- | ------- |
 | Bootstrap   | 2011   | 137K            | 11.4M    | 137 KB  | 49.8 KB |
@@ -38,6 +39,7 @@ style: |
 | Foundation  | 2011   | 28.4K           | 334.77K  | 114 KB  | 145 KB  |
 | Bulma       | 2016   | 37.6K           | 569.15K  | 155 KB  | No JS   |
 
+</div>
 > 網站流量數據來自 SimilarWeb
 
 Bootstrap 無疑是最熱門且發展最久的 UI 框架之一
@@ -314,7 +316,7 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story.png" alt="user-story" width="100%" height="auto" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="auto" height="648" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/user-story-sm.png" alt="user-story-sm" width="auto" height="648" class="img-hfs" %}
 
 - 交互
 
@@ -324,7 +326,7 @@ $grid-gutter-width:           30px !default; // 列與列間隔
 
     {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav.png" alt="nav" width="100%" height="auto" %}
 
-    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="auto" height="466" %}
+    {% include post_image.html src="/images/all-resolutions-coverage-methodology/nav_sm.png" alt="nav_sm" width="auto" height="466" class="img-hfs" %}
 
 - 圖片和文字
 

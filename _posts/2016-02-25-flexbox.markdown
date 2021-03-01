@@ -61,7 +61,7 @@ iOS 7 - 8.4 (-webkit-) <br> iOS 9.2 之後 | Android 2.3 - 4.3 <br> (2009年舊f
 
   > The flex property specifies the length of the item, relative to the rest of the flexible items inside the same container.
 
-{% include post_image.html src="/images/flexbox/flex.png" alt="flex" width="472" height="406" %}
+{% include post_image.html src="/images/flexbox/flex.png" alt="flex" width="100%" height="auto" %}
 
 - flex-basis
 
@@ -90,7 +90,7 @@ iOS 7 - 8.4 (-webkit-) <br> iOS 9.2 之後 | Android 2.3 - 4.3 <br> (2009年舊f
   }
   ```
 
-{% include post_image.html src="/images/flexbox/flex-basis.png" alt="flex-basis" width="468" height="117" %}
+{% include post_image.html src="/images/flexbox/flex-basis.png" alt="flex-basis" width="100%" height="auto" %}
 
 ### 已知問題
 
