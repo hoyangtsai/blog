@@ -77,13 +77,13 @@ Source: Apple WWDC 2005
 
 當第一次開啟 Intel 版本 App 詢問是否安裝 Rosetta
 
-一旦安裝之後
+{% include post_image.html src="/assets/image/macbook-air-m1-review/install-rosetta.png" alt="安裝 Rosetta" width="100%" height="auto" %}
+
+一旦安裝 Rosetta 之後
 
 很難分辨正在使用的 App 是 made for Intel or made for Apple silicon
 
-everything it just works
-
-操作很smooth 流暢
+everything it just works 操作很流暢
 
 我覺得對普羅大眾來說比較有感的是
 
@@ -108,7 +108,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 在印象中 2009 年的第一台 Macbook 確實相較之前的 Windows 筆電續航更久
 
-大概有 2 - 3 小時的電池續航
+大概有 2 ~ 3 小時的電池續航
 
 而那時候的 Windows 筆電有個 2 小時就要偷笑了
 
@@ -116,7 +116,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 每次發佈會上說的電腦都會有什麼 6 小時的電力續航
 
-我實際用下來都大概只有 2 - 3 小時
+我實際用下來都大概只有 2 ~ 3 小時
 
 沒什麼進步
 
@@ -128,9 +128,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 現在可以很肯定的說不需要帶充電器出門
 
-我上一台自己的 Mac 也是 Macbook Air
-
-是 2014 年 13吋版本
+我上一台自己的 Macbook Air 是 2014 年 13吋版本
 
 升級到 Macbook Air M1 超級有感
 
@@ -152,7 +150,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 - 少部分 app 會閃退，甚至 Proxifier 會導致系統無預警重啟
 - 遇過一次進入螢幕保護之後無法喚醒
-- 蘋果第一台 Arm 架構電腦，表示後面會有效能更強的機器預計推出
+- 蘋果第一台 ARM 架構電腦，後面會有效能更強大的機器陸續推出
 
 ## Updates
 
@@ -160,10 +158,10 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 最近看到的爆料
 
-- 會有 14" 和 16" 吋 Arm 版本的 Macbook Pro
+- 會有 14" 和 16" 吋 Arm 版本的 Macbook Air/Pro
 - 外型會有新的設計，像是 iPhone 12 平面設計 ？！
 - 螢幕更亮、對比度更高，使用 Micro-LED
-- 比現在最多 4 個 Thunderbolt 雷電接口，更多接口
+- 比現在最多 4 個 Thunderbolt 雷電接口，更多類型的接口，像是 SD Card 或 HDMI
 - 充電將回歸 Magsafe 磁吸設計
 - 移除 Touch Bar
 - 其他機型 iMac 將會有全新的設計
