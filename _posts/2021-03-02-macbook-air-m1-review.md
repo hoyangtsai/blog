@@ -39,9 +39,9 @@ Source: Apple WWDC 2005
 
 更小的功耗、更快的處理效能
 
-{% include post_image.html src="/image/macbook-air-m1-review/cpu-consumption.png" alt="CPU 效能耗電量對比" width="100%" height="auto" %}
+{% include post_image.html src="/assets/image/macbook-air-m1-review/cpu-consumption.png" alt="CPU 效能耗電量對比" width="100%" height="auto" %}
 
-{% include post_image.html src="/image/macbook-air-m1-review/cpu-efficiency.png" alt="CPU 每瓦效能" width="100%" height="auto" %}
+{% include post_image.html src="/assets/image/macbook-air-m1-review/cpu-efficiency.png" alt="CPU 每瓦效能" width="100%" height="auto" %}
 
 Source: [Apple.com](https://www.apple.com/tw/mac/m1/)
 
@@ -49,7 +49,7 @@ Source: [Apple.com](https://www.apple.com/tw/mac/m1/)
 
 Apple 即將進入第三次的轉換
 
-{% include post_image.html src="/image/macbook-air-m1-review/wwdc-2005-transition.png" alt="WWDC 2005 轉換" width="100%" height="auto" %}
+{% include post_image.html src="/assets/image/macbook-air-m1-review/wwdc-2005-transition.png" alt="WWDC 2005 轉換" width="100%" height="auto" %}
 
 Source: Apple WWDC 2005
 
