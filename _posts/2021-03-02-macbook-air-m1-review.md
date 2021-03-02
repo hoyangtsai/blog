@@ -3,7 +3,7 @@ layout: post
 title: Macbook Air M1 心得
 description: 使用 Macbook Air M1 一個月以上的心得
 date: 2021-03-02
-category: 
+modifiedDate:
 published: true
 comments: true
 tags: [mac]
@@ -18,6 +18,8 @@ Macbook 開始使用鋁合金機殼開始踏入 Mac OS 這個領域
 Macbook 是從 2006 年開始進行這次的轉換
 
 Intel 環境支援已經算完整
+
+<!-- more -->
 
 也是因為當時筆電的設計
 
