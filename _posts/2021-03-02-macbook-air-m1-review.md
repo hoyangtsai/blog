@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Macbook Air M1 心得
-description: 使用 Macbook Air M1 一個月以上的心得
+description: 使用 Macbook Air M1 超過一個月的心得
 date: 2021-03-02
-modifiedDate:
+modified: 2021-03-07
 published: true
 comments: true
 tags: [mac]
 ---
 
-從 2009 年
-
-Macbook 開始使用鋁合金機殼開始踏入 Mac OS 這個領域
+從 2009 年 Macbook 開始踏入 Mac OS 這個領域
 
 沒有參與過 PowerPC 轉換 Intel 這個歷史時刻
 
@@ -159,7 +157,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 最近看到的爆料
 
 - 會有 14" 和 16" 吋 Arm 版本的 Macbook Air/Pro
-- 外型會有新的設計，像是 iPhone 12 平面設計 ？！
+- 外型會有新的設計，像是 iPhone 12 平面設計？！
 - 螢幕更亮、對比度更高，使用 Micro-LED
 - 比現在最多 4 個 Thunderbolt 雷電接口，更多類型的接口，像是 SD Card 或 HDMI
 - 充電將回歸 Magsafe 磁吸設計
