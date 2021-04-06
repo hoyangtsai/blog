@@ -3,7 +3,6 @@ layout: post
 title: 蘋果晶片相容情況
 description: 一篇給開發者看的 Apple silicon 相容情形
 date: 2021-01-24
-category: 
 tags: [mac, homebrew, nvm]
 published: true
 comments: true
@@ -142,6 +141,7 @@ xcode-select --install
   到應用程式目錄找到 iTerm 右鍵打開**取得資訊**
 
   勾選 ☑️ 使用 Rosetta 打開
+
   {% include post_image.html src="/assets/image/apple-silicon-compatibility/rosetta.jpg" alt="rosetta" width="377" height="556" layout="fixed" %}
 
   結束 iTerm 重新打開就可以安裝 node 12 了
