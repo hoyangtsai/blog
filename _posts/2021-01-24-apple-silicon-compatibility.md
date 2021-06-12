@@ -3,7 +3,7 @@ layout: post
 title: 蘋果晶片相容情況
 description: 一篇給開發者看的 Apple silicon 相容情形
 date: 2021-01-24
-category: 
+updateDate: 2021-06-12
 tags: [mac, homebrew, nvm]
 published: true
 comments: true
@@ -151,17 +151,15 @@ xcode-select --install
 
   *p.s. 2021/01/24 使用 node 15.6.0 再次嘗試安裝 node-sass 已經成功了*
 
+  - yarn
+
+    可以正常安裝使用
+
 - Ruby
 
   用 [asdf](https://asdf-vm.com/#/) 安裝其他的版本執行 jekyll 的專案或 compass sass 編譯工具都沒有問題
 
-- Docker
-
-  自己開發上沒用到
-
-  但是幾個星期前已經在 youtube 上看到有人用 beta 版本運行開源的專案
-
-  看起來沒什麼問題
+- Docker - 已兼容
 
 - Java
 
@@ -189,9 +187,7 @@ xcode-select --install
 
   但還是可以用 Rosetta 模式使用 Intel 版本
 
-- Sketch
-
-  Sketch 70 版本以上原生支援
+- Sketch - 版本 70 以上原生支援
 
 - Apache
 
@@ -225,16 +221,22 @@ xcode-select --install
   
   Sourcetree 是 Rosetta 模式執行 Intel 版本
 
+- Android Studio & Flutter
+  
+  之前試玩了一下 Flutter 2，進行一系列的環境設置，過程一切順利  
+  Android 模擬器於 SDK platform 30 以上已支援蘋果晶片  
+  詳細資料和後續 issue 可以追蹤 [google/android-emulator-m1-preview](https://github.com/google/android-emulator-m1-preview)
+
 - Miscellaneous
 
   - Profixier 3.4 會導致無預警重新開機
+
+持續更新...
 
 其他沒提到的也可以在以下兩個網站找一下相容情況
 
 - [https://isapplesiliconready.com](https://isapplesiliconready.com/)
 - [https://doesitarm.com](https://doesitarm.com)
-
-持續更新...
 
 ---
 
