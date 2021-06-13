@@ -2,12 +2,10 @@
   <nav>
     <h4>Menu</h4>
     <a class="{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">
-      <i class="fas fa-home"></i>&nbsp;&nbsp;
-      <span class="sidenav-title">Home</span>
+      <i class="fas fa-home"></i>&nbsp;<span class="sidenav-title">Home</span>
     </a>
     <a class="{% if page.title == 'Posts' %} active{% endif %}" href="{{ 'posts' | absolute_url }}">
-      <i class="fas fa-pencil-alt"></i>&nbsp;&nbsp;
-      <span class="sidenav-title">Posts</span>
+      <i class="fas fa-pencil-alt"></i>&nbsp;<span class="sidenav-title">Posts</span>
     </a>
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
@@ -16,8 +14,7 @@
           <a class="{% if page.url == node.url %} active{% endif %}"
             href="{{ node.url | prepend: site.baseurl }}"
           >
-            <i class="fas {{ 'fa-' | append: node.title | downcase }}"></i>&nbsp;&nbsp;
-            <span class="sidenav-title">{{ node.title }}</span>
+            <i class="fas {{ 'fa-' | append: node.title | downcase }}"></i>&nbsp;<span class="sidenav-title">{{ node.title }}</span>
           </a>
         {% endif %}
       {% endif %}
