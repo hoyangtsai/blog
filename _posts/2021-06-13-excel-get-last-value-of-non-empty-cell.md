@@ -11,16 +11,17 @@ skip_amp: true
 
 在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值
 
-在這之前需要先了解一下 LOOKUP 公式
+在這之前先了解一下 LOOKUP 公式
 
 <!-- more -->
 
-如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP 公式
+如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP
 
 ```excel
 =LOOKUP(查找值, 查找陣列, [結果陣列])
-N("結果陣列的長度必須和查找陣列長度相等")
 ```
+
+結果陣列的長度必須和查找陣列長度相等
 
 如果沒傳入第三個參數-結果陣列，就會基於查找陣列返回一個最接近的結果，查找值和查找陣列的邏輯是大於或等於
 
@@ -42,9 +43,9 @@ N("結果陣列的長度必須和查找陣列長度相等")
 
 輸入 9 分以上，級別會是 9，評語會是很好
 
-## 取得一列中最後一個非空的值
+回到主題
 
-公式是這樣
+取得一列中最後一個非空的值的公式
 
 ```excel
 =LOOKUP(1,1/(A:A<>""),A:A)
@@ -89,13 +90,11 @@ N("結果陣列的長度必須和查找陣列長度相等")
 
 此公式目的是希望**統計數據**到表格某一欄中再取該欄最後一行的值
 
+Ref.
+
+- [Get value of last non-empty cell](https://exceljet.net/formula/get-value-of-last-non-empty-cell)
+- [LOOKUP 函數](https://support.office.com/zh-tw/f1/topic/csh?HelpId=xlmain11.chm60076&NS=MACEXCEL&Version=90&Lcid=1028&UiLcid=1028&EntryPoint=True&testtransaction=0&feedback=0)
+
 ---
 
 {% include donation.html %}
-
----
-
-Ref.
-
-- [Excel formula: Get value of last non-empty cell | Exceljet](https://exceljet.net/formula/get-value-of-last-non-empty-cell)
-- [LOOKUP 函數](https://support.office.com/zh-tw/f1/topic/csh?HelpId=xlmain11.chm60076&NS=MACEXCEL&Version=90&Lcid=1028&UiLcid=1028&EntryPoint=True&testtransaction=0&feedback=0)
