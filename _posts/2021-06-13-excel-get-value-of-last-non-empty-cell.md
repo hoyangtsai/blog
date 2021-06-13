@@ -73,16 +73,102 @@ skip_amp: true
 
 就可以做像這樣的表
 
-|   | A | B | C | D | E | F | G |
-| - | - | - | - | - | - | - | - |
-| 1 | 總成本 |  |
-| 2 | 總計股 | `=LOOKUP(2,1/(表格1[合計股]<>""),表格1[合計股])` |
-| 2 | 平均成本 | |
-|   | 日期 | 成交價 | 買入 | 賣出 | 手續費 | 成本 | 合計股 |
-|   | 02/10 | 100 | 10 |        | 1.99 | -1101.99 | 10 |
-|   | 03/11 | 90  | 20 |        | 1.99 | -1801.99 | 30 |
-|   | 03/25 | 150 |    |   10   | 3.99 | 1496.01 | 20 |
-|   | 04/17 | 100 | 30 |        | 1.99 | -3001.99 | 50 |
+<table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>E</th>
+      <th>F</th>
+      <th>G</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>總成本</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>總計股</td>
+      <td style="width: 20%;">`=LOOKUP(2,1/(表格1[合計股]<>""),表格1[合計股])`</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>平均成本</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>日期</td>
+      <td>成交價</td>
+      <td>買入</td>
+      <td>賣出</td>
+      <td>手續費</td>
+      <td>成本</td>
+      <td>合計股</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>02/10</td>
+      <td>100</td>
+      <td>10</td>
+      <td>&nbsp;</td>
+      <td>1.99</td>
+      <td>-1101.99</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>03/11</td>
+      <td>90</td>
+      <td>20</td>
+      <td>&nbsp;</td>
+      <td>1.99</td>
+      <td>-1801.99</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>03/25</td>
+      <td>150</td>
+      <td>&nbsp;</td>
+      <td>10</td>
+      <td>3.99</td>
+      <td>1496.01</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>04/17</td>
+      <td>100</td>
+      <td>30</td>
+      <td>&nbsp;</td>
+      <td>1.99</td>
+      <td>-3001.99</td>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
 
 當然也可以直接 `=SUM(表格1[買入]) - SUM(表格1[賣出])`
 
