@@ -65,15 +65,15 @@ xcode-select --install
 
   {% include post_image.html src="/assets/image/apple-silicon-compatibility/homebrew-arm-not-support.png" alt="homebrew arm not support" width="100%" height="auto" %}
 
-  其實  brew 相關功能並沒有不相容的問題
+  其實 brew 相關功能並沒有不相容的問題
 
-  主要的問題是你要安裝的套件是否支援 arm64 darwin
+  主要的問題是你要安裝的套件是否支援 **arm64-darwin**
 
   可以在 [https://formulae.brew.sh](https://formulae.brew.sh/) 查套件的 Bottle (binary packet) 是否支援 Apple Silicon
 
   homebrew 團隊不負責修復
 
-  需要你提 bug report 到該安裝的套件
+  需要你提 issue 到該安裝的套件
 
   基本上主流的套件都已支援
 
@@ -224,14 +224,12 @@ xcode-select --install
 - Android Studio & Flutter
   
   之前試玩了一下 Flutter 2，進行一系列的環境設置，過程一切順利  
-  Android 模擬器於 SDK platform 30 以上已支援蘋果晶片  
+  Android 模擬器於 Android 11.0 (R) SDK platform 30 已支援蘋果晶片  
   詳細資料和後續 issue 可以追蹤 [google/android-emulator-m1-preview](https://github.com/google/android-emulator-m1-preview)
 
 - Miscellaneous
 
   - Profixier 3.4 會導致無預警重新開機
-
-持續更新...
 
 其他沒提到的也可以在以下兩個網站找一下相容情況
 
