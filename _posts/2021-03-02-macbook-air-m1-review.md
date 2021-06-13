@@ -28,8 +28,7 @@ Intel 環境支援已經算完整
 主要是電源效能
 
 {% include post_image.html src="/assets/image/macbook-air-m1-review/wwdc-2005-2.png" alt="wwdc 2015" width="100%" height="auto" %}
-
-Source: Apple WWDC 2005
+> Apple WWDC 2005
 
 直到現在為什麼又從 Intel 切換回 arm 晶片
 
@@ -40,16 +39,14 @@ Source: Apple WWDC 2005
 {% include post_image.html src="/assets/image/macbook-air-m1-review/cpu-consumption.png" alt="CPU 效能耗電量對比" width="100%" height="auto" %}
 
 {% include post_image.html src="/assets/image/macbook-air-m1-review/cpu-efficiency.png" alt="CPU 每瓦效能" width="100%" height="auto" %}
-
-Source: [Apple.com](https://www.apple.com/tw/mac/m1/)
+> [Apple.com](https://www.apple.com/tw/mac/m1/)
 
 在 WWDC 2005 也提到從 PowerPC 遷移至 Intel
 
 Apple 即將進入第三次的轉換
 
 {% include post_image.html src="/assets/image/macbook-air-m1-review/wwdc-2005-transition.png" alt="WWDC 2005 轉換" width="100%" height="auto" %}
-
-Source: Apple WWDC 2005
+> Apple WWDC 2005
 
 第二次屬於軟體系統架構的升級
 
