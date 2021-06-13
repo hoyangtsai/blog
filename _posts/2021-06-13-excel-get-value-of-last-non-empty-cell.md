@@ -57,7 +57,7 @@ skip_amp: true
 =LOOKUP(1,1/(表格1[合計股]<>""),表格1[合計股])
 ```
 
-這公式的意思
+這公式的意思是
 
   1. A:A<>"" 回傳的是一組 {FALSE, TRUE, TRUE, FALSE, FASLE... }，有值的單元為 TRUE 空的為 FALSE
   2. 數字 1 除以 A:A<>"" 的陣列回傳另外一個新的陣列，其中包含一連串的 TRUE 或 #DIV/0! (1 / TRUE = TRUE, 1 / FALSE = #DIV/0!)
@@ -67,11 +67,9 @@ skip_amp: true
   4. 在上面公式中，查找值是 2 ，但是查找陣列中最大的值是 1 (TRUE 也表示 1)，所以 lookup 回傳陣列中最後一個匹配
   5. 最後 LOOKUP 會回傳相對於結果陣列位置的值
 
-這能怎麼應用呢
+應用場景如記錄股票的交易
 
-例如記錄股票的交易
-
-就可以做像這樣的表
+可以做像這樣的表
 
 <table>
   <thead>
@@ -90,7 +88,7 @@ skip_amp: true
     <tr>
       <td>1</td>
       <td>總成本</td>
-      <td>&nbsp;</td>
+      <td>`=SUM(表格1[成本])`</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
@@ -110,7 +108,7 @@ skip_amp: true
     <tr>
       <td>3</td>
       <td>平均成本</td>
-      <td>&nbsp;</td>
+      <td>`=(B1/B2)`</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
