@@ -29,13 +29,62 @@ skip_amp: true
 
 應用場景如分數級距評語
 
-|   | A | B | C | D | E |
-| - | - | - | - | - | - |
-| 1 | 1 | 欠佳 | | | |
-| 2 | 6 | 尚可 | | | |
-| 3 | 9 | 很好 | | | |
-| 4 |   |     | 得分 | 級別 | 評語 |
-| 5 |   |     |  | `=LOOKUP(C5,A1:A3)` | `=LOOKUP(C5,A1:A3,B1:B3)` |
+<div class="table-container">
+<table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td style="width: 12%;">欠佳</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>6</td>
+      <td style="width: 12%;">尚可</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9</td>
+      <td style="width: 12%;">很好</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td style="width: 12%;">得分</td>
+      <td>級別</td>
+      <td>評語</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><code class="language-plaintext highlighter-rouge">=LOOKUP(C5,A1:A3)</code></td>
+      <td><code class="language-plaintext highlighter-rouge">=LOOKUP(C5,A1:A3,B1:B3)</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 如果我們在得分下面 C5 輸入 1~5 分，級別會是 1，評語會是欠佳
 
@@ -71,6 +120,7 @@ skip_amp: true
 
 可以做像這樣的表
 
+<div class="table-container">
 <table>
   <thead>
     <tr>
@@ -88,7 +138,7 @@ skip_amp: true
     <tr>
       <td>1</td>
       <td>總成本</td>
-      <td>`=SUM(表格1[成本])`</td>
+      <td><code class="language-plaintext highlighter-rouge">=SUM(表格1[成本])</code></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
@@ -98,7 +148,7 @@ skip_amp: true
     <tr>
       <td>2</td>
       <td>總計股</td>
-      <td style="width: 20%;">`=LOOKUP(2,1/(表格1[合計股]<>""),表格1[合計股])`</td>
+      <td style="width: 20%;"><code class="language-plaintext highlighter-rouge">=LOOKUP(2,1/(表格1[合計股]<>""),表格1[合計股])</code></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
@@ -108,7 +158,7 @@ skip_amp: true
     <tr>
       <td>3</td>
       <td>平均成本</td>
-      <td>`=(B1/B2)`</td>
+      <td><code class="language-plaintext highlighter-rouge">=(B1/B2)</code></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
@@ -167,6 +217,7 @@ skip_amp: true
     </tr>
   </tbody>
 </table>
+</div>
 
 當然也可以直接 `=SUM(表格1[買入]) - SUM(表格1[賣出])`
 
