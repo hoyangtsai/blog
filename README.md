@@ -1,5 +1,3 @@
-# My Blog
-
 ## Setup
 
 ```bash
