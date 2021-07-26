@@ -24,9 +24,9 @@ title: Home
       {% endif %}
 
       {% if post.description.size > 140 %}
-        {{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        {{ post.description | markdownify }}
         {% else %}
-        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        {{ post.excerpt | markdownify }}
       {% endif %}
       <a href="{{ post.url | prepend: site.baseurl }}" title="Read more"><strong>Read more...</strong></a>
     </div>
