@@ -107,7 +107,7 @@ cd parrot && npm run dev
 
 可以在 Line App 透過 ID 搜尋或掃描 QR code 加好友
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-add.png" alt="Line add" width="auto" height="1013" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-add.png" alt="Line add" width="auto" height="1013" class="img-hfs" %}
 
 加入之後會馬上收到一個打招呼的消息
 
@@ -115,7 +115,7 @@ cd parrot && npm run dev
 
 還有另外一個自動回覆的模版消息
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-greeting.png" alt="Line greeting" width="auto" height="1013" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-greeting.png" alt="Line greeting" width="auto" height="1013" class="img-hfs" %}
 
 統一都在 Messaging API 裡面的 Line Official Account feature 地方修改
 
@@ -131,7 +131,7 @@ cd parrot && npm run dev
 
 再傳一次訊息給它就不會有自動回覆的訊息了
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-chat.png" alt="Line chat" width="auto" height="1013" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-chat.png" alt="Line chat" width="auto" height="1013" class="img-hfs" %}
 
 接下來我們只有簡單修改一下 `src/index.js` 的程式碼就可以完成我們的聊天機器人
 
@@ -145,7 +145,7 @@ module.exports = async function App(context) {
 };
 ```
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-chat-repeat.png" alt="Line chat repeat" width="auto" height="1013" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-chat-repeat.png" alt="Line chat repeat" width="auto" height="1013" class="img-hfs" %}
 
 其他更複雜的應用可以參考 [bottender API 說明文件](https://bottender.js.org/docs/en/api-context)
 
@@ -189,7 +189,7 @@ heroku login
 
 在專案的根目錄新建一個 Procfile 檔案
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/heroku-procfile.png" alt="heroku procfile" width="auto" height="564" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/heroku-procfile.png" alt="heroku procfile" width="auto" height="564" class="img-hfs" %}
 
 簡單設定兩個任務
 
@@ -227,7 +227,7 @@ git push heroku main
 
 回到 Line 再傳訊息給聊天機器人
 
-{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-hello-heroku.png" alt="Line hello Heroku" width="auto" height="1013" %}
+{% include post_image.html src="/assets/image/develop-super-easy-chatbot-release-online/line-hello-heroku.png" alt="Line hello Heroku" width="auto" height="1013" class="img-hfs" %}
 
 這樣就成功完成一個超簡單的聊天機器人了
 
@@ -242,3 +242,13 @@ git push heroku main
 如果 app 超過 30 分鐘沒有人觸發就會處於休眠閒置的狀態
 
 所以過了一段時間在呼叫它的時候反應會稍微慢一點
+
+## Follow-up
+
+最近開發新的聊天機器人發現跑在 Heooku 的應用，伺服器的時區為 UTC+0
+
+像如果要修改成我的時區，需要執行以下命令
+
+```bash
+heroku config:add TZ="Asia/Taipei"
+```
