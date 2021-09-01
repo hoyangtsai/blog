@@ -3,7 +3,7 @@ layout: post
 title: Macbook Air M1 心得
 description: 使用 Macbook Air M1 超過一個月的心得
 date: 2021-03-02
-modified: 2021-03-07
+dateModified: 2021-03-07
 published: true
 comments: true
 tags: [mac]

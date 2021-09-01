@@ -204,7 +204,6 @@ WebP是一種支持有損壓縮和無損壓縮的圖片文件格式，根據Goog
 
 {% include post_image.html src="/images/full-f2e-devpr/rwd-method.jpeg" alt="Responsive web design methodology" width="100%" height="auto" %}
 
-
 根據不同的需求，可以依照上面列出來的幾種方式去挑選合適的適配方案。
 值得一提的是Bootstrap是一套兼容PC至移動端響應式的套件，很適合拿來用在 缺少設計資源或後台管理網站
 另外，根據實際情況的不同頁面布局是可以混著用

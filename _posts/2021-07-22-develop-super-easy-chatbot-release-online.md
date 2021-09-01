@@ -3,6 +3,7 @@ layout: post
 title: 開發超簡單聊天機器人發布線上
 description: 從零開始使用 bottender 建置一個聊天機器人，將聊天機器人佈署至 Heroku 雲端服務平台
 date: 2021-07-22
+dateModified: 2021-09-01
 tags: [chatbot, heroku, continuous integration]
 published: true
 comments: true
@@ -241,3 +242,13 @@ git push heroku main
 如果 app 超過 30 分鐘沒有人觸發就會處於休眠閒置的狀態
 
 所以過了一段時間在呼叫它的時候反應會稍微慢一點
+
+## Follow-up
+
+最近開發新的聊天機器人發現跑在 Heooku 的應用，伺服器的時區為 UTC+0
+
+像如果要修改成我的時區，需要執行以下命令
+
+```bash
+heroku config:add TZ="Asia/Taipei"
+```

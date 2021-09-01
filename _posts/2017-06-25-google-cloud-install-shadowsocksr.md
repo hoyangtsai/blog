@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-06-25
-modifiedDate: 2018-05-23
+dateModified: 2018-05-23
 title: Google Cloud 安裝 ShadowsocksR
 description: 試用 Google Cloud 安裝 ShadowsocksR 翻牆上網
 published: true
