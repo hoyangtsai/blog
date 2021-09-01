@@ -3,6 +3,7 @@ layout: post
 title: 開發超簡單聊天機器人發布線上
 description: 從零開始使用 bottender 建置一個聊天機器人，將聊天機器人佈署至 Heroku 雲端服務平台
 date: 2021-07-22
+dateModified: 2021-09-01
 tags: [chatbot, heroku, continuous integration]
 published: true
 comments: true
