@@ -59,7 +59,7 @@ cd parrot && npm run dev
 
 可以用自己的 Line 帳號 [登入](https://developers.line.biz/console)
 
-先創建一個 provider 再創建 channel (聊天應用)
+先創建一個 provider 再創建 channel (聊天應用)
 
 一個 provider 下面可以有多個 channels
 
@@ -233,7 +233,7 @@ git push heroku main
 
 ## 附註
 
-一個免費的 Heroku app 應用每個月有運行時數限制
+一個免費的 Heroku app 應用每個月有運行時數限制
 
 可以執行 `heroku ps -a <app name>` 查看已經使用多久
 
