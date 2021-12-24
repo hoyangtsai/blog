@@ -227,6 +227,10 @@ figure.highlight {
   -webkit-overflow-scrolling: touch;
 }
 
+figure {
+  margin: 1em 0;
+}
+
 @media (max-width: 28rem) {
   .img-hfs {
     width: 100%;
