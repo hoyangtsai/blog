@@ -36,7 +36,7 @@ It has three factors: `left`, `right` pointers and a `pivot` index.
 
 A recursion function until the pivot index equals to the kth smallest index.
 
-The pivot index is generated randomly between the left and right pointers, expression like `pivotIndex = Math.floor(Math.random() * (right - left + 1) + left)`
+The pivot index is generated randomly between the left and right pointers, like this `pivotIndex = Math.floor(Math.random() * (right - left + 1) + left)`
 
 The left pointer starts with 0. If `kth smallest index > pivotIndex`, update `pivotIndex + 1` as the next left argument and the right argument not change.
 
