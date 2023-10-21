@@ -10,23 +10,25 @@ import 'katex/dist/katex.min.css';
 import * as styles from './layout.module.css';
 
 const Layout = ({ location, title, children }) => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      site {
-        siteMetadata {
-          social {
-            twitter
-            github
-            linkedin
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            social {
+              twitter
+              github
+              linkedin
+            }
           }
         }
       }
-    }
-  `)
+    `
+  )
 
-  const social = data.site.siteMetadata?.social;
+  const social = site.siteMetadata?.social;
 
-  const getInTouches = [];
+  const getInTouches = []
   social?.twitter && getInTouches.push({
     name: 'Twitter',
     url: 'https://twitter.com/hoyangtsai'
