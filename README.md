@@ -1,4 +1,4 @@
-# Traverse
+# Blog
 
 Build by [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
 

@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `Traverse`,
+    title: `Hoyang's Blog`,
     author: {
       name: `Hoyang Tsai`,
       summary: `What comes up the mind make it happen.`,
@@ -15,7 +15,7 @@ module.exports = {
       linkedin: `hoyangtsai`,
     },
   },
-  pathPrefix: `/traverse`,
+  pathPrefix: `/`,
   trailingSlash: `always`,
   plugins: [
     `gatsby-plugin-sass`,
