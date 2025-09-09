@@ -2,7 +2,6 @@
   "name": "blog",
   "description": "A blog by Hoyang Tsai",
   "version": "1.0.0",
-  "author": "Hoyang Tsai <hoyang.t@gmail.com>",
   "dependencies": {
     "clsx": "^2.0.0",
     "gatsby": "^5.12.8",
